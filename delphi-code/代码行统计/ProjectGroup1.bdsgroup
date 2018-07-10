@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{A9DB043F-CA06-4903-B35C-A53797501525}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="SLOC.exe">source\SLOC.bdsproj</Projects>
+      <Projects Name="SLOCTest.exe">test\SLOCTest.bdsproj</Projects>
+      <Projects Name="Targets">SLOC.exe SLOCTest.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

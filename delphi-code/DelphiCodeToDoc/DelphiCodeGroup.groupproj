@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{A2DCF768-DA62-4BEB-A8AD-E896340757A0}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Source\DelphiCodeToDoc.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Source\Test\DelphiCodeToDocTests.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="DelphiCodeToDoc">
+			<MSBuild Projects="Source\DelphiCodeToDoc.dproj"/>
+		</Target>
+		<Target Name="DelphiCodeToDoc:Clean">
+			<MSBuild Targets="Clean" Projects="Source\DelphiCodeToDoc.dproj"/>
+		</Target>
+		<Target Name="DelphiCodeToDoc:Make">
+			<MSBuild Targets="Make" Projects="Source\DelphiCodeToDoc.dproj"/>
+		</Target>
+		<Target Name="DelphiCodeToDocTests">
+			<MSBuild Projects="Source\Test\DelphiCodeToDocTests.dproj"/>
+		</Target>
+		<Target Name="DelphiCodeToDocTests:Clean">
+			<MSBuild Targets="Clean" Projects="Source\Test\DelphiCodeToDocTests.dproj"/>
+		</Target>
+		<Target Name="DelphiCodeToDocTests:Make">
+			<MSBuild Targets="Make" Projects="Source\Test\DelphiCodeToDocTests.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="DelphiCodeToDoc;DelphiCodeToDocTests"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="DelphiCodeToDoc:Clean;DelphiCodeToDocTests:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="DelphiCodeToDoc:Make;DelphiCodeToDocTests:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

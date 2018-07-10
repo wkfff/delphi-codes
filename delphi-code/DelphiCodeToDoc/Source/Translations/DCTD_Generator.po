@@ -1,0 +1,317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2008-11-29 00:10\n"
+"PO-Revision-Date: 2008-11-29 00:10\n"
+"Last-Translator: Somebody <your.email@address.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.2\n"
+
+#. Programmer's name for it: L_Project
+#: Generator/Html/uDocGenHTML_Tools.pas:36
+msgid "Project"
+msgstr ""
+
+#. Programmer's name for it: L_Summary
+#: Generator/Html/uDocGenHTML_Tools.pas:37
+msgid "Summary"
+msgstr ""
+
+#. Programmer's name for it: L_UnderConstruction
+#: Generator/Html/uDocGenHTML_Tools.pas:38
+msgid "#UnderConstruction#"
+msgstr ""
+
+#. Programmer's name for it: L_Description
+#: Generator/Html/uDocGenHTML_Tools.pas:39
+msgid "Description"
+msgstr ""
+
+#. Programmer's name for it: L_Todo
+#: Generator/Html/uDocGenHTML_Tools.pas:40
+msgid "Todo"
+msgstr ""
+
+#. Programmer's name for it: L_Author
+#: Generator/Html/uDocGenHTML_Tools.pas:41
+msgid "Author"
+msgstr ""
+
+#. Programmer's name for it: L_Files
+#: Generator/Html/uDocGenHTML_Tools.pas:42
+msgid "Files"
+msgstr ""
+
+#. Programmer's name for it: L_File
+#: Generator/Html/uDocGenHTML_Tools.pas:43
+msgid "File"
+msgstr ""
+
+#. Programmer's name for it: L_Links
+#: Generator/Html/uDocGenHTML_Tools.pas:44
+msgid "Links"
+msgstr ""
+
+#. Programmer's name for it: L_Unit
+#: Generator/Html/uDocGenHTML_Tools.pas:45
+msgid "Unit"
+msgstr ""
+
+#. Programmer's name for it: L_Units
+#: Generator/Html/uDocGenHTML_Tools.pas:46
+msgid "Units"
+msgstr ""
+
+#. Programmer's name for it: L_Version
+#: Generator/Html/uDocGenHTML_Tools.pas:47
+msgid "Version"
+msgstr ""
+
+#. Programmer's name for it: L_Classes
+#: Generator/Html/uDocGenHTML_Tools.pas:48
+msgid "Classes"
+msgstr ""
+
+#. Programmer's name for it: L_Class
+#: Generator/Html/uDocGenHTML_Tools.pas:49
+msgid "Class"
+msgstr ""
+
+#. Programmer's name for it: L_Types
+#: Generator/Html/uDocGenHTML_Tools.pas:50
+msgid "Types"
+msgstr ""
+
+#. Programmer's name for it: L_Type
+#: Generator/Html/uDocGenHTML_Tools.pas:51
+msgid "Type"
+msgstr ""
+
+#. Programmer's name for it: L_Constants
+#: Generator/Html/uDocGenHTML_Tools.pas:52
+msgid "Constants"
+msgstr ""
+
+#. Programmer's name for it: L_Constant
+#: Generator/Html/uDocGenHTML_Tools.pas:53
+msgid "Constant"
+msgstr ""
+
+#. Programmer's name for it: L_Variables
+#: Generator/Html/uDocGenHTML_Tools.pas:54
+msgid "Variables"
+msgstr ""
+
+#. Programmer's name for it: L_Variable
+#: Generator/Html/uDocGenHTML_Tools.pas:55
+msgid "Variable"
+msgstr ""
+
+#. Programmer's name for it: L_Functions
+#: Generator/Html/uDocGenHTML_Tools.pas:56
+msgid "Functions"
+msgstr ""
+
+#. Programmer's name for it: L_Function
+#: Generator/Html/uDocGenHTML_Tools.pas:57
+msgid "Function"
+msgstr ""
+
+#. Programmer's name for it: L_ClassHierarchy
+#: Generator/Html/uDocGenHTML_Tools.pas:58
+msgid "Class Hierarchy"
+msgstr ""
+
+#. Programmer's name for it: L_ClassTree
+#: Generator/Html/uDocGenHTML_Tools.pas:59
+msgid "Class Tree"
+msgstr ""
+
+#. Programmer's name for it: L_RelatedUnit
+#: Generator/Html/uDocGenHTML_Tools.pas:60
+msgid "Related Unit"
+msgstr ""
+
+#. Programmer's name for it: L_Parent
+#: Generator/Html/uDocGenHTML_Tools.pas:61
+msgid "Parent"
+msgstr ""
+
+#. Programmer's name for it: L_Members
+#: Generator/Html/uDocGenHTML_Tools.pas:62
+msgid "Members"
+msgstr ""
+
+#. Programmer's name for it: L_Fields
+#: Generator/Html/uDocGenHTML_Tools.pas:63
+msgid "Fields"
+msgstr ""
+
+#. Programmer's name for it: L_Field
+#: Generator/Html/uDocGenHTML_Tools.pas:64
+msgid "Field"
+msgstr ""
+
+#. Programmer's name for it: L_Methods
+#: Generator/Html/uDocGenHTML_Tools.pas:65
+msgid "Methods"
+msgstr ""
+
+#. Programmer's name for it: L_Method
+#: Generator/Html/uDocGenHTML_Tools.pas:66
+msgid "Method"
+msgstr ""
+
+#. Programmer's name for it: L_Properties
+#: Generator/Html/uDocGenHTML_Tools.pas:67
+msgid "Properties"
+msgstr ""
+
+#. Programmer's name for it: L_Property
+#: Generator/Html/uDocGenHTML_Tools.pas:68
+msgid "Property"
+msgstr ""
+
+#. Programmer's name for it: L_Events
+#: Generator/Html/uDocGenHTML_Tools.pas:69
+msgid "Events"
+msgstr ""
+
+#. Programmer's name for it: L_Event
+#: Generator/Html/uDocGenHTML_Tools.pas:70
+msgid "Event"
+msgstr ""
+
+#. Programmer's name for it: L_Symbol
+#: Generator/Html/uDocGenHTML_Tools.pas:71
+msgid "Symbol"
+msgstr ""
+
+#. Programmer's name for it: L_Legend
+#: Generator/Html/uDocGenHTML_Tools.pas:72
+msgid "Legend"
+msgstr ""
+
+#. Programmer's name for it: L_Visibility
+#: Generator/Html/uDocGenHTML_Tools.pas:73
+msgid "Visibility"
+msgstr ""
+
+#. Programmer's name for it: L_Private
+#: Generator/Html/uDocGenHTML_Tools.pas:74
+msgid "Private"
+msgstr ""
+
+#. Programmer's name for it: L_Protected
+#: Generator/Html/uDocGenHTML_Tools.pas:75
+msgid "Protected"
+msgstr ""
+
+#. Programmer's name for it: L_Public
+#: Generator/Html/uDocGenHTML_Tools.pas:76
+msgid "Public"
+msgstr ""
+
+#. Programmer's name for it: L_Published
+#: Generator/Html/uDocGenHTML_Tools.pas:77
+msgid "Published"
+msgstr ""
+
+#. Programmer's name for it: L_Automated
+#: Generator/Html/uDocGenHTML_Tools.pas:78
+msgid "Automated"
+msgstr ""
+
+#. Programmer's name for it: L_Strict
+#: Generator/Html/uDocGenHTML_Tools.pas:79
+msgid "Strict"
+msgstr ""
+
+#. Programmer's name for it: L_Member
+#: Generator/Html/uDocGenHTML_Tools.pas:80
+msgid "Member"
+msgstr ""
+
+#. Programmer's name for it: L_RelatedClass
+#: Generator/Html/uDocGenHTML_Tools.pas:81
+msgid "Related Class"
+msgstr ""
+
+#. Programmer's name for it: L_SourceCode
+#: Generator/Html/uDocGenHTML_Tools.pas:82
+msgid "Source code"
+msgstr ""
+
+#. Programmer's name for it: L_Parameters
+#: Generator/Html/uDocGenHTML_Tools.pas:83
+msgid "Parameters"
+msgstr ""
+
+#. Programmer's name for it: L_Parameter
+#: Generator/Html/uDocGenHTML_Tools.pas:84
+msgid "Parameter"
+msgstr ""
+
+#. Programmer's name for it: L_Return
+#: Generator/Html/uDocGenHTML_Tools.pas:85
+msgid "Return"
+msgstr ""
+
+#. Programmer's name for it: L_Content
+#: Generator/Html/uDocGenHTML_Tools.pas:86
+msgid "Content"
+msgstr ""
+
+#. Programmer's name for it: L_Index
+#: Generator/Html/uDocGenHTML_Tools.pas:87
+msgid "Index"
+msgstr ""
+
+#. Programmer's name for it: L_Previous
+#: Generator/Html/uDocGenHTML_Tools.pas:88
+msgid "Previous"
+msgstr ""
+
+#. Programmer's name for it: L_Next
+#: Generator/Html/uDocGenHTML_Tools.pas:89
+msgid "Next"
+msgstr ""
+
+#. Programmer's name for it: L_Exception
+#: Generator/Html/uDocGenHTML_Tools.pas:90
+msgid "Exception"
+msgstr ""
+
+#. Programmer's name for it: L_AdditionalComment
+#: Generator/Html/uDocGenHTML_Tools.pas:91
+msgid "Additionnal Comments"
+msgstr ""
+
+#. Programmer's name for it: L_ReadAccess
+#: Generator/Html/uDocGenHTML_Tools.pas:92
+msgid "Read Access"
+msgstr ""
+
+#. Programmer's name for it: L_WriteAccess
+#: Generator/Html/uDocGenHTML_Tools.pas:93
+msgid "Write Access"
+msgstr ""
+
+#. Programmer's name for it: L_Exports
+#: Generator/Html/uDocGenHTML_Tools.pas:94
+msgid "Exports"
+msgstr ""
+
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:95
+msgid "Name"
+msgstr ""
+

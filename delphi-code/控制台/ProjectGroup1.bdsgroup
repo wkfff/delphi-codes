@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{D3B15857-713C-434E-BB62-418C14AD225D}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="Project3.exe">Project3.bdsproj</Projects>
+      <Projects Name="PackGIP.exe">..\..\GAEA\trunk\GCL\CalcRule\00-规则模版库\27-打包导库工具\Source\PackGIP.bdsproj</Projects>
+      <Projects Name="CopyCalcRules.exe">..\..\GAEA\trunk\GCL\Tools\GCL相关工具\安装GCL2008规则库\Source\CopyCalcRules.bdsproj</Projects>
+      <Projects Name="Targets">Project3.exe PackGIP.exe CopyCalcRules.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

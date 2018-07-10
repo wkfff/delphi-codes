@@ -1,0 +1,248 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{4d933ee4-d797-44f7-b489-0ef648345521}</ProjectGuid>
+			<MainSource>DelphiCodeToDoc.dpr</MainSource>
+			<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+			<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<DCC_DependencyCheckOutputName>..\Exe\DelphiCodeToDoc.exe</DCC_DependencyCheckOutputName>
+			<ProjectVersion>12.0</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_DcuOutput>..\Dcu</DCC_DcuOutput>
+			<DCC_DcpOutput>..\Dcu</DCC_DcpOutput>
+			<DCC_UsePackage>vclx;vcl;dbrtl;Rave76VCL;bdertl;rtl;vclactnband;vcldb;vcldbx;dsnap;dsnapcon;TeeUI;TeeDB;Tee;adortl;vclib;ibxpress;IndyCore;IndySystem;IndyProtocols;xmlrtl;inet;intrawebdb_100_120;Intraweb_100_120;VclSmp;vclie;websnap;webdsnap;inetdbbde;inetdbxpress;soaprtl;vclribbon;dbexpress;DbxCommonDriver;DataSnapIndy10ServerTransport;DataSnapProviderClient;DataSnapServer;DbxClientDriver;DBXInterBaseDriver;DBXMySQLDriver;dbxcds;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver;Jcl;JclVcl;JvCoreD12R;JvSystemD12R;JvStdCtrlsD12R;JvAppFrmD12R;JvBandsD12R;JvDBD12R;JvDlgsD12R;JvBDED12R;JvCmpD12R;JvCryptD12R;JvCtrlsD12R;JvCustomD12R;JvDockingD12R;JvDotNetCtrlsD12R;JvEDID12R;JvGlobusD12R;JvHMID12R;JvInterpreterD12R;JvJansD12R;JvManagedThreadsD12R;JvMMD12R;JvNetD12R;JvPageCompsD12R;JvPluginD12R;JvPrintPreviewD12R;JvRuntimeDesignD12R;JvTimeFrameworkD12R;JvValidatorsD12R;JvWizardD12R;JvXPCtrlsD12R</DCC_UsePackage>
+			<DCC_DependencyCheckOutputName>DelphiCodeToDoc.exe</DCC_DependencyCheckOutputName>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_DependencyCheckOutputName>..\Exe\DelphiCodeToDoc.exe</DCC_DependencyCheckOutputName>
+			<Version>7.0</Version>
+			<DCC_DebugInformation>False</DCC_DebugInformation>
+			<DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+			<DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+			<DCC_RangeChecking>True</DCC_RangeChecking>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_ExeOutput>..\Exe</DCC_ExeOutput>
+			<DCC_DcuOutput>..\tmp</DCC_DcuOutput>
+			<DCC_ObjOutput>..\tmp</DCC_ObjOutput>
+			<DCC_HppOutput>..\tmp</DCC_HppOutput>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_DependencyCheckOutputName>..\Exe\DelphiCodeToDoc.exe</DCC_DependencyCheckOutputName>
+			<Version>7.0</Version>
+			<DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+			<DCC_RangeChecking>True</DCC_RangeChecking>
+			<DCC_ExeOutput>..\Exe</DCC_ExeOutput>
+			<DCC_ObjOutput>..\tmp</DCC_ObjOutput>
+			<DCC_HppOutput>..\tmp</DCC_HppOutput>
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>VCLApplication</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">0</VersionInfo>
+						<VersionInfo Name="MinorVer">23</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">882</VersionInfo>
+						<VersionInfo Name="Debug">True</VersionInfo>
+						<VersionInfo Name="PreRelease">True</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1033</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">TridenT</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">Free documentation system for Delphi</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">0.23.0.882</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName">DelphiCodeToDoc</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">TridenT 2009 - Under GNU GPL licence</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename">DelphiCodeToDoc.EXE</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">DelphiCodeToDoc</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">0.23.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments">http://dephicodetodoc.sourceforge.net/</VersionInfoKeys>
+					</VersionInfoKeys>
+					<Source>
+						<Source Name="MainSource">DelphiCodeToDoc.dpr</Source>
+					</Source>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dcloffice2k120.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dclofficexp120.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclBaseExpert120.bpl">JCL Package containing common units for JCL Experts</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclDebugExpert120.bpl">JCL Debug IDE extension</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclProjectAnalysisExpert120.bpl">JCL Project Analyzer</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclFavoriteFoldersExpert120.bpl">JCL Open and Save IDE dialogs with favorite folders</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclRepositoryExpert120.bpl">JCL Package containing repository wizards</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclSIMDViewExpert120.bpl">JCL Debug Window of XMM registers</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclStackTraceViewerExpert120.bpl">JCL Stack Trace Viewer</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvAppFrmDesign120.bpl">JVCL Application and Form Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvBandsDesign120.bpl">JVCL Band Objects</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvBDEDesign120.bpl">JVCL BDE Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvCmpDesign120.bpl">JVCL Non-Visual Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvControlsDesign120.bpl">JVCL Visual Controls</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvCoreDesign120.bpl">JVCL Core Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvCryptDesign120.bpl">JVCL Encryption and Compression</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvCustomDesign120.bpl">JVCL Custom Controls</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvDBDesign120.bpl">JVCL Database Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvDlgsDesign120.bpl">JVCL Dialog Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvDockingDesign120.bpl">JVCL Docking Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvDotNetCtrlsDesign120.bpl">JVCL DotNet Controls</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvGlobusDesign120.bpl">JVCL Globus Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvHMIDesign120.bpl">JVCL HMI Controls</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvJansDesign120.bpl">JVCL Jans Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvManagedThreadsDesign120.bpl">JVCL Managed Threads</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvMMDesign120.bpl">JVCL Multimedia and Image Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvNetDesign120.bpl">JVCL Network Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvPageCompsDesign120.bpl">JVCL Page Style Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvPascalInterpreterDesign120.bpl">JVCL Interpreter Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvPluginSystemDesign120.bpl">JVCL Plugin Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvPrintPreviewDesign120.bpl">JVCL Print Preview Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvRuntimeDesignDesign120.bpl">JVCL Runtime Design Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvStdCtrlsDesign120.bpl">JVCL Standard Controls</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvSystemDesign120.bpl">JVCL System Components</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvTimeFrameworkDesign120.bpl">JVCL Time Framework</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvWizardsDesign120.bpl">JVCL Wizard</Excluded_Packages>
+						<Excluded_Packages Name="E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JvXPCtrlsDesign120.bpl">JVCL XP Controls</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+				<ModelSupport>False</ModelSupport>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<ItemGroup>
+			<DelphiCompile Include="DelphiCodeToDoc.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="Generator\uDocGeneratorVisitor.pas"/>
+			<DCCReference Include="Generator\uDocGeneratorBase.pas"/>
+			<DCCReference Include="Generator\Chm\uDocGeneratorChm.pas"/>
+			<DCCReference Include="Generator\Chm\uDocGenCHM_Tools.pas"/>
+			<DCCReference Include="Generator\Html\uDocGenHtmlVisitor.pas"/>
+			<DCCReference Include="Generator\Html\uDocGenHTML_Tools.pas"/>
+			<DCCReference Include="Generator\Html\uDocGeneratorHtml.pas"/>
+			<DCCReference Include="Generator\Xml\uDocGeneratorXml.pas"/>
+			<DCCReference Include="Parse\uTAGComment.pas"/>
+			<DCCReference Include="Parse\AsmKeywords.pas"/>
+			<DCCReference Include="Parse\BuildParseTree.pas"/>
+			<DCCReference Include="Parse\BuildTokenList.pas"/>
+			<DCCReference Include="Parse\ParseError.pas"/>
+			<DCCReference Include="Parse\ParseTreeNode.pas"/>
+			<DCCReference Include="Parse\ParseTreeNodeType.pas"/>
+			<DCCReference Include="Parse\SourceToken.pas"/>
+			<DCCReference Include="Parse\SourceTokenList.pas"/>
+			<DCCReference Include="Parse\Tokens.pas"/>
+			<DCCReference Include="Parse\TokenUtils.pas"/>
+			<DCCReference Include="Parse\PreProcessor\PreProcessorParseTree.pas"/>
+			<DCCReference Include="Parse\PreProcessor\PreProcessorExpressionParser.pas"/>
+			<DCCReference Include="Parse\PreProcessor\PreProcessorExpressionTokenise.pas"/>
+			<DCCReference Include="Parse\PreProcessor\PreProcessorExpressionTokens.pas"/>
+			<DCCReference Include="Parse\UI\fShowParseTree.pas">
+				<Form>frmShowParseTree</Form>
+			</DCCReference>
+			<DCCReference Include="Process\VisitStructure.pas"/>
+			<DCCReference Include="Process\AllProcesses.pas"/>
+			<DCCReference Include="Process\BaseVisitor.pas"/>
+			<DCCReference Include="Process\Nesting.pas"/>
+			<DCCReference Include="Process\TreeWalker.pas"/>
+			<DCCReference Include="Process\VisitComment.pas"/>
+			<DCCReference Include="Process\VisitSetNesting.pas"/>
+			<DCCReference Include="Process\VisitSetXY.pas"/>
+			<DCCReference Include="ReadWrite\ConvertTypes.pas"/>
+			<DCCReference Include="ReadWrite\Converter.pas"/>
+			<DCCReference Include="Settings\uOptions.pas"/>
+			<DCCReference Include="Settings\uDocProject.pas"/>
+			<DCCReference Include="Settings\uOldOptions.pas"/>
+			<DCCReference Include="Structure\uDocVar.pas"/>
+			<DCCReference Include="Structure\uDocClass.pas"/>
+			<DCCReference Include="Structure\uDocClassTree.pas"/>
+			<DCCReference Include="Structure\uDocConstant.pas"/>
+			<DCCReference Include="Structure\uDocEvent.pas"/>
+			<DCCReference Include="Structure\uDocField.pas"/>
+			<DCCReference Include="Structure\uDocFunction.pas"/>
+			<DCCReference Include="Structure\uDocInterface.pas"/>
+			<DCCReference Include="Structure\uDocLibrary.pas"/>
+			<DCCReference Include="Structure\uDocMember.pas"/>
+			<DCCReference Include="Structure\uDocMethod.pas"/>
+			<DCCReference Include="Structure\uDocParameter.pas"/>
+			<DCCReference Include="Structure\uDocProgram.pas"/>
+			<DCCReference Include="Structure\uDocProperty.pas"/>
+			<DCCReference Include="Structure\uDocRecord.pas"/>
+			<DCCReference Include="Structure\uDocStructure.pas"/>
+			<DCCReference Include="Structure\uDocTagCoverage.pas"/>
+			<DCCReference Include="Structure\uDocTemplate.pas"/>
+			<DCCReference Include="Structure\uDocType.pas"/>
+			<DCCReference Include="Structure\uDocUnit.pas"/>
+			<DCCReference Include="Structure\uDocUseUnit.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocToNodesVisitor.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocBaseVisitor.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocFunctionTypeCommentFixVisitor.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocInheritanceFixVisitor.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocSortVisitor.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocTagCoverageVisitor.pas"/>
+			<DCCReference Include="UI\fAbout.pas">
+				<Form>AboutBox</Form>
+			</DCCReference>
+			<DCCReference Include="UI\fMainForm.pas">
+				<Form>MainForm</Form>
+			</DCCReference>
+			<DCCReference Include="UI\fNiceWizard.pas">
+				<Form>NiceWizardForm</Form>
+			</DCCReference>
+			<DCCReference Include="UI\fQuickWizard.pas">
+				<Form>QuickWizardForm</Form>
+			</DCCReference>
+			<DCCReference Include="UI\uMessages.pas"/>
+			<DCCReference Include="Utils\RedCon.pas"/>
+			<DCCReference Include="Utils\FileUtils.pas"/>
+			<DCCReference Include="Utils\JcfLog.pas"/>
+			<DCCReference Include="Utils\JcfMiscFunctions.pas"/>
+			<DCCReference Include="Utils\JcfUnicodeFiles.pas"/>
+			<DCCReference Include="Utils\JcfUnicode.pas"/>
+			<DCCReference Include="Settings\uAppSettings.pas"/>
+			<DCCReference Include="Utils\JcfStringUtils.pas">
+				<Form>$R *.res</Form>
+			</DCCReference>
+			<DCCReference Include="Generator\Pdf\uDocGeneratorPdf.pas"/>
+			<DCCReference Include="Generator\Pdf\uDocGenPDF_Tools.pas"/>
+			<DCCReference Include="Generator\Pdf\uHtmlDocRegistry.pas"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+	</Project>

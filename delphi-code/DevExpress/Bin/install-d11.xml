@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install>
+  <install name="de" version="11">
+    <setenv>
+      <setenv name="DevExpress" value=".." /> 
+    </setenv>
+    <setpath>
+      <setpath path="..\Lib" /> 
+    </setpath>
+    <package>
+      <package file="$(DevExpress)\Lib\dcldxCoreD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dclcxEditorsD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dclcxLibraryD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dclcxPageControlD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dclcxGridD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dclcxTreeListD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dcldxFlowChartD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dcldxOrgCD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dcldxBarD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dcldxBarDBNavD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dcldxBarExtDBItemsD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dcldxBarExtItemsD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dcldxRibbonD11.bpl"/>
+      <package file="$(DevExpress)\Lib\dcldxTabbedMDID11.bpl"/>
+    </package>
+    <browsing>
+      <browsing path="$(DevExpress)\Lib"/>
+      <browsing path="$(DevExpress)\Source\ExpressBars\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressCommon Library\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressCore Library\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressDataController\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressDBTree Suite\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressDocking Library\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressEditors Library\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressExport Library\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressFlowChart\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressGDI+ Library\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressLayout Control\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressLibrary\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressMemData\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressNavBar\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressOrgChart\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressPageControl\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressPivotGrid\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressPrinting System\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressQuantumGrid\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressQuantumTreeList\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressScheduler\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressSideBar\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressSkins Library\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressSpellChecker\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressSpreadSheet\Sources"/>
+      <browsing path="$(DevExpress)\Source\ExpressVerticalGrid\Sources"/>
+      <browsing path="$(DevExpress)\Source\XP Theme Manager\Sources"/>
+    </browsing>
+    <search>
+      <search path="$(DevExpress)\Lib"/>
+      <search path="$(DevExpress)\Lib\Dcu"/>
+      <search path="$(DevExpress)\Lib\Res"/>
+    </search>
+  </install>
+</install>

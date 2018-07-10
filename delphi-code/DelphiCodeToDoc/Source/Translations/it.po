@@ -1,0 +1,2058 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: DelphiCodeToDoc Italian\n"
+"POT-Creation-Date: 2009-04-26 23:36\n"
+"PO-Revision-Date: 2006-03-03 16:19+0100\n"
+"Last-Translator: trident_job <trident_job@hotmail.com>\n"
+"Language-Team: Alex Zanello <alex@zring.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. AboutBox..Caption
+#. MainForm..ActionManager1..ActionAbout..Caption
+#: UI/fAbout.dfm:6  UI/fMainForm.dfm:3844
+#, fuzzy
+msgid "About"
+msgstr "&Informazioni"
+
+#. AboutBox..Panel1..OKButton..Caption
+#. QuickWizardForm..btnOk..Caption
+#: UI/fAbout.dfm:175  UI/fQuickWizard.dfm:97
+msgid "OK"
+msgstr "OK"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:196 
+msgid "DelphiCodeToDoc is a free documentation"
+msgstr "DelphiCodeToDoc è un sistema di documentazione"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:197 
+msgid "system for Delphi, released under the GNU"
+msgstr "gratuito per Delphi, distribuito con la licenza GNU"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:198 
+msgid "General Public License. It uses information"
+msgstr "General Public License. Usa informazioni sui simboli nel"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:199 
+msgid "about source code symbols and formatted"
+msgstr "codice sorgente e commenti formattati inseriti nei"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:200 
+msgid "comments in files to produce accurate"
+msgstr "file per produrre una documentazione accurata"
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:201 
+msgid "documentation from your application and"
+msgstr "dalla tua applicazione o componente."
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:202 
+msgid "component."
+msgstr " "
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:203 
+msgid "Full project can be found at :"
+msgstr "Il progetto è ospitato su:"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:230 
+msgid ""
+"DelphiCodeToDoc is a free documentation system for Delphi, released under "
+"the GNU "
+msgstr ""
+"DelphiCodeToDoc è un sistema di documentazione per Delphi, distribuito sotto "
+"licenza GNU "
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:233 
+msgid ""
+"General Public License. It uses information about source code symbols and "
+"formatted comments in files to "
+msgstr ""
+"General Public License. Usa informazioni sui simboli del sorgente e commenti "
+"formattati nei file per "
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:236 
+msgid "produce accurate documentation from your application and component."
+msgstr ""
+"produrre un'accurata documentazione dalla tua applicazione o componente."
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:239 
+msgid "How to use ?"
+msgstr "Come usarlo ?"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:242 
+msgid ""
+"Select the 'Project Wizard', enter directory where you have source code."
+msgstr ""
+"Scegli l'Assistente di progetto, indica la directory che ospita i sorgenti."
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:245 
+msgid ""
+"It will show you the 'Configuration' panel where you can change options."
+msgstr ""
+"Ti verrà mostrato il pannello 'Configurazione' dove puoi cambiare opzioni."
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:248 
+msgid ""
+"Select the 'Check' command to verify if the parser understand you files."
+msgstr ""
+"Scegli il comando 'Controlla' per verificare se il parser capisce i tuoi "
+"file."
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:249 
+msgid "Then, select 'Build' to build the documentation."
+msgstr "Quindi scegli 'Crea' per creare la documentazione."
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:250 
+msgid "Have fun !"
+msgstr "Divertiti !"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:252 
+msgid "IMPORTANTAbout ALPHA revisions :"
+msgstr "IMPORTANTE Sulle versioni ALPHA :"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:255 
+msgid ""
+"This (alpha) version is under development, so there are many things "
+"restricted or under construction."
+msgstr ""
+"Questa versione alpha è ancora in sviluppo perciò vi sono funzionalità "
+"ridotte o da finire."
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:258 
+msgid ""
+"You can go to the project page and submit bug/issue/idea, I will be pleased."
+msgstr ""
+"Puoi raggiungere la pagina del progetto e sottoporre problemi ed idee, ne "
+"sarò lieto."
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:261 
+#, fuzzy
+msgid "JavaDoc (implemented and functional)"
+msgstr "JavaDoc (implementato e funzionale)"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:264 
+#, fuzzy
+msgid ""
+"This system came from Sun, and is used in many programming language. It is a "
+"rich and simple syntax, well supported "
+msgstr ""
+"Questo sistema è stato creato da Sun, ed è usato in molti linguaggi di "
+"programmazione. Ha una sintassi ricca e semplice,"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:265 
+#, fuzzy
+msgid "by many software."
+msgstr "ben supportata da molti software."
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:268 
+msgid ""
+"For this syntax, you can define a prefix in order to specify a special "
+"comment (as the '*' in /** ...*/ in Java)"
+msgstr ""
+"La sintassi prevede di definire un prefisso per specificare uno speciale "
+"commento (come il  '*' in /** ...*/ in Java)"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:270 
+msgid "List of supported TAGs:"
+msgstr "Lista dei TAG supportati:"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:271 
+msgid "*Description (no '@' TAG!)"
+msgstr "*Description (senza il TAG '@' !)"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:272 
+msgid "*@author"
+msgstr "*@author"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:273 
+msgid "*@version"
+msgstr "*@version"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:274 
+msgid "*@param"
+msgstr "*@param"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:275 
+msgid "*@return"
+msgstr "*@return"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:276 
+#, fuzzy
+msgid "*@see (Not functional for the moment in DelphiCodeToDoc) "
+msgstr "*@see (Non funzionante al momento in DelphiCodeToDoc) "
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:278 
+#, fuzzy
+msgid "Inlines (implemented and functional)"
+msgstr "Inlines (implementato e funzionante)"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:281 
+msgid ""
+"This is a simple extention of JavaDoc system, which provide the description "
+"TAG facility with double slash comment."
+msgstr ""
+"Questa è una semplice estensione del sistema JavaDoc che fornisce l'uso del "
+"TAG description con il commento a doppio slash."
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:283 
+msgid "Simple Inline"
+msgstr "Semplice in linea"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:286 
+msgid ""
+"Writting a comment line with double slash ( // ) before a class, field or "
+"method will be processed as a Description TAG."
+msgstr ""
+"Una riga di commento con un doppio slash ( // ) prima di una classe, campo o "
+"metodo sarà processata come un TAG Description ."
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:288 
+msgid "End of line Inline"
+msgstr "Inline a fine riga"
+
+#. MainForm..JvPageControl1..tsInformation..Memo1......Lines.Strings
+#: UI/fMainForm.dfm:291 
+#, fuzzy
+msgid ""
+"Writting a comment line at the end of a line with double slash ( // ) before "
+"a field (and only a Field) will be processed as "
+msgstr ""
+"Scrivere una riga di commento a fine riga con doppio slash ( // ) prima di "
+"un campo (e solo di un Campo) sarà processato come un "
+
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:292 
+#, fuzzy
+msgid "a Description TAG for the preceding Field."
+msgstr "TAG Description per il Campo precedente."
+
+#. MainForm..JvPageControl1..tsReference..tvReference..LabelMustCheckBefore..Caption
+#: UI/fMainForm.dfm:350 
+msgid "You must Check the project to have access to this screen."
+msgstr "Devi Controllare il progetto per accedere a questa schermata."
+
+#. MainForm..JvPageControl1..tsMessages..mDebug....Lines.Strings
+#: UI/fMainForm.dfm:372 
+msgid "Debug Messages:"
+msgstr "Messaggi di Debug:"
+
+#. MainForm..JvPageControl1..tsMessages..mUser....Lines.Strings
+#: UI/fMainForm.dfm:384 
+msgid "User Messages:"
+msgstr "Messaggi Utente:"
+
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3503 
+#, fuzzy
+msgid "&New Full Wizard Project"
+msgstr "Assistente nuovo progetto"
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3508  UI/fMainForm.dfm:3549 UI/fMainForm.dfm:3649
+msgid "&Open Project"
+msgstr "Apri pr&ogetto"
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3513  UI/fMainForm.dfm:3658
+msgid "&Save Project"
+msgstr "&Salva progetto"
+
+#  MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3518 
+msgid "&Check and Build"
+msgstr ""
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3523  UI/fMainForm.dfm:3690
+msgid "&View Output"
+msgstr ""
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3528  UI/fMainForm.dfm:3695
+#, fuzzy
+msgid "&Purge Output Folder"
+msgstr "Directory di output"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3539  UI/fMainForm.dfm:3634
+#, fuzzy
+msgid "&New Empty Project"
+msgstr "&Nuovo progetto"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3544  UI/fMainForm.dfm:3639
+#, fuzzy
+msgid "N&ew Quick Wizard Project"
+msgstr "Assist&ente nuovo progetto"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3554 
+#, fuzzy
+msgid "&Save As"
+msgstr "Salva tutto"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3559 
+#, fuzzy
+msgid "S&ave Project"
+msgstr "Salva progetto"
+
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3569 
+msgid "&File"
+msgstr "&File"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3575  UI/fMainForm.dfm:3680
+msgid "&Add Files"
+msgstr "&Aggiungi file"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3580 
+#, fuzzy
+msgid "&Check Project"
+msgstr "Controlla progetto"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3585 
+#, fuzzy
+msgid "&Build Project"
+msgstr "Crea un progetto"
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3588  UI/fMainForm.dfm:3698
+msgid "&Project"
+msgstr "&Progetto"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3594  UI/fMainForm.dfm:3704
+msgid "&Information"
+msgstr "&Informazioni"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3599  UI/fMainForm.dfm:3709
+msgid "&Configuration"
+msgstr "&Configurazione"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3604  UI/fMainForm.dfm:3714
+msgid "&Project Files"
+msgstr "File del &progetto"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3609  UI/fMainForm.dfm:3719
+msgid "&Reference"
+msgstr "&Riferimenti"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3614  UI/fMainForm.dfm:3724
+msgid "&Messages"
+msgstr "&Messaggi"
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3617  UI/fMainForm.dfm:3736
+msgid "&View"
+msgstr "&Vista"
+
+#. MainForm..ActionManager1..............Caption
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3623  UI/fMainForm.dfm:3750
+msgid "&About"
+msgstr "&Informazioni"
+
+#. MainForm..ActionManager1..........Caption
+#. MainForm..ActionManager1..........Caption
+#. NiceWizardForm..JvWizard1..ButtonHelp.Caption
+#: UI/fMainForm.dfm:3625  UI/fMainForm.dfm:3753 UI/fNiceWizard.dfm:49
+msgid "&Help"
+msgstr "&Aiuto"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3644 
+#, fuzzy
+msgid "Ne&w Full Wizard Project"
+msgstr "Assistente nuovo progetto"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3654 
+#, fuzzy
+msgid "&Import old Project"
+msgstr "&Nuovo progetto"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3663 
+#, fuzzy
+msgid "S&ave As"
+msgstr "S&alva tutto"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3668 
+msgid "&Close"
+msgstr "&Chiudi"
+
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3674 
+#, fuzzy
+msgid "F&ile"
+msgstr "File"
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3685 
+msgid "C&heck and Build"
+msgstr ""
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3729 
+msgid "&Tag Quality"
+msgstr ""
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3734 
+#, fuzzy
+msgid "C&lear Messages"
+msgstr "Messaggi Utente:"
+
+#. MainForm..ActionManager1..........Caption
+#: UI/fMainForm.dfm:3744 
+msgid "&Languages"
+msgstr "&Lingue"
+
+#. MainForm..ActionManager1..ActionNewproject..Category
+#. MainForm..ActionManager1..ActionQuickWizardProject..Category
+#. MainForm..ActionManager1..ActionFullWizardProject..Category
+#. MainForm..ActionManager1..ActionOpenProject..Category
+#. MainForm..ActionManager1..ActionImportOldProject..Category
+#. MainForm..ActionManager1..ActionSaveProject..Category
+#. MainForm..ActionManager1..ActionSaveAsProject..Category
+#. MainForm..ActionManager1..ActionCloseProject..Category
+#. MainForm..ActionManager1..FileExit1..Category
+#. Programmer's name for it: L_File
+#: UI/fMainForm.dfm:3763  UI/fMainForm.dfm:3770 UI/fMainForm.dfm:3777
+#: UI/fMainForm.dfm:3784 UI/fMainForm.dfm:3796 UI/fMainForm.dfm:3807
+#: UI/fMainForm.dfm:3815 UI/fMainForm.dfm:3830 UI/fMainForm.dfm:3837
+#: Generator/Html/uDocGenHTML_Tools.pas:43
+msgid "File"
+msgstr "File"
+
+#. MainForm..ActionManager1..ActionNewproject..Caption
+#: UI/fMainForm.dfm:3764 
+#, fuzzy
+msgid "New Empty Project"
+msgstr "Nuovo progetto"
+
+#. MainForm..ActionManager1..ActionNewproject..Hint
+#: UI/fMainForm.dfm:3766 
+msgid "Create a new empty project"
+msgstr "Crea un nuovo progetto vuoto"
+
+#. MainForm..ActionManager1..ActionQuickWizardProject..Caption
+#: UI/fMainForm.dfm:3771 
+#, fuzzy
+msgid "New Quick Wizard Project"
+msgstr "Assistente nuovo progetto"
+
+#. MainForm..ActionManager1..ActionQuickWizardProject..Hint
+#. MainForm..ActionManager1..ActionFullWizardProject..Hint
+#: UI/fMainForm.dfm:3772  UI/fMainForm.dfm:3779
+msgid "Create a new project with help of the Wizard"
+msgstr "Crea un nuovo progetto con l'aiuto dell'assistente"
+
+#. MainForm..ActionManager1..ActionFullWizardProject..Caption
+#: UI/fMainForm.dfm:3778 
+#, fuzzy
+msgid "New Full Wizard Project"
+msgstr "Assistente nuovo progetto"
+
+#. MainForm..ActionManager1..ActionOpenProject..Caption
+#: UI/fMainForm.dfm:3785 
+msgid "Open Project"
+msgstr "Apri progetto"
+
+#. MainForm..ActionManager1..ActionOpenProject..Hint
+#: UI/fMainForm.dfm:3787 
+#, fuzzy
+msgid "Open an existing project"
+msgstr "Apri un progetto esistente"
+
+#. MainForm..ActionManager1..ActionOpenProject..Dialog.Filter
+#: UI/fMainForm.dfm:3791 
+#, fuzzy
+msgid "DCTD Project file (*.xml)|*.xml"
+msgstr "File DCTD di Progetto|*.dcd"
+
+#. MainForm..ActionManager1..ActionImportOldProject..Caption
+#: UI/fMainForm.dfm:3797 
+#, fuzzy
+msgid "Import old Project"
+msgstr "Crea un progetto"
+
+#. MainForm..ActionManager1..ActionImportOldProject..Hint
+#: UI/fMainForm.dfm:3799 
+msgid "Import an old *.DCD extension project filename"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionImportOldProject..Dialog.Filter
+#: UI/fMainForm.dfm:3802 
+#, fuzzy
+msgid "DCTD Project file (*.dcd)|*.dcd"
+msgstr "File DCTD di Progetto|*.dcd"
+
+#. MainForm..ActionManager1..ActionSaveProject..Caption
+#: UI/fMainForm.dfm:3808 
+msgid "Save Project"
+msgstr "Salva progetto"
+
+#. MainForm..ActionManager1..ActionSaveProject..Hint
+#: UI/fMainForm.dfm:3810 
+#, fuzzy
+msgid "Save active project"
+msgstr "Salva progetto"
+
+#. MainForm..ActionManager1..ActionSaveAsProject..Caption
+#: UI/fMainForm.dfm:3816 
+#, fuzzy
+msgid "Save As"
+msgstr "Salva tutto"
+
+#. MainForm..ActionManager1..ActionSaveAsProject..Hint
+#: UI/fMainForm.dfm:3818 
+msgid "Save project as a different name"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionSaveAsProject..Dialog.Filter
+#: UI/fMainForm.dfm:3824 
+#, fuzzy
+msgid "DCTD Project file|*.xml"
+msgstr "File DCTD di Progetto|*.dcd"
+
+#. MainForm..ActionManager1..ActionSaveAsProject..Dialog.Title
+#: UI/fMainForm.dfm:3825 
+msgid "Select file to save project"
+msgstr "Scegli il file per salvare il progetto"
+
+#. MainForm..ActionManager1..ActionCloseProject..Caption
+#: UI/fMainForm.dfm:3831 
+msgid "Close"
+msgstr "Chiudi"
+
+#. MainForm..ActionManager1..ActionCloseProject..Hint
+#: UI/fMainForm.dfm:3833 
+msgid "Close current project"
+msgstr "Chiudi il progetto corrente"
+
+#. MainForm..ActionManager1..FileExit1..Caption
+#: UI/fMainForm.dfm:3838 
+msgid "E&xit"
+msgstr "Esc&i"
+
+#. MainForm..ActionManager1..FileExit1..Hint
+#: UI/fMainForm.dfm:3839 
+msgid "Exit|Quits the application"
+msgstr "Esce|Abbandona l'applicazione"
+
+#. MainForm..ActionManager1..ActionAbout..Category
+#: UI/fMainForm.dfm:3843 
+msgid "Help"
+msgstr "Aiuto"
+
+#. MainForm..ActionManager1..ActionAbout....Hint
+#: UI/fMainForm.dfm:3847 
+msgid ""
+"Display some informations about the product, the revision number and the "
+"author"
+msgstr "Mostra informazioni sul prodotto, la revisione e l'autore"
+
+#. MainForm..ActionManager1..ActionAddFiles..Category
+#. MainForm..ActionManager1..ActionCheck..Category
+#. MainForm..ActionManager1..ActionBuild..Category
+#. MainForm..ActionManager1..ActionCheckAndBuild..Category
+#. MainForm..ActionManager1..ActionViewOutput..Category
+#. MainForm..ActionManager1..ActionPurgeOutputFolder..Category
+#. Word localization
+#. Programmer's name for it: L_Project
+#: UI/fMainForm.dfm:3852  UI/fMainForm.dfm:3859 UI/fMainForm.dfm:3867
+#: UI/fMainForm.dfm:3926 UI/fMainForm.dfm:3933 UI/fMainForm.dfm:3940
+#: Generator/Html/uDocGenHTML_Tools.pas:36
+msgid "Project"
+msgstr "Progetto"
+
+#. MainForm..ActionManager1..ActionAddFiles..Caption
+#: UI/fMainForm.dfm:3853 
+msgid "Add Files"
+msgstr "Aggiungi file"
+
+#. MainForm..ActionManager1..ActionAddFiles..Hint
+#: UI/fMainForm.dfm:3855 
+msgid "Add files to the current project"
+msgstr "Aggiungi file al progetto corrente"
+
+#. MainForm..ActionManager1..ActionCheck..Caption
+#: UI/fMainForm.dfm:3860 
+msgid "Check Project"
+msgstr "Controlla progetto"
+
+#. MainForm..ActionManager1..ActionCheck..Hint
+#: UI/fMainForm.dfm:3862 
+msgid "Verify the files in the project, and build the references"
+msgstr "Verifica i file nel progetto e crea i riferimenti"
+
+#. MainForm..ActionManager1..ActionBuild..Caption
+#: UI/fMainForm.dfm:3868 
+msgid "Build Project"
+msgstr "Crea un progetto"
+
+#. MainForm..ActionManager1..ActionBuild..Hint
+#: UI/fMainForm.dfm:3870 
+msgid "Build project in the format you have configure"
+msgstr "Crea un progetto nel formato configurato"
+
+#. MainForm..ActionManager1..ActionInformation..Category
+#. MainForm..ActionManager1..ActionConfiguration..Category
+#. MainForm..ActionManager1..ActionProject..Category
+#. MainForm..ActionManager1..ActionReference..Category
+#. MainForm..ActionManager1..ActionMessages..Category
+#. MainForm..ActionManager1..ActionQuality..Category
+#. MainForm..ActionManager1..ActionClearMessages..Category
+#: UI/fMainForm.dfm:3875  UI/fMainForm.dfm:3885 UI/fMainForm.dfm:3892
+#: UI/fMainForm.dfm:3899 UI/fMainForm.dfm:3906 UI/fMainForm.dfm:3913
+#: UI/fMainForm.dfm:3947
+msgid "View"
+msgstr "Vista"
+
+#. MainForm..ActionManager1..ActionInformation..Caption
+#: UI/fMainForm.dfm:3876 
+msgid "Information"
+msgstr "Informazioni"
+
+#. MainForm..ActionManager1..ActionInformation....Hint
+#: UI/fMainForm.dfm:3880 
+msgid "Show application informations, advice and links to various ressources."
+msgstr ""
+"Mostra le informazioni sull'applicazione, suggerimenti e collegamenti a "
+"varie risorse."
+
+#. MainForm..ActionManager1..ActionConfiguration..Caption
+#: UI/fMainForm.dfm:3886 
+msgid "Configuration"
+msgstr "Configurazione"
+
+#. MainForm..ActionManager1..ActionConfiguration..Hint
+#: UI/fMainForm.dfm:3887 
+msgid "Show application, input and output configuration"
+msgstr "Mostra la configurazione di input e output dell'applicazione"
+
+#. MainForm..ActionManager1..ActionProject..Caption
+#: UI/fMainForm.dfm:3893 
+msgid "Project Files"
+msgstr "File del progetto"
+
+#. MainForm..ActionManager1..ActionProject..Hint
+#: UI/fMainForm.dfm:3894 
+msgid "Show and manage files in project"
+msgstr "Mostra e gestisci i file del progetto"
+
+#. MainForm..ActionManager1..ActionReference..Caption
+#: UI/fMainForm.dfm:3900 
+msgid "Reference"
+msgstr "Riferimenti"
+
+#. MainForm..ActionManager1..ActionReference..Hint
+#: UI/fMainForm.dfm:3901 
+msgid "Show references found in project as classes, types ..."
+msgstr "Mostra i riferimenti trovati nel progetto come classi, tipi ..."
+
+#. MainForm..ActionManager1..ActionMessages..Caption
+#: UI/fMainForm.dfm:3907 
+msgid "Messages"
+msgstr "Messaggi"
+
+#. MainForm..ActionManager1..ActionMessages..Hint
+#: UI/fMainForm.dfm:3908 
+msgid "Show all messages from the application concerning the process"
+msgstr "Mostra tutti i messaggi di elaborazione dell'applicazione "
+
+#. MainForm..ActionManager1..ActionQuality..Caption
+#: UI/fMainForm.dfm:3914 
+msgid "Tag Quality"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionQuality..Hint
+#: UI/fMainForm.dfm:3915 
+msgid "Show statistics about Tag coverage"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionLanguageEnglish..Category
+#: UI/fMainForm.dfm:3921 
+msgid "Languages"
+msgstr "Lingue"
+
+#. MainForm..ActionManager1..ActionCheckAndBuild..Caption
+#: UI/fMainForm.dfm:3927 
+msgid "Check and Build"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionCheckAndBuild..Hint
+#: UI/fMainForm.dfm:3928 
+#, fuzzy
+msgid "Check Project and then build the documentation"
+msgstr "Quindi scegli 'Crea' per creare la documentazione."
+
+#. MainForm..ActionManager1..ActionViewOutput..Caption
+#: UI/fMainForm.dfm:3934 
+msgid "View Output"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionViewOutput..Hint
+#: UI/fMainForm.dfm:3935 
+msgid "View output documentation"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionPurgeOutputFolder..Caption
+#: UI/fMainForm.dfm:3941 
+#, fuzzy
+msgid "Purge Output Folder"
+msgstr "Directory di output"
+
+#. MainForm..ActionManager1..ActionPurgeOutputFolder..Hint
+#: UI/fMainForm.dfm:3942 
+msgid "Purge existing documentation in output folder"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionClearMessages..Caption
+#: UI/fMainForm.dfm:3948 
+#, fuzzy
+msgid "Clear Messages"
+msgstr "Messaggi Utente:"
+
+#. NiceWizardForm..Caption
+#: UI/fNiceWizard.dfm:6 
+#, fuzzy
+msgid "New Project Wizard"
+msgstr "Assistente progetto"
+
+#. NiceWizardForm..JvWizard1..ButtonStart.Caption
+#: UI/fNiceWizard.dfm:29 
+msgid "To &Start Page"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..ButtonLast.Caption
+#: UI/fNiceWizard.dfm:32 
+msgid "To &Last Page"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..ButtonBack.Caption
+#: UI/fNiceWizard.dfm:35 
+msgid "< &Back"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..ButtonNext.Caption
+#: UI/fNiceWizard.dfm:38 
+#, fuzzy
+msgid "&Next >"
+msgstr "Prossimo"
+
+#. NiceWizardForm..JvWizard1..ButtonFinish.Caption
+#: UI/fNiceWizard.dfm:41 
+msgid "&Finish"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..ButtonCancel.Caption
+#. QuickWizardForm..btnCancel..Caption
+#: UI/fNiceWizard.dfm:45  UI/fQuickWizard.dfm:109
+msgid "Cancel"
+msgstr "Annulla"
+
+#. NiceWizardForm..JvWizard1..JvWizardWelcome..Header.Title.Text
+#: UI/fNiceWizard.dfm:60 
+msgid "Welcome"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardWelcome....Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:70 
+msgid ""
+"Welcome to the new project wizard. It will helps you to create a new project "
+"step by step."
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardWelcome..JvStaticText8....Caption
+#: UI/fNiceWizard.dfm:87 
+msgid ""
+"Press the \"Next\" button and fill all screens with your informations about "
+"your project."
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:111 
+#, fuzzy
+msgid "Describe your project"
+msgstr "Indica il nome del tuo progetto"
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText1....Caption
+#: UI/fNiceWizard.dfm:129 
+msgid ""
+"Enter the project name below. This name is the base filename and is used for "
+"the title of the documentation. Try something very short, a single word is "
+"the best solution"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText3....Caption
+#: UI/fNiceWizard.dfm:150 
+msgid ""
+"Enter the project summary below. The summary is display in the first page of "
+"the documentation. Try to explain in few words what is your project."
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText4....Caption
+#: UI/fNiceWizard.dfm:171 
+msgid ""
+"Enter the project description below. It is display in the first page of the "
+"documentation. Try to explain in few lines what the project is doing and why."
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText2....Caption
+#: UI/fNiceWizard.dfm:199 
+msgid ""
+"Enter the author of the documentation. If there is multiple author, list all "
+"authors in a single line."
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText16....Caption
+#: UI/fNiceWizard.dfm:245 
+msgid ""
+"Enter the copyright line that will be displayed in the bottom on each page "
+"of the documentation. You can add HTML tag if you want."
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..Header.Title.Text
+#. Programmer's name for it: L_Files
+#: UI/fNiceWizard.dfm:269  Generator/Html/uDocGenHTML_Tools.pas:42
+msgid "Files"
+msgstr "File"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:277 
+#, fuzzy
+msgid "Add source files to the project"
+msgstr "Aggiungi file al progetto corrente"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText5..Caption
+#: UI/fNiceWizard.dfm:293 
+msgid "List items to include or exclude"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvPageControl1..tsIncludeList..Caption
+#: UI/fNiceWizard.dfm:322 
+msgid "Include List"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvPageControl1..tsExcludeList..Caption
+#: UI/fNiceWizard.dfm:336 
+msgid "Exclude List"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnAdd..Hint
+#: UI/fNiceWizard.dfm:357 
+#, fuzzy
+msgid "Add item to current list"
+msgstr "Aggiungi file al progetto corrente"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnReplace..Hint
+#: UI/fNiceWizard.dfm:416 
+msgid "Modify selected item"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnDelete..Hint
+#: UI/fNiceWizard.dfm:450 
+msgid "Delete selected item"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText6....Caption
+#: UI/fNiceWizard.dfm:486 
+msgid ""
+"Add source files or project files to the project. Select a directory or a "
+"file, and click the Add button."
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText7..Caption
+#: UI/fNiceWizard.dfm:504 
+msgid "Two lists controls where to search or ignore files."
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnSelectFile..Hint
+#: UI/fNiceWizard.dfm:521 
+msgid "Select a file"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnSelectFolder..Hint
+#: UI/fNiceWizard.dfm:580 
+msgid "Select a folder"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..CheckBox_RecurseDirectories..Caption
+#: UI/fNiceWizard.dfm:639 
+#, fuzzy
+msgid "Recurse directories"
+msgstr "Esame ricorsivo della directory"
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText15....Caption
+#: UI/fNiceWizard.dfm:658 
+msgid ""
+"You can use wilcard to select files and / or folders. Examples : *visit*."
+"pas, MyDir\\temp*.pas, *OtherSources* "
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText17..Caption
+#: UI/fNiceWizard.dfm:676 
+msgid "Absolute and relative files and folders are allowed."
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..Header.Title.Text
+#: UI/fNiceWizard.dfm:692 
+#, fuzzy
+msgid "Comments"
+msgstr "Contenuto"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:700 
+msgid "Choose which comment system are used in your files"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..CheckBox_ParseImplementation..Caption
+#: UI/fNiceWizard.dfm:714 
+#, fuzzy
+msgid "Parse implementation section"
+msgstr "Parse della sezione Implementation"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..Caption
+#: UI/fNiceWizard.dfm:730 
+msgid "Comment systems"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportJavaDoc..Caption
+#: UI/fNiceWizard.dfm:737 
+msgid "Support JavaDoc syntax"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportInline..Caption
+#: UI/fNiceWizard.dfm:753 
+msgid "Support Inline syntax"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportXMLDoc..Caption
+#: UI/fNiceWizard.dfm:769 
+msgid "Support XMLDoc syntax"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportJEDI..Caption
+#: UI/fNiceWizard.dfm:784 
+msgid "Support JEDI syntax"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..CheckBox_AllowHtmlInDescription..Caption
+#: UI/fNiceWizard.dfm:800 
+msgid "Allow Html code in Description"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox1..Caption
+#: UI/fNiceWizard.dfm:814 
+#, fuzzy
+msgid "Comments rules"
+msgstr "Contenuto"
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox1..CheckBox_PropertyCommentFromAssessors..Caption
+#: UI/fNiceWizard.dfm:821 
+msgid "If no description found for properties, get assessors comment"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox1..CheckBox_MethodCommentFromAncestor..Caption
+#: UI/fNiceWizard.dfm:835 
+msgid "If no comments found for overriden methods, get it from ancestor"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:857 
+msgid "Configure JavaDoc syntax"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..Caption
+#: UI/fNiceWizard.dfm:871 
+msgid "JavaDoc Prefix"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvStaticText10..Caption
+#: UI/fNiceWizard.dfm:885 
+#, fuzzy
+msgid "Bracketstar Prefix (*"
+msgstr "Prefisso parentesi aperta  (*"
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvStaticText11..Caption
+#. Programmer's name for it: pdCaptionCurlyJavaDocCharPrefix
+#: UI/fNiceWizard.dfm:902  Settings/uOptions.pas:256
+msgid "Curly Prefix {"
+msgstr "Prefisso graffa {"
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvStaticText12..Caption
+#: UI/fNiceWizard.dfm:919 
+#, fuzzy
+msgid "Inline Prefix //"
+msgstr "Prefisso in linea  //"
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..CheckBox_SkipFirstLine..Caption
+#: UI/fNiceWizard.dfm:982 
+#, fuzzy
+msgid "Skip first line in block comment"
+msgstr "Salta la prima riga TAG nei blocchi di commento"
+
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..CheckBox_SkipLastLine..Caption
+#: UI/fNiceWizard.dfm:996 
+#, fuzzy
+msgid "Skip last line in block comment"
+msgstr "Salta l'ultima riga TAG nei blocchi di commento"
+
+#. NiceWizardForm..JvWizard1..JvWizardXMLDoc..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1017 
+msgid "Configure XMLDoc syntax"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..Header.Title.Text
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvRadioGroup_OutputFormat..Caption
+#. Programmer's name for it: pdCaptionOutputFormat
+#: UI/fNiceWizard.dfm:1031  UI/fNiceWizard.dfm:1387 Settings/uOptions.pas:243
+msgid "Output Format"
+msgstr "Formato di output"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1039 
+msgid "Define the style of the generated documentation"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..CheckBox_AlphaSortMembers..Caption
+#. Programmer's name for it: psCaptionSortAlpha
+#: UI/fNiceWizard.dfm:1053  Settings/uOptions.pas:248
+msgid "Alpha sort of members"
+msgstr "Ordina alfabeticamente i membri"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvStaticText9..Caption
+#: UI/fNiceWizard.dfm:1067 
+#, fuzzy
+msgid "Documentation language"
+msgstr "Lingua della documentazione"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..Caption
+#. Programmer's name for it: pdCaptionVisibilitySet
+#: UI/fNiceWizard.dfm:1084  Settings/uOptions.pas:245
+msgid "Member visibility filter"
+msgstr "Filtro di visibilità membri"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Private..Caption
+#. Programmer's name for it: L_Private
+#: UI/fNiceWizard.dfm:1091  Generator/Html/uDocGenHTML_Tools.pas:74
+msgid "Private"
+msgstr "Private"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Protected..Caption
+#. Programmer's name for it: L_Protected
+#: UI/fNiceWizard.dfm:1105  Generator/Html/uDocGenHTML_Tools.pas:75
+msgid "Protected"
+msgstr "Protected"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Public..Caption
+#. Programmer's name for it: L_Public
+#: UI/fNiceWizard.dfm:1119  Generator/Html/uDocGenHTML_Tools.pas:76
+msgid "Public"
+msgstr "Public"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Published..Caption
+#. Programmer's name for it: L_Published
+#: UI/fNiceWizard.dfm:1133  Generator/Html/uDocGenHTML_Tools.pas:77
+msgid "Published"
+msgstr "Published"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Automated..Caption
+#. Programmer's name for it: L_Automated
+#: UI/fNiceWizard.dfm:1147  Generator/Html/uDocGenHTML_Tools.pas:78
+msgid "Automated"
+msgstr "Automatico"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..Caption
+#: UI/fNiceWizard.dfm:1162 
+#, fuzzy
+msgid "Output category filter"
+msgstr "Directory di output"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Constants..Caption
+#. Programmer's name for it: L_Constants
+#: UI/fNiceWizard.dfm:1169  Generator/Html/uDocGenHTML_Tools.pas:52
+msgid "Constants"
+msgstr "Costanti"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Types..Caption
+#. Programmer's name for it: L_Types
+#: UI/fNiceWizard.dfm:1183  Generator/Html/uDocGenHTML_Tools.pas:50
+msgid "Types"
+msgstr "Tipi"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Variables..Caption
+#. Programmer's name for it: L_Variables
+#: UI/fNiceWizard.dfm:1197  Generator/Html/uDocGenHTML_Tools.pas:54
+msgid "Variables"
+msgstr "Variabili"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Functions..Caption
+#. Programmer's name for it: L_Functions
+#: UI/fNiceWizard.dfm:1211  Generator/Html/uDocGenHTML_Tools.pas:56
+msgid "Functions"
+msgstr "Funzioni"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Classes..Caption
+#. Programmer's name for it: L_Classes
+#: UI/fNiceWizard.dfm:1225  Generator/Html/uDocGenHTML_Tools.pas:48
+msgid "Classes"
+msgstr "Classi"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Fields..Caption
+#. Programmer's name for it: L_Fields
+#: UI/fNiceWizard.dfm:1239  Generator/Html/uDocGenHTML_Tools.pas:63
+msgid "Fields"
+msgstr "Campi"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Methods..Caption
+#. Programmer's name for it: L_Methods
+#: UI/fNiceWizard.dfm:1253  Generator/Html/uDocGenHTML_Tools.pas:65
+msgid "Methods"
+msgstr "Metodi"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Properties..Caption
+#. Programmer's name for it: L_Properties
+#: UI/fNiceWizard.dfm:1267  Generator/Html/uDocGenHTML_Tools.pas:67
+#, fuzzy
+msgid "Properties"
+msgstr "Proprietà"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Events..Caption
+#. Programmer's name for it: L_Events
+#: UI/fNiceWizard.dfm:1281  Generator/Html/uDocGenHTML_Tools.pas:69
+msgid "Events"
+msgstr "Eventi"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Records..Caption
+#: UI/fNiceWizard.dfm:1295 
+msgid "Records"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Units..Caption
+#. Programmer's name for it: L_Units
+#: UI/fNiceWizard.dfm:1309  Generator/Html/uDocGenHTML_Tools.pas:46
+#, fuzzy
+msgid "Units"
+msgstr "Unit"
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Resourcestring..Caption
+#: UI/fNiceWizard.dfm:1323 
+msgid "Resourcestring"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..CheckBox_ViewDocumentationAfterBuild..Caption
+#: UI/fNiceWizard.dfm:1338 
+msgid "View documentation after build"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvStaticText13..Caption
+#: UI/fNiceWizard.dfm:1352 
+msgid "Output directory (Absolute or relative)"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvRadioGroup_OutputFormat....Items.Strings
+#: UI/fNiceWizard.dfm:1390 
+msgid "None (no output)"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..CheckBox_DisplayHiddenItems..Caption
+#: UI/fNiceWizard.dfm:1401 
+msgid "Display hidden items (not in interface section)"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..Header.Title.Text
+#: UI/fNiceWizard.dfm:1414 
+msgid "HTML output"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1422 
+#, fuzzy
+msgid "Configure HTML documentation"
+msgstr "Configurazione"
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvGroupBox_CSSConfiguration..Caption
+#: UI/fNiceWizard.dfm:1436 
+#, fuzzy
+msgid "CSS Configuration"
+msgstr "Configurazione"
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvGroupBox_CSSConfiguration..rbCssCustom..Caption
+#: UI/fNiceWizard.dfm:1452 
+#, fuzzy
+msgid "Use custom CSS file"
+msgstr "Configurazione"
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvGroupBox_CSSConfiguration..rbCssInternal..Caption
+#: UI/fNiceWizard.dfm:1470 
+#, fuzzy
+msgid "Use internal CSS configuration"
+msgstr "Configurazione"
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvCheckBox_HideEmptyBlock..Caption
+#: UI/fNiceWizard.dfm:1487 
+#, fuzzy
+msgid "Hide empty block"
+msgstr "Nascondi sezioni vuote dal resoconto"
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvCheckBox_HideEmptyTAGSection..Caption
+#: UI/fNiceWizard.dfm:1501 
+#, fuzzy
+msgid "Hide empty TAG section"
+msgstr "Nascondi sezioni TAG vuote dal resoconto"
+
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..CheckBox_WarnWhenEmptyTag..Caption
+#: UI/fNiceWizard.dfm:1515 
+#, fuzzy
+msgid "Warn when a TAG is empty"
+msgstr "Avvisa se vi sono TAG vuoti"
+
+#. NiceWizardForm..JvWizard1..JvWizardCHMoutput..Header.Title.Text
+#: UI/fNiceWizard.dfm:1528 
+msgid "CHM output"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardCHMoutput..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1536 
+#, fuzzy
+msgid "Configure CHM documentation"
+msgstr "Configurazione"
+
+#. NiceWizardForm..JvWizard1..JvWizardTEXToutput..Header.Title.Text
+#: UI/fNiceWizard.dfm:1550 
+msgid "TEXT output"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardTEXToutput..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1558 
+#, fuzzy
+msgid "Configure TEXT documentation"
+msgstr "Configurazione"
+
+#. NiceWizardForm..JvWizard1..JvWizardPDFOutput..Header.Title.Text
+#: UI/fNiceWizard.dfm:1572 
+msgid "PDF output"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardPDFOutput..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1580 
+#, fuzzy
+msgid "Configure PDF documentation"
+msgstr "Configurazione"
+
+#. NiceWizardForm..JvWizard1..JvWizardHLPOutput..Header.Title.Text
+#: UI/fNiceWizard.dfm:1594 
+msgid "HLP output"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardHLPOutput..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1602 
+#, fuzzy
+msgid "Configure HLP documentation"
+msgstr "Configurazione"
+
+#. NiceWizardForm..JvWizard1..JvWizardAdvanced..Header.Title.Text
+#: UI/fNiceWizard.dfm:1616 
+msgid "Advanced"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardAdvanced..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1624 
+#, fuzzy
+msgid "Advanced options"
+msgstr "Opzioni applicazione"
+
+#. NiceWizardForm..JvWizard1..JvWizardAdvanced..JvLabel1....Caption
+#: UI/fNiceWizard.dfm:1640 
+msgid "Symbols referenced in conditional compiler directives (one per line)"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFinish..Header.Title.Text
+#: UI/fNiceWizard.dfm:1660 
+msgid "Finish"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFinish..Header.Subtitle.Text
+#: UI/fNiceWizard.dfm:1668 
+msgid "End of the wizard"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardFinish..JvStaticText14..Caption
+#: UI/fNiceWizard.dfm:1682 
+msgid "Select the 'Finish' button to end this wizard."
+msgstr ""
+
+#. NiceWizardForm..DialogSelectFile..Filter
+#: UI/fNiceWizard.dfm:1717 
+msgid "Delphi Files (*.pas; *.dpr)|*.pas;*.dpr"
+msgstr ""
+
+#. NiceWizardForm..DialogSelectFile..Title
+#: UI/fNiceWizard.dfm:1719 
+msgid "Select a Delphi source file"
+msgstr ""
+
+#. NiceWizardForm..JvBrowseForFolderDialog..Title
+#: UI/fNiceWizard.dfm:1726 
+msgid "Select a folder containing source files"
+msgstr ""
+
+#. QuickWizardForm..Caption
+#: UI/fQuickWizard.dfm:5 
+msgid "Project Wizard"
+msgstr "Assistente progetto"
+
+#. QuickWizardForm..ebRoot..EditLabel.Caption
+#: UI/fQuickWizard.dfm:61 
+#, fuzzy
+msgid "Enter the folder of your source files"
+msgstr "Posizione dei file sorgenti"
+
+#. QuickWizardForm..ebOutput..EditLabel.Caption
+#: UI/fQuickWizard.dfm:74 
+msgid "Enter the output directory"
+msgstr "Indica la directory di output "
+
+#. QuickWizardForm..leProjectName..EditLabel.Caption
+#: UI/fQuickWizard.dfm:87 
+msgid "Enter the name of your project"
+msgstr "Indica il nome del tuo progetto"
+
+#. QuickWizardForm..EditProjectFile..EditLabel.Caption
+#: UI/fQuickWizard.dfm:120 
+#, fuzzy
+msgid "Enter the location of your project file (*.dpr)"
+msgstr "Posizione dei file sorgenti"
+
+#. QuickWizardForm..JvRadioButton1..Caption
+#: UI/fQuickWizard.dfm:131 
+msgid "Select a Delphi Project file (*.dpr)"
+msgstr ""
+
+#. QuickWizardForm..JvRadioButton2..Caption
+#: UI/fQuickWizard.dfm:154 
+msgid "Select a folder with source files (*.pas)"
+msgstr ""
+
+#. QuickWizardForm..JvStaticText1..Caption
+#: UI/fQuickWizard.dfm:176 
+msgid "Quick Wizard : Enter your project information"
+msgstr ""
+
+#. QuickWizardForm..JvOpenDialog1..Filter
+#: UI/fQuickWizard.dfm:198 
+#, fuzzy
+msgid "Delphi project file (*.dpr)|*.dpr"
+msgstr "File DCTD di Progetto|*.dcd"
+
+#. Programmer's name for it: rsGeneratingUnit
+#: Generator/uDocGeneratorBase.pas:65 
+msgid "Generating Unit : %s"
+msgstr "Genero la unit : %s"
+
+#. Programmer's name for it: rsBuildingCHMProjectFiles
+#: Generator/Chm/uDocGeneratorChm.pas:71 
+#, fuzzy
+msgid "Building CHM project files"
+msgstr "Crea un progetto"
+
+#. Programmer's name for it: rsCompilingCHMFile
+#: Generator/Chm/uDocGeneratorChm.pas:72 
+msgid "Compiling CHM file"
+msgstr ""
+
+#. Programmer's name for it: rsWaitWhileBuildingCHM
+#: Generator/Chm/uDocGeneratorChm.pas:73 
+msgid "Please, wait while building the CHM file"
+msgstr ""
+
+#. TridenT comments2
+#. Programmer's name for it: L_UnderConstruction
+#: Generator/Html/uDocGenHTML_Tools.pas:38 
+msgid "#UnderConstruction#"
+msgstr "#In Costruzione#"
+
+#. Programmer's name for it: L_Todo
+#: Generator/Html/uDocGenHTML_Tools.pas:40 
+msgid "Todo"
+msgstr ""
+
+#. Programmer's name for it: L_Links
+#: Generator/Html/uDocGenHTML_Tools.pas:44 
+msgid "Links"
+msgstr "Links"
+
+#. Programmer's name for it: L_Unit
+#: Generator/Html/uDocGenHTML_Tools.pas:45 
+msgid "Unit"
+msgstr "Unit"
+
+#. Programmer's name for it: L_Version
+#: Generator/Html/uDocGenHTML_Tools.pas:47 
+msgid "Version"
+msgstr "Versione"
+
+#. Programmer's name for it: L_Class
+#: Generator/Html/uDocGenHTML_Tools.pas:49 
+msgid "Class"
+msgstr "Classe"
+
+#. Programmer's name for it: L_Constant
+#: Generator/Html/uDocGenHTML_Tools.pas:53 
+msgid "Constant"
+msgstr "Costante"
+
+#. Programmer's name for it: L_Variable
+#: Generator/Html/uDocGenHTML_Tools.pas:55 
+msgid "Variable"
+msgstr "Variabile"
+
+#. Programmer's name for it: L_Function
+#: Generator/Html/uDocGenHTML_Tools.pas:57 
+msgid "Function"
+msgstr "Funzione"
+
+#. Programmer's name for it: L_ClassHierarchy
+#: Generator/Html/uDocGenHTML_Tools.pas:58 
+msgid "Class Hierarchy"
+msgstr "Gerarchia classi"
+
+#. Programmer's name for it: L_ClassTree
+#: Generator/Html/uDocGenHTML_Tools.pas:59 
+#, fuzzy
+msgid "Class Tree"
+msgstr "Classi"
+
+#. Programmer's name for it: L_RelatedUnit
+#: Generator/Html/uDocGenHTML_Tools.pas:60 
+msgid "Related Unit"
+msgstr "Unità collegata"
+
+#. Programmer's name for it: L_Parent
+#: Generator/Html/uDocGenHTML_Tools.pas:61 
+#, fuzzy
+msgid "Parent"
+msgstr "Parametro"
+
+#. Programmer's name for it: L_Members
+#: Generator/Html/uDocGenHTML_Tools.pas:62 
+msgid "Members"
+msgstr "Membri"
+
+#. Programmer's name for it: L_Field
+#: Generator/Html/uDocGenHTML_Tools.pas:64 
+msgid "Field"
+msgstr "Campo"
+
+#. Programmer's name for it: L_Method
+#: Generator/Html/uDocGenHTML_Tools.pas:66 
+msgid "Method"
+msgstr "Metodo"
+
+#. Programmer's name for it: L_Property
+#: Generator/Html/uDocGenHTML_Tools.pas:68 
+msgid "Property"
+msgstr "Proprietà"
+
+#. Programmer's name for it: L_Event
+#: Generator/Html/uDocGenHTML_Tools.pas:70 
+msgid "Event"
+msgstr "Evento"
+
+#. Programmer's name for it: L_Symbol
+#: Generator/Html/uDocGenHTML_Tools.pas:71 
+msgid "Symbol"
+msgstr "Simbolo"
+
+#. Programmer's name for it: L_Legend
+#: Generator/Html/uDocGenHTML_Tools.pas:72 
+msgid "Legend"
+msgstr "Legenda"
+
+#. Programmer's name for it: L_Visibility
+#: Generator/Html/uDocGenHTML_Tools.pas:73 
+msgid "Visibility"
+msgstr "Visibilità"
+
+#. Programmer's name for it: L_Strict
+#: Generator/Html/uDocGenHTML_Tools.pas:79 
+msgid "Strict"
+msgstr ""
+
+#. Programmer's name for it: L_Member
+#: Generator/Html/uDocGenHTML_Tools.pas:80 
+msgid "Member"
+msgstr "Membro"
+
+#. Programmer's name for it: L_RelatedClass
+#: Generator/Html/uDocGenHTML_Tools.pas:81 
+msgid "Related Class"
+msgstr "Classe collegata"
+
+#. Programmer's name for it: L_SourceCode
+#: Generator/Html/uDocGenHTML_Tools.pas:82 
+msgid "Source code"
+msgstr "Sorgente"
+
+#. Programmer's name for it: L_Parameters
+#: Generator/Html/uDocGenHTML_Tools.pas:83 
+msgid "Parameters"
+msgstr "Parametri"
+
+#. Programmer's name for it: L_Parameter
+#: Generator/Html/uDocGenHTML_Tools.pas:84 
+msgid "Parameter"
+msgstr "Parametro"
+
+#. Programmer's name for it: L_Return
+#: Generator/Html/uDocGenHTML_Tools.pas:85 
+msgid "Return"
+msgstr "Return"
+
+#. Programmer's name for it: L_Content
+#: Generator/Html/uDocGenHTML_Tools.pas:86 
+msgid "Content"
+msgstr "Contenuto"
+
+#. Programmer's name for it: L_Previous
+#: Generator/Html/uDocGenHTML_Tools.pas:88 
+msgid "Previous"
+msgstr "Precedente"
+
+#. Programmer's name for it: L_Next
+#: Generator/Html/uDocGenHTML_Tools.pas:89 
+msgid "Next"
+msgstr "Prossimo"
+
+#. Programmer's name for it: L_Exception
+#: Generator/Html/uDocGenHTML_Tools.pas:90 
+msgid "Exception"
+msgstr ""
+
+#. Programmer's name for it: L_AdditionalComment
+#: Generator/Html/uDocGenHTML_Tools.pas:91 
+#, fuzzy
+msgid "Additionnal Comments"
+msgstr "Define condizionali"
+
+#. Programmer's name for it: L_ReadAccess
+#: Generator/Html/uDocGenHTML_Tools.pas:92 
+msgid "Read Access"
+msgstr ""
+
+#. Programmer's name for it: L_WriteAccess
+#: Generator/Html/uDocGenHTML_Tools.pas:93 
+msgid "Write Access"
+msgstr ""
+
+#. Programmer's name for it: L_Exports
+#: Generator/Html/uDocGenHTML_Tools.pas:94 
+msgid "Exports"
+msgstr ""
+
+#. Programmer's name for it: rsBuildingPDFProjectFiles
+#: Generator/Pdf/uDocGeneratorPdf.pas:48 
+#, fuzzy
+msgid "Building PDF project files"
+msgstr "Crea un progetto"
+
+#. Programmer's name for it: rsWaitWhileBuildingPDF
+#: Generator/Pdf/uDocGeneratorPdf.pas:49 
+#, fuzzy
+msgid "Please, wait while building the PDF file"
+msgstr "Errore creando il progetto !"
+
+#. Programmer's name for it: L_EmptyTAG
+#: Parse/uTAGComment.pas:128 
+msgid "#No TAG found in source code#"
+msgstr "#Nessun TAG trovato nel sorgente#"
+
+#. Programmer's name for it: L_ParsingFile
+#: Settings/uDocProject.pas:80 
+msgid "Parsing file : %s"
+msgstr "Parsing del file : %s"
+
+#. Programmer's name for it: L_PurgingOutputDirectory
+#: Settings/uDocProject.pas:81 
+msgid "Output Directory purged"
+msgstr ""
+
+#. Programmer's name for it: L_NothingToPurge
+#: Settings/uDocProject.pas:82 
+msgid "Nothing to purge"
+msgstr ""
+
+#. Programmer's name for it: L_ItemNotFound
+#: Settings/uDocProject.pas:83 
+msgid "Included Item not found : %s"
+msgstr ""
+
+#. Programmer's name for it: L_NothingToParse
+#: Settings/uDocProject.pas:84 
+msgid "Nothing to parse, list is empty"
+msgstr ""
+
+#. Programmer's name for it: L_IgnoringItem
+#: Settings/uDocProject.pas:85 
+#, fuzzy
+msgid "Ignoring item : %s"
+msgstr "Parsing del file : %s"
+
+#. Caption  for Options
+#. Programmer's name for it: pdCaptionBoolsAsChecks
+#: Settings/uOptions.pas:229 
+msgid "Bools as Checks"
+msgstr "Booleani come spunte"
+
+#. Programmer's name for it: pdCaptionName
+#: Settings/uOptions.pas:230 
+msgid "Project's Name"
+msgstr "Nome del progetto"
+
+#. Programmer's name for it: pdCaptionTitle
+#: Settings/uOptions.pas:231 
+msgid "Project's Title"
+msgstr "Titolo del progetto"
+
+#. Programmer's name for it: pdCaptionSummary
+#: Settings/uOptions.pas:232 
+msgid "Project's Summary"
+msgstr "Sommario del progetto"
+
+#. Programmer's name for it: pdCaptionDescription
+#: Settings/uOptions.pas:233 
+msgid "Project's Description"
+msgstr "Descrizione del progetto"
+
+#. Programmer's name for it: pdCaptionAuthor
+#: Settings/uOptions.pas:234 
+msgid "Project's Author"
+msgstr "Autore del progetto"
+
+#. Programmer's name for it: pdCaptionHTMLLink
+#: Settings/uOptions.pas:235 
+msgid "HTML Link"
+msgstr "Link HTML"
+
+#. Programmer's name for it: pdCaptionCopyright
+#: Settings/uOptions.pas:236 
+msgid "Author's Copyright"
+msgstr "Copyright dell'autore"
+
+#. pdCaptionRootDirectory = 'Root Directory';
+#. Programmer's name for it: pdCaptionRecurseDirectory
+#: Settings/uOptions.pas:238 
+msgid "Recurse Directory"
+msgstr "Esame ricorsivo della directory"
+
+#. Programmer's name for it: pdCaptionConditionalDefines
+#: Settings/uOptions.pas:239 
+msgid "Conditional Defines"
+msgstr "Define condizionali"
+
+#. Programmer's name for it: pdCaptionCustomHeader
+#: Settings/uOptions.pas:240 
+msgid "Custom Header"
+msgstr "Intestazione personalizzata"
+
+#. Programmer's name for it: pdCaptionCustomFooter
+#: Settings/uOptions.pas:241 
+msgid "Custom Footer"
+msgstr "Piè pagina personalizzato"
+
+#. Programmer's name for it: pdCaptionLanguage
+#: Settings/uOptions.pas:242 
+msgid "Documentation Language"
+msgstr "Lingua della documentazione"
+
+#. Programmer's name for it: pdCaptionOutputFolder
+#: Settings/uOptions.pas:244 
+msgid "Output Folder"
+msgstr "Directory di output"
+
+#. Programmer's name for it: pdCaptionTagCommentSet
+#: Settings/uOptions.pas:246 
+msgid "Comment syntax recognition"
+msgstr "Riconoscimento sintassi commenti"
+
+#. Programmer's name for it: pdCaptionLaunchBrowser
+#: Settings/uOptions.pas:247 
+msgid "Launch Browser after Build?"
+msgstr "Lancio il browser dopo la creazione ?"
+
+#. Programmer's name for it: psCaptionWarnEmptyTAG
+#: Settings/uOptions.pas:249 
+msgid "Warn when TAG are empty"
+msgstr "Avvisa se vi sono TAG vuoti"
+
+#. Programmer's name for it: pdCaptionHideEmptyTAGSection
+#: Settings/uOptions.pas:250 
+msgid "Hide empty TAG section from report"
+msgstr "Nascondi sezioni TAG vuote dal resoconto"
+
+#. Programmer's name for it: pdCaptionSkipFirstTAGLine
+#: Settings/uOptions.pas:251 
+msgid "Skip first TAG line in comment block"
+msgstr "Salta la prima riga TAG nei blocchi di commento"
+
+#. Programmer's name for it: pdCaptionSkipLastTAGLine
+#: Settings/uOptions.pas:252 
+msgid "Skip last TAG line in comment block"
+msgstr "Salta l'ultima riga TAG nei blocchi di commento"
+
+#. Programmer's name for it: pdCaptionParseImplementationSection
+#: Settings/uOptions.pas:253 
+msgid "Parse Implementation Section"
+msgstr "Parse della sezione Implementation"
+
+#. Programmer's name for it: pdCaptionBracketStarJavaDocCharPrefix
+#: Settings/uOptions.pas:254 
+msgid "BracketStart Prefix  (*"
+msgstr "Prefisso parentesi aperta  (*"
+
+#. Programmer's name for it: pdCaptionInLineJavaDocCharPrefix
+#: Settings/uOptions.pas:255 
+msgid "Inline Prefix  //"
+msgstr "Prefisso in linea  //"
+
+#. Programmer's name for it: pdCaptionHideEmptyOutputBlock
+#: Settings/uOptions.pas:257 
+msgid "Hide empty block from report"
+msgstr "Nascondi sezioni vuote dal resoconto"
+
+#. Programmer's name for it: pdCaptionOutputFilteringCategory
+#: Settings/uOptions.pas:258 
+msgid "Output Filtering Category"
+msgstr "Categoria di filtraggio dell'output"
+
+#. Programmer's name for it: pdCaptionFilesIncludeList
+#: Settings/uOptions.pas:259 
+msgid "Included Files list"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionFilesExcludeList
+#: Settings/uOptions.pas:260 
+msgid "Excluded Files list"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionAllowHtmlInDescription
+#: Settings/uOptions.pas:261 
+#, fuzzy
+msgid "Allow Html in Description"
+msgstr "Descrizione del progetto"
+
+#. Programmer's name for it: pdCaptionPropertyCommentFromAssessors
+#: Settings/uOptions.pas:262 
+msgid "Get (undocumented) method comments from assessors"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionDisplayHiddenItems
+#: Settings/uOptions.pas:263 
+msgid "Display hidden items (defined in implementation only)"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionMethodCommentFromAncestor
+#: Settings/uOptions.pas:264 
+msgid "Get overriden method comment from ancestor"
+msgstr ""
+
+#. Programmer's name for it: pdCaptionCssConfiguration
+#: Settings/uOptions.pas:265 
+#, fuzzy
+msgid "Css Configuration"
+msgstr "Configurazione"
+
+#. Programmer's name for it: pdCaptionCssCustomFile
+#: Settings/uOptions.pas:266 
+msgid "Custom CSS file"
+msgstr ""
+
+#. Caption for Custom Category
+#. Programmer's name for it: ccApplicationOptions
+#: Settings/uOptions.pas:269 
+msgid "Application options"
+msgstr "Opzioni applicazione"
+
+#. Programmer's name for it: ccInputOptions
+#: Settings/uOptions.pas:270 
+msgid "Input options"
+msgstr "Opzioni di input"
+
+#. Programmer's name for it: ccOutputOptions
+#: Settings/uOptions.pas:271 
+msgid "Output options"
+msgstr "Opzioni di otput"
+
+#. Programmer's name for it: ccJavaDocSupportOptions
+#: Settings/uOptions.pas:272 
+msgid "JavaDoc support options"
+msgstr "Opzioni di supporto JavaDoc"
+
+#. Programmer's name for it: ccJavaDocPrefixOptions
+#: Settings/uOptions.pas:273 
+msgid "JavaDoc Prefix (only one character)"
+msgstr "Prefisso JavaDoc (solo un carattere)"
+
+#. Programmer's name for it: ccFilesList
+#: Settings/uOptions.pas:274 
+msgid "Files and folders list"
+msgstr ""
+
+#. Programmer's name for it: ccCommentRules
+#: Settings/uOptions.pas:275 
+#, fuzzy
+msgid "Comment Rules"
+msgstr "Contenuto"
+
+#. Programmer's name for it: oeTextUpgraded
+#: Settings/uOptions.pas:278 
+#, fuzzy
+msgid "Project upgraded"
+msgstr "Nome del progetto"
+
+#. Programmer's name for it: oeTextTechLevelNOK
+#: Settings/uOptions.pas:282 
+msgid "The file is not compatible with this application revision"
+msgstr "Il file non è compatibile con questa revisione dell'applicazione"
+
+#. Programmer's name for it: L_InsertProjectTitle
+#: Settings/uOptions.pas:284 
+msgid "Insert your project's title here"
+msgstr "Inserisci qui il titolo del progetto"
+
+#. Programmer's name for it: L_InsertAuthorName
+#: Settings/uOptions.pas:285 
+msgid "Insert author's name here"
+msgstr "Inserisci qui il nome dell'autore del progetto"
+
+#. Programmer's name for it: L_EnterProjectSummary
+#: Settings/uOptions.pas:287 
+msgid "Enter your project's summary in a single line"
+msgstr "Indica su una singola riga il sommario del progetto"
+
+#. Programmer's name for it: L_EnterProjectDescription
+#: Settings/uOptions.pas:288 
+msgid "Enter your project's multilines description"
+msgstr "Indica la descrizione multiriga del tuo progetto"
+
+#. Programmer's name for it: RS_PROJECT_CHANGES_CONFIRM
+#: UI/fMainForm.pas:135 
+msgid ""
+"The project [%s] has changed.\n"
+"Do you want to save these modifications ?"
+msgstr ""
+
+#: UI/fMainForm.pas:272 
+msgid " (ReadOnly)"
+msgstr " (Sola lettura)"
+
+#. Programmer's name for it: L_CancelThisWizard
+#: UI/fNiceWizard.pas:148 
+msgid "Are you sure you want to cancel this wizard ?"
+msgstr ""
+
+#. Programmer's name for it: wpEmptyDirectory
+#: UI/fQuickWizard.pas:79 
+msgid "Root directory and Output directory must be filled !"
+msgstr "Devi specificare le directory principale e di output !"
+
+#. User Messages
+#. Programmer's name for it: L_COnfirmDeleteHTMfiles
+#: UI/uMessages.pas:18 
+msgid ""
+"This will delete all generated files in the folder %s\n"
+"Do you want to continue this action ?"
+msgstr ""
+
+#. Programmer's name for it: L_WizardSuccess
+#: UI/uMessages.pas:19 
+msgid "Wizard successfully create the project"
+msgstr "L'assistente ha creato correttamente il progetto"
+
+#. Programmer's name for it: L_WizardCanceled
+#: UI/uMessages.pas:20 
+msgid "Wizard operation Canceled"
+msgstr "Operazione dell'assistente annullata"
+
+#. Programmer's name for it: L_CheckedSuccess
+#: UI/uMessages.pas:21 
+msgid "Successfully Checked the project, BUILD function is now enable"
+msgstr "Progetto controllato correttamente, la funzione CREA è ora abilitata"
+
+#. Programmer's name for it: L_CheckingAborted
+#: UI/uMessages.pas:22 
+msgid "Project checking aborted"
+msgstr "Controllo del progetto annullato"
+
+#. Programmer's name for it: L_BuildSuccess
+#: UI/uMessages.pas:23 
+msgid "Successfully build the Project"
+msgstr "Progetto creato correttamente"
+
+#. Programmer's name for it: L_BuildDone
+#: UI/uMessages.pas:24 
+#, fuzzy
+msgid "Build done"
+msgstr "Crea un progetto"
+
+#. Programmer's name for it: L_BuildError
+#: UI/uMessages.pas:25 
+msgid "Error while building the Project"
+msgstr "Errore creando il progetto !"
+
+#. Programmer's name for it: L_LaunchBrowser
+#: UI/uMessages.pas:26 
+msgid "Launching browser to display result"
+msgstr "Lancio il browser per mostrare il risultato"
+
+#. Programmer's name for it: L_ConfigurationChanged
+#: UI/uMessages.pas:27 
+msgid "Project configuration changed. You need to re-CHECK project"
+msgstr ""
+"Configurazione del progetto modificata. Devi ri-CONTROLLAre il progetto"
+
+#. Programmer's name for it: L_ProjectClosed
+#: UI/uMessages.pas:28 
+msgid "Project closed. To start a new project, try the NEW WIZARD PROJECT"
+msgstr ""
+"Progetto chiuso. Per iniziare un nuovo progetto usa l'Assistente nuovo "
+"progetto"
+
+#. Programmer's name for it: L_ProjectSavingError
+#: UI/uMessages.pas:29 
+msgid "Error while saving Project"
+msgstr "Errore salvando il progetto"
+
+#. Programmer's name for it: L_ProjectLoadingError
+#: UI/uMessages.pas:30 
+msgid "Error while loading Project"
+msgstr "Errore caricando il Progetto"
+
+#. Programmer's name for it: MSG_ASSERTION_ERROR
+#: UI/uMessages.pas:35 
+msgid ""
+"Error while parsing a file.\n"
+"Please, report the debug window and eventually the \n"
+"problematic file to the technical support.\n"
+"See website for the details and email adress.\n"
+"http://dephicodetodoc.sourceforge.net/\n"
+"Thanks for the report."
+msgstr ""
+"Errore nel parsing di un file.\n"
+"Si prega di riportare la finestra di debug ed eventualmente \n"
+"il file che ha creato il problema al supporto tecnico.\n"
+"Riferitevi al sito Web per i dettagli e l'indirizzo email.\n"
+"http://dephicodetodoc.sourceforge.net/\n"
+"Grazie per il resoconto dell'errore."
+
+#. Programmer's name for it: rsIllegalCall
+#: UI/uMessages.pas:36 
+msgid "Illegal call!"
+msgstr "Chiamata illegale !"
+
+#. Programmer's name for it: rsUsingConfigFile
+#: UI/uMessages.pas:37 
+msgid "Using config file : %s"
+msgstr "Uso il file di configurazione : %s"
+
+#. Programmer's name for it: rsApplicationUsage
+#: UI/uMessages.pas:38 
+#, fuzzy
+msgid "Usage : DCTD_cmd.exe ConfigFile.xml"
+msgstr "Uso : DCTD_cmd.exe ConfigFile.dcd"
+
+#. Programmer's name for it: rsProjectWasUpgraded
+#: UI/uMessages.pas:39 
+msgid "Project file was upgraded from a previous version"
+msgstr ""
+
+#, fuzzy
+#~ msgid "CssConfiguration"
+#~ msgstr "Configurazione"
+
+#, fuzzy
+#~ msgid "CssCustomFile"
+#~ msgstr "Piè pagina personalizzato"
+
+#, fuzzy
+#~ msgid "Output directory"
+#~ msgstr "Indica la directory di output "
+
+#, fuzzy
+#~ msgid "Properties comment"
+#~ msgstr "Proprietà"
+
+#~ msgid "Project saved successfully"
+#~ msgstr "Progetto salvato"
+
+#~ msgid "Project loaded successfully"
+#~ msgstr "Progetto caricato con sucesso"

@@ -1,0 +1,162 @@
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\cxBarEditItemD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dclcxBarEditItemD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dcldxBarD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dcldxBarDBNavD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dcldxBarExtDBItemsD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dcldxBarExtItemsD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dcldxRibbonD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dcldxTabbedMDID11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dxBarD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dxBarDBNavD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dxBarExtDBItemsD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dxBarExtItemsD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dxRibbonD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressBars\Packages\dxTabbedMDID11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressCommon Library\Packages\dxComnD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressCore Library\Packages\dcldxCoreD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressCore Library\Packages\dxCoreD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressDataController\Packages\cxADOAdaptersD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressDataController\Packages\cxBDEAdaptersD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressDataController\Packages\cxDataD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressDataController\Packages\cxIBXAdaptersD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressDBTree Suite\Packages\dcldxdbtrD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressDBTree Suite\Packages\dcldxtrmdD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressDBTree Suite\Packages\dxdbtrD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressDBTree Suite\Packages\dxtrmdD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressDocking Library\Packages\dcldxDockingD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressDocking Library\Packages\dxDockingD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressEditors Library\Packages\cxEditorsD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressEditors Library\Packages\dclcxEditorFieldLinkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressEditors Library\Packages\dclcxEditorsD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressExport Library\Packages\cxExportD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressFlowChart\Packages\dcldxFlowChartD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressFlowChart\Packages\dxFlowChartD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressGDI+ Library\Packages\dxGDIPlusD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressLayout Control\Packages\dcldxLayoutControlD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressLayout Control\Packages\dxLayoutControlD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressLibrary\Packages\cxLibraryD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressLibrary\Packages\dclcxLibraryD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressMemData\Packages\dcldxmdsD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressMemData\Packages\dxmdsD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressNavBar\Packages\dcldxNavBarD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressNavBar\Packages\dxNavBarD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressOrgChart\Packages\dcldxDBOrD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressOrgChart\Packages\dcldxOrgCD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressOrgChart\Packages\dxDBOrD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressOrgChart\Packages\dxOrgCD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressOrgChart\Packages\dxOrgChartAdvancedCustomizeFormD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPageControl\Packages\cxPageControlD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPageControl\Packages\cxPageControldxBarPopupMenuD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPageControl\Packages\dclcxPageControlD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPageControl\Packages\dclcxPageControldxBarPopupMenuD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPivotGrid\Packages\cxPivotGridChartD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPivotGrid\Packages\cxPivotGridD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPivotGrid\Packages\cxPivotGridOLAPD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPivotGrid\Packages\dclcxPivotGridChartD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPivotGrid\Packages\dclcxPivotGridD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPivotGrid\Packages\dclcxPivotGridOLAPD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPSCoreD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPScxCommonD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPScxExtCommonD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPScxGridLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPScxPivotGridLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPScxSchedulerLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPScxSSLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPScxTLLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPScxVGridLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPSDBTeeChartD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPSdxDBOCLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPSdxDBTVLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPSdxFCLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPSdxLCLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPSdxOCLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPSLnksD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPSPrVwAdvD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPSPrVwRibbonD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dcldxPSTeeChartD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPSCoreD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPScxCommonD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPScxExtCommonD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPScxGridLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPScxPCProdD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPScxPivotGridLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPScxSchedulerLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPScxSSLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPScxTLLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPScxVGridLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPSDBTeeChartD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPSdxDBOCLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPSdxDBTVLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPSdxFCLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPSdxLCLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPSdxOCLnkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPSLnksD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPSPrVwAdvD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPSPrVwRibbonD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressPrinting System\Packages\dxPSTeeChartD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressQuantumGrid\Packages\cxGridD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressQuantumGrid\Packages\dclcxGridD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressQuantumTreeList\Packages\cxTreeListD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressQuantumTreeList\Packages\cxTreeListdxBarPopupMenuD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressQuantumTreeList\Packages\dclcxTreeListD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressQuantumTreeList\Packages\dclcxTreeListdxBarPopupMenuD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressScheduler\Packages\cxSchedulerD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressScheduler\Packages\cxSchedulerGridD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressScheduler\Packages\dclcxSchedulerD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressScheduler\Packages\dclcxSchedulerGridD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSideBar\Packages\dcldxSBD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSideBar\Packages\dxSBD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dcldxSkinsCoreD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dcldxSkinscxEditorsHelperD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dcldxSkinscxPCPainterD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dcldxSkinscxSchedulerPainterD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dcldxSkinsDesignHelperD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dcldxSkinsdxBarsPaintersD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dcldxSkinsdxNavBarPainterD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dcldxSkinsdxRibbonPaintersD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinBlackD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinBlueD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinCaramelD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinCoffeeD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinDarkRoomD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinDarkSideD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinFoggyD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinGlassOceansD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkiniMaginaryD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinLilianD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinLiquidSkyD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinLondonLiquidSkyD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinMcSkinD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinMoneyTwinsD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinOffice2007BlackD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinOffice2007BlueD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinOffice2007GreenD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinOffice2007PinkD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinOffice2007SilverD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinOffice2010BlackD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinOffice2010BlueD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinOffice2010SilverD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinPumpkinD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinsCoreD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinscxPCPainterD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinscxSchedulerPainterD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinsdxBarPainterD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinsdxBarSkinnedCustomizationFormD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinsdxDLPainterD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinsdxNavBarPainterD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinsdxRibbonPainterD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinSevenD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinSharpD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinSilverD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinSpringTimeD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinStardustD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinSummer2008D11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinValentineD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSkins Library\Packages\dxSkinXmas2008BlueD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSpellChecker\Packages\dcldxSpellCheckerD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSpellChecker\Packages\dxSpellCheckerD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSpreadSheet\Packages\cxSpreadSheetD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressSpreadSheet\Packages\dclcxSpreadSheetD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressVerticalGrid\Packages\cxVerticalGridD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\ExpressVerticalGrid\Packages\dclcxVerticalGridD11.dpk
+D:\Controls\DevExpress.VCL.2011.1.1.Beta.Full.Source\XP Theme Manager\Packages\dxThemeD11.dpk

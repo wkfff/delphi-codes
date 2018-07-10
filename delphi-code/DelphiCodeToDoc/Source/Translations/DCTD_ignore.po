@@ -1,0 +1,475 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-04-26 23:36\n"
+"PO-Revision-Date: 2009-04-26 23:36\n"
+"Last-Translator: Somebody <your.email@address.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.2\n"
+
+#. / HTML files path to retrieve
+#. Programmer's name for it: HTML_INLUDE_PATH
+#: Generator/Chm/uDocGenCHM_Tools.pas:36
+#. / HTML files path to retrieve
+#. Programmer's name for it: HTML_INLUDE_PATH
+#: Generator/Pdf/uDocGenPDF_Tools.pas:19
+msgid "html\\"
+msgstr ""
+
+#. / HHP file extention
+#. Programmer's name for it: HHP_FILE_EXT
+#: Generator/Chm/uDocGenCHM_Tools.pas:37
+msgid ".hhp"
+msgstr ""
+
+#. / HHC file extention
+#. Programmer's name for it: HHC_FILE_EXT
+#: Generator/Chm/uDocGenCHM_Tools.pas:38
+msgid ".hhc"
+msgstr ""
+
+#. / HHK file extention
+#. Programmer's name for it: HHK_FILE_EXT
+#: Generator/Chm/uDocGenCHM_Tools.pas:39
+msgid ".hhk"
+msgstr ""
+
+#. / CHM file extention
+#. Programmer's name for it: CHM_FILE_EXT
+#: Generator/Chm/uDocGenCHM_Tools.pas:40
+msgid ".chm"
+msgstr ""
+
+#. Programmer's name for it: CHM_COMMON_TOC_FOLDER
+#: Generator/Chm/uDocGenCHM_Tools.pas:118
+msgid "<UL>"
+msgstr ""
+
+#. Programmer's name for it: CHM_COMMON_TOC_FOLDER_END
+#: Generator/Chm/uDocGenCHM_Tools.pas:121
+msgid "</UL>"
+msgstr ""
+
+#. Programmer's name for it: CHM_COMMON_TOC_FOLDER_END
+#: Generator/Chm/uDocGenCHM_Tools.pas:130
+msgid "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML//EN\"><HTML><HEAD><meta "
+"name=\"GENERATOR\" content=\"Microsoft&reg; HTML Help Workshop 4.1\"><!-- "
+"Sitemap 1.0 --></HEAD>"
+msgstr ""
+
+#. Programmer's name for it: CHM_COMMON_TOC_FOLDER_END
+#: Generator/Chm/uDocGenCHM_Tools.pas:139
+msgid "<BODY><OBJECT type=\"text/site properties\">\t<param name=\"Window "
+"Styles\" value=\"0x800227\">\t<param name=\"ImageType\" "
+"value=\"Folder\"></OBJECT><UL>"
+msgstr ""
+
+#. Programmer's name for it: CHM_COMMON_TOC_FOLDER_END
+#: Generator/Chm/uDocGenCHM_Tools.pas:145
+msgid "</UL></BODY></HTML>"
+msgstr ""
+
+#. / *HEAD SECTION %ProjectName, %Summary, %CSSFile, %ProjectName
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:148
+msgid "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" "
+"\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html "
+"xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>%s - "
+"%s</title><meta http-equiv=\"Content-Type\" content=\"text/html; "
+"charset=utf-8\" /><link rel=\"stylesheet\" href=\"%s\" type=\"text/css\" "
+"/></head><body><div id=\"header\"><h1>%s</h1></div><div "
+"id=\"content\"><blockquote><table cellpadding=\"0\" border=\"0\" "
+"cellspacing=\"1\" width=\"100%%\"><tr><!-- Generated style  by default "
+"for all text --><td class=\"Generated\">"
+msgstr ""
+
+#. / *TOOLBAR SECTION %ProjectName; %ContentName, %IndexName; %PreviousItemName, %NextItemName
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:168
+msgid "<table class=\"toolbar\">  <tr>    <td><b>%s</b></td>    <td "
+"class=\"Normal\">      <div align=\"center\">%s</div>    </td>    <td "
+"class=\"Normal\">      <div align=\"center\">%s</div>    </td>    <td "
+"class=\"Normal\">      <div align=\"center\">%s</div>    </td>    <td "
+"class=\"Normal\">      <div align=\"center\">%s</div>    </td>  "
+"</tr></table><br />"
+msgstr ""
+
+#. / *SIMPLE-LINE SECTION %SectionName; %Item;
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:179
+msgid "<span class=\"SectionName\">%s</span><br /><table "
+"class=\"simplesection\">  <tr>    <td class=\"tabletab\">&nbsp;</td>    "
+"<td class=\"Generated\">%s</td>  </tr></table><br "
+"/>"
+msgstr ""
+
+#. / * COMMON LINES SECTION INIT %SectionName
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:184
+msgid "<span class=\"SectionName\">%s</span><br /><table "
+"class=\"simplesection\">"
+msgstr ""
+
+#. / * Unit description section %SectionName
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:189
+msgid "<span class=\"SectionName\">%s</span><br /><table "
+"class=\"DescriptionSection\">"
+msgstr ""
+
+#. / COMMON LINES SECTION LINE %Item
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:199
+msgid "  <tr>     <td class=\"tabletab\">&nbsp;</td>    <td class=\"Generated\"> "
+"      <p>%s</p>    </td>  </tr>"
+msgstr ""
+
+#. / * COMMON LINES SECTION COLORED LINE %Item
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:206
+msgid "  <tr>     <td class=\"tabletab\">&nbsp;</td>    <td "
+"class=\"Generated\">%s</td>  </tr>"
+msgstr ""
+
+#. / * COMMON LINES END SECTION
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:211
+msgid "</table><br />"
+msgstr ""
+
+#. / * %SectionName% %IndexName1; %IndexName2
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:226
+msgid "<span class=\"SectionName\">%s</span><br /><table "
+"class=\"TableNameAndDescription\">  <tr>     <td "
+"class=\"tabletab\">&nbsp;</td>    <td>       <table "
+"class=\"Table2Column\">        <tr class=\"TrItem\">          <td "
+"class=\"IndexName\">%s</td>          <td class=\"IndexName\">%s</td>      "
+"  </tr>"
+msgstr ""
+
+#. / * %ItemName; %ItemDescription
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:233
+msgid "        <tr class=\"TrItem\">          <td "
+"class=\"TdFirstColumn\">%s</td>          <td>%s</td>        "
+"</tr>"
+msgstr ""
+
+#. / * no parameter
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:242
+msgid "      </table>    </td>  </tr></table><br "
+"/>"
+msgstr ""
+
+#. / Unit description section %SectionName; %Item
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:252
+msgid "<span class=\"SectionName\">%s</span><br /><table width=\"95%%\" "
+"border=\"0\" bgcolor=\"#FFFFCC\" cellspacing=\"0\">  <tr>    <td width=\"10\" "
+"bgcolor=\"#FFFFFF\">&nbsp;</td>    <td class=\"Generated\">%s</td>  "
+"</tr></table><br />"
+msgstr ""
+
+#. / FOOTER SECTION
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:267
+msgid "<hr width=\"100%%\" align=\"left\" /><span class=\"Footer\">%s<br />Created "
+"with DelphiCodeToDoc. To obtain the latest revision, please visit <a "
+"href=\"http://dephicodetodoc.sourceforge.net/\"><b>http://dephicodetodoc"
+".sourceforge.net/</b></a><br /></span></td></tr></table></blockquote><"
+"/div></body></html>"
+msgstr ""
+
+#. / MULTI SECTION %SectionName;
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:275
+msgid "<span class=\"SectionName\">%s</span><br /><table "
+"class=\"simplesection\">  <tr>    <td class=\"tabletab\">&nbsp;</td>    "
+"<td>"
+msgstr ""
+
+#. / End of MULTI table
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:281
+msgid "    </td>  </tr></table><br />"
+msgstr ""
+
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:308
+msgid "div#header{display:inline}div#content{margin:0px;border-top:4px solid "
+"#666;border-left:4px solid #666;border-right:2px solid "
+"#666;border-bottom:2px solid #666;background:#fffff7;}div#toolbar{widt"
+"h:100%;margin:0;padding:0;border-top:0;border-left:0;border-right:0;bo"
+"rder-bottom:0;background:#99CCFF;}.Table2Column{width:100%;padding:0px"
+" 0px 0px 0px;border-width:0px 0px 0px "
+"0px;background-color:Black;margin:0px 0px 0px "
+"0px;}.RowBorder{padding:0px 0px 0px 0px;border-width:0px 0px 0px "
+"0px;background-color:White;}.tabletab{width:10px;}.TableNameAndDescrip"
+"tion{width:100%;}.TdFirstColumn{width:33%;}.TrItem{padding:0px 0px "
+"0px 0px;border-width:0px 0px 0px 0px;background-color:White;margin:0px"
+" 0px 0px 0px;border:1px dotted Green;}.toolbar{width:100%;border:0;pad"
+"ding:0;background:#99CCFF;}.simplesection{width:95%;border:0;padding:0"
+";}.DescriptionSection{width:95%;border:0;padding:0;background:#FFFFCC;"
+"}h1{display:inline;background:#666;margin:10pt;padding:1pt;color:#ffff"
+"ff;}.tableheader{font-size:large;background-color:#9F9F9F;}body{color:"
+"#070707;background-color:#ccc;margin:10px;padding:0;}.SectionName{colo"
+"r:#000000;font-weight:bold;}.Generated{color:#9900FF;font-family:Verda"
+"na,Arial,Helvetica,sans-serif;font-size:small;font-style:normal;font-w"
+"eight:normal}.IndexName{color:#000000;background-color:#CCCCCC;}.Norma"
+"l{color:#000000;}.Footer{color:#000000;font-family:Verdana,Arial,Helve"
+"tica,sans-serif;font-size:xx-small;font-style:normal;font-weight:norma"
+"l}a:hover{color:#FF0000;text-decoration:underline}.DescriptionItem{wid"
+"th:100%;border:1px Black solid;}"
+msgstr ""
+
+#. / Label linked to a file %FileName, %Label
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:313
+msgid "<a href=\"%s\">%s</a>"
+msgstr ""
+
+#. / PDF file extention
+#. Programmer's name for it: PDF_FILE_EXT
+#: Generator/Pdf/uDocGenPDF_Tools.pas:20
+msgid ".pdf"
+msgstr ""
+
+#. / book file extention
+#. Programmer's name for it: BOOK_FILE_EXT
+#: Generator/Pdf/uDocGenPDF_Tools.pas:21
+msgid ".book"
+msgstr ""
+
+#. Programmer's name for it: PDF_COMMON_HEADER
+#: Generator/Pdf/uDocGenPDF_Tools.pas:49
+msgid "#HTMLDOC 1.8.24 Open Source-t pdf13 -f %s.pdf --webpage --title "
+"--textcolor #000000 --linkcolor #0000ff --linkstyle underline --size "
+"Universal --left 0.50in --right 0.50in --top 0.50in --bottom 0.50in "
+"--header .t. --footer h.1 --nup 1 --tocheader .t. --tocfooter ..i "
+"--portrait --color --no-pscommands --no-xrxcomments --compression=1 "
+"--jpeg=0 --fontsize 8.0 --fontspacing 1.0 --headingfont Helvetica "
+"--bodyfont Times --headfootsize 8.0 --headfootfont Helvetica "
+"--charset iso-8859-1 --links --embedfonts --pagemode document "
+"--pagelayout single --firstpage p1 --pageeffect none --pageduration "
+"10 --effectduration 1.0 --no-encryption --permissions all  "
+"--owner-password \"\"  --user-password \"\" --browserwidth 1025 "
+"--strict"
+msgstr ""
+
+#. Programmer's name for it: L_EmptyTAG
+#: Parse/uTAGComment.pas:128
+msgid "#No TAG found in source code#"
+msgstr ""
+
+#. Programmer's name for it: REG_ROOT_KEY
+#: ReadWrite/ConvertTypes.pas:49
+msgid "\\Software\\Jedi\\JediCodeFormat"
+msgstr ""
+
+#. Programmer's name for it: REG_ROOT_KEY
+#: ReadWrite/ConvertTypes.pas:55
+msgid "Delphi source (*.pas, *.dpr, *.dpk)|*.pas; *.dpr; *.dpk|Text files "
+"(*.txt)|*.txt|All files (*.*)|*.*"
+msgstr ""
+
+#. Programmer's name for it: REG_ROOT_KEY
+#: ReadWrite/ConvertTypes.pas:60
+msgid "Config files (*.cfg)|*.cfg|Text files (*.txt)|*.txt|All files "
+"(*.*)|*.*"
+msgstr ""
+
+#. Programmer's name for it: pdNameBoolsAsChecks
+#: Settings/uOptions.pas:189
+msgid "BoolsAsChecks"
+msgstr ""
+
+#. Programmer's name for it: pdNameName
+#: Settings/uOptions.pas:190
+msgid "Name"
+msgstr ""
+
+#. Programmer's name for it: pdNameTitle
+#: Settings/uOptions.pas:191
+msgid "Title"
+msgstr ""
+
+#. Programmer's name for it: pdNameSummary
+#: Settings/uOptions.pas:192
+msgid "Summary"
+msgstr ""
+
+#. Programmer's name for it: pdNameDescription
+#: Settings/uOptions.pas:193
+msgid "Description"
+msgstr ""
+
+#. Programmer's name for it: pdNameAuthor
+#: Settings/uOptions.pas:194
+msgid "Author"
+msgstr ""
+
+#. Programmer's name for it: pdNameHTMLLink
+#: Settings/uOptions.pas:195
+msgid "HTMLlink"
+msgstr ""
+
+#. Programmer's name for it: pdNameCopyright
+#: Settings/uOptions.pas:196
+msgid "Copyright"
+msgstr ""
+
+#. Programmer's name for it: pdNameRecurseDirectory
+#: Settings/uOptions.pas:197
+msgid "RecurseDirectory"
+msgstr ""
+
+#. Programmer's name for it: pdNameConditionalDefines
+#: Settings/uOptions.pas:198
+msgid "ConditionalDefines"
+msgstr ""
+
+#. Programmer's name for it: pdNameCustomHeader
+#: Settings/uOptions.pas:199
+msgid "CustomHeader"
+msgstr ""
+
+#. Programmer's name for it: pdNameCustomFooter
+#: Settings/uOptions.pas:200
+msgid "CustomFooter"
+msgstr ""
+
+#. Programmer's name for it: pdNameLanguage
+#: Settings/uOptions.pas:201
+msgid "Language"
+msgstr ""
+
+#. Programmer's name for it: pdNameOutputFormat
+#: Settings/uOptions.pas:202
+msgid "OutputFormat"
+msgstr ""
+
+#. Programmer's name for it: pdNameOutputFolder
+#: Settings/uOptions.pas:203
+msgid "OutputFolder"
+msgstr ""
+
+#. Programmer's name for it: pdNameVisibilitySet
+#: Settings/uOptions.pas:204
+msgid "VisibilitySet"
+msgstr ""
+
+#. Programmer's name for it: pdNameTagCommentSet
+#: Settings/uOptions.pas:205
+msgid "TagCommentSet"
+msgstr ""
+
+#. Programmer's name for it: pdNameLaunchBrowser
+#: Settings/uOptions.pas:206
+msgid "LaunchBrowser"
+msgstr ""
+
+#. Programmer's name for it: pdNameSortAlpha
+#: Settings/uOptions.pas:207
+msgid "AlphaSort"
+msgstr ""
+
+#. Programmer's name for it: pdNameWarnEmptyTAG
+#: Settings/uOptions.pas:208
+msgid "WarnEmptyTAG"
+msgstr ""
+
+#. Programmer's name for it: pdNameHideEmptyTAGSection
+#: Settings/uOptions.pas:209
+msgid "HideEmptyTAGSection"
+msgstr ""
+
+#. Programmer's name for it: pdNameSkipFirstTAGLine
+#: Settings/uOptions.pas:210
+msgid "SkipFirstTAGLine"
+msgstr ""
+
+#. Programmer's name for it: pdNameSkipLastTAGLine
+#: Settings/uOptions.pas:211
+msgid "SkipLastTAGLine"
+msgstr ""
+
+#. Programmer's name for it: pdNameParseImplementationSection
+#: Settings/uOptions.pas:212
+msgid "ParseImplementationSection"
+msgstr ""
+
+#. Programmer's name for it: pdNameHideEmptyOutputBlock
+#: Settings/uOptions.pas:213
+msgid "HideEmptyOutputBlock"
+msgstr ""
+
+#. Programmer's name for it: pdNameOutputFilteringCategory
+#: Settings/uOptions.pas:214
+msgid "OutputFilteringCategory"
+msgstr ""
+
+#. Programmer's name for it: pdNameBracketStarJavaDocCharPrefix
+#: Settings/uOptions.pas:215
+msgid "BracketStarJavaDocCharPrefix"
+msgstr ""
+
+#. Programmer's name for it: pdNameInLineJavaDocCharPrefix
+#: Settings/uOptions.pas:216
+msgid "InLineJavaDocCharPrefix"
+msgstr ""
+
+#. Programmer's name for it: pdNameCurlyJavaDocCharPrefix
+#: Settings/uOptions.pas:217
+msgid "CurlyJavaDocCharPrefix"
+msgstr ""
+
+#. Programmer's name for it: pdNameFilesIncludeList
+#: Settings/uOptions.pas:218
+msgid "FilesIncludeList"
+msgstr ""
+
+#. Programmer's name for it: pdNameFilesExcludeList
+#: Settings/uOptions.pas:219
+msgid "FilesExcludeList"
+msgstr ""
+
+#. Programmer's name for it: pdNameAllowHtmlInDescription
+#: Settings/uOptions.pas:220
+msgid "AllowHtmlInDescription"
+msgstr ""
+
+#. Programmer's name for it: pdNamePropertyCommentFromAssessors
+#: Settings/uOptions.pas:221
+msgid "PropertyCommentFromAssessors"
+msgstr ""
+
+#. Programmer's name for it: pdNameDisplayHiddenItems
+#: Settings/uOptions.pas:222
+msgid "DisplayHiddenItems"
+msgstr ""
+
+#. Programmer's name for it: pdNameMethodCommentFromAncestor
+#: Settings/uOptions.pas:223
+msgid "MethodCommentFromAncestor"
+msgstr ""
+
+#. Programmer's name for it: pdNameCssConfiguration
+#: Settings/uOptions.pas:224
+msgid "CssConfiguration"
+msgstr ""
+
+#. Programmer's name for it: pdNameCssCustomFile
+#: Settings/uOptions.pas:225
+msgid "CssCustomFile"
+msgstr ""
+

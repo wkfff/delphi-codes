@@ -1,0 +1,231 @@
+================================================================================
+JCL 2.2 Release Build 3845
+==========RAD Studio 2009=======================================================
+Installed personalities :
+32 bit Delphi
+================================================================================
+Multiple profile installation
+Single profile installation
+================================================================================
+Saving conditional defines...
+Loaded template for include file E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include\jcl.template.inc
+Saved include file E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include\jcld12.inc
+Building source\common library units for RAD Studio 2009...
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" bzip2 Jcl8087 JclAbstractContainers JclAlgorithms JclAnsiStrings JclArrayLists JclArraySets JclBase JclBinaryTrees JclCharsets JclCompilerUtils JclComplex JclCompression JclContainerIntf JclCounter JclDateTime JclDevToolsResources JclExprEval JclFileUtils JclHashMaps JclHashSets JclIDEUtils JclIniFiles JclLinkedLists JclLogic JclMath JclMIDI JclMime JclNotify JclPCRE JclQueues JclResources JclRTTI JclSchedule JclSimpleXml JclSortedMaps JclStacks JclStatistics JclStreams JclStrHashMap JclStringConversions JclStringLists JclStrings JclSynch JclSysInfo JclSysUtils JclTrees JclUnicode JclUnitConv JclUnitVersioning JclUnitVersioningProviders JclUsesUtils JclValidation JclVectors JclWideStrings pcre zlibh --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+JclSysUtils.pas(2173) Warning: W1057 Implicit string cast from 'AnsiChar' to 'string'
+JclSysUtils.pas(2173) Warning: W1057 Implicit string cast from 'AnsiChar' to 'string'
+JclUnitConv.pas(673) Warning: W1057 Implicit string cast from 'AnsiString' to 'string'
+546822 lines, 2.38 seconds, 52661 bytes code, 16852 bytes data.
+Building source\windows library units for RAD Studio 2009...
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" Hardlinks JclAppInst JclCIL JclCLR JclCOM JclConsole JclDebug JclDebugSerialization JclDebugXMLDeserializer JclDebugXMLSerializer JclDotNet JclHelpUtils JclHookExcept JclLANMan JclLocales JclMapi JclMetadata JclMiscel JclMsdosSys JclMultimedia JclNTFS JclPeImage JclRegistry JclSecurity JclShell JclStructStorage JclSvcCtrl JclTask JclTD32 JclTimeZones JclWin32 JclWin32Ex JclWinMIDI mscoree_TLB mscorlib_TLB MSHelpServices_TLB MSTask sevenzip Snmp --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+212711 lines, 1.14 seconds, 2981 bytes code, 188 bytes data.
+Building source\vcl library units for RAD Studio 2009...
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" JclFont JclGraphics JclGraphUtils JclOpenDialogFavorites JclOpenDialogHooks JclPrint JclVclResources JclVersionControl JclVersionCtrlCVSImpl JclVersionCtrlSVNImpl --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+38537 lines, 0.39 seconds, 4484 bytes code, 36 bytes data.
+Building devtools\jpp library units for RAD Studio 2009...
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" JppLexer JppMain JppParser JppState --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+13006 lines, 0.16 seconds, 7461 bytes code, 28 bytes data.
+Building devtools\jpp\Templates library units for RAD Studio 2009...
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" JclAlgorithmsTemplates JclArrayListsTemplates JclArraySetsTemplates JclBinaryTreesTemplates JclContainer1DTemplates JclContainer2DTemplates JclContainerIntfTemplates JclContainerKnownMaps JclContainerKnownTypes JclContainerTemplates JclContainerTypes JclExcDlgTemplates JclHashMapsTemplates JclLinkedListsTemplates JclQueuesTemplates JclSortedMapsTemplates JclStacksTemplates JclTemplates JclTreesTemplates JclVectorsTemplates --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+61949 lines, 0.92 seconds, 3965 bytes code, 28 bytes data.
+Building source\common library debug units for RAD Studio 2009...
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" bzip2 Jcl8087 JclAbstractContainers JclAlgorithms JclAnsiStrings JclArrayLists JclArraySets JclBase JclBinaryTrees JclCharsets JclCompilerUtils JclComplex JclCompression JclContainerIntf JclCounter JclDateTime JclDevToolsResources JclExprEval JclFileUtils JclHashMaps JclHashSets JclIDEUtils JclIniFiles JclLinkedLists JclLogic JclMath JclMIDI JclMime JclNotify JclPCRE JclQueues JclResources JclRTTI JclSchedule JclSimpleXml JclSortedMaps JclStacks JclStatistics JclStreams JclStrHashMap JclStringConversions JclStringLists JclStrings JclSynch JclSysInfo JclSysUtils JclTrees JclUnicode JclUnitConv JclUnitVersioning JclUnitVersioningProviders JclUsesUtils JclValidation JclVectors JclWideStrings pcre zlibh --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib\debug" -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\debug" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+JclSysUtils.pas(2173) Warning: W1057 Implicit string cast from 'AnsiChar' to 'string'
+JclSysUtils.pas(2173) Warning: W1057 Implicit string cast from 'AnsiChar' to 'string'
+JclUnitConv.pas(673) Warning: W1057 Implicit string cast from 'AnsiString' to 'string'
+547631 lines, 7.28 seconds, 52833 bytes code, 16852 bytes data.
+Building source\windows library debug units for RAD Studio 2009...
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" Hardlinks JclAppInst JclCIL JclCLR JclCOM JclConsole JclDebug JclDebugSerialization JclDebugXMLDeserializer JclDebugXMLSerializer JclDotNet JclHelpUtils JclHookExcept JclLANMan JclLocales JclMapi JclMetadata JclMiscel JclMsdosSys JclMultimedia JclNTFS JclPeImage JclRegistry JclSecurity JclShell JclStructStorage JclSvcCtrl JclTask JclTD32 JclTimeZones JclWin32 JclWin32Ex JclWinMIDI mscoree_TLB mscorlib_TLB MSHelpServices_TLB MSTask sevenzip Snmp --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib\debug" -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\debug" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+212711 lines, 1.24 seconds, 3122 bytes code, 188 bytes data.
+Building source\vcl library debug units for RAD Studio 2009...
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" JclFont JclGraphics JclGraphUtils JclOpenDialogFavorites JclOpenDialogHooks JclPrint JclVclResources JclVersionControl JclVersionCtrlCVSImpl JclVersionCtrlSVNImpl --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib\debug" -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\debug" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+38537 lines, 0.41 seconds, 4754 bytes code, 36 bytes data.
+Building devtools\jpp library debug units for RAD Studio 2009...
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" JppLexer JppMain JppParser JppState --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib\debug" -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\debug" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+13006 lines, 0.16 seconds, 8129 bytes code, 28 bytes data.
+Building devtools\jpp\Templates library debug units for RAD Studio 2009...
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" JclAlgorithmsTemplates JclArrayListsTemplates JclArraySetsTemplates JclBinaryTreesTemplates JclContainer1DTemplates JclContainer2DTemplates JclContainerIntfTemplates JclContainerKnownMaps JclContainerKnownTypes JclContainerTemplates JclContainerTypes JclExcDlgTemplates JclHashMapsTemplates JclLinkedListsTemplates JclQueuesTemplates JclSortedMapsTemplates JclStacksTemplates JclTemplates JclTreesTemplates JclVectorsTemplates --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib\debug" -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\debug" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+61949 lines, 0.95 seconds, 4034 bytes code, 28 bytes data.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\Jcl.dpk...
+Cleaning package cache for Jcl120.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\Jcl.dpk
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\Jcl.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -N"..\..\lib\d12" -I"..\..\lib\d12;..\..\source\include" -R"..\..\lib\d12;..\..\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Dcp;..\..\lib\d12;..\..\source\include" -LU"rtl" -LN"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -LE"E:\workspace\DelphiCodeToDoc\Lib\Bpl2009"  -GD
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+129 lines, 0.36 seconds, 1574172 bytes code, 731884 bytes data.
+Creating JEDI Debug informations for E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\Jcl120.bpl
+JDBG successfully generated
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclContainers.dpk...
+Cleaning package cache for JclContainers120.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclContainers.dpk
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclContainers.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -N"..\..\lib\d12" -I"..\..\lib\d12;..\..\source\include" -R"..\..\lib\d12;..\..\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Dcp;..\..\lib\d12;..\..\source\include" -LU"rtl;Jcl" -LN"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -LE"E:\workspace\DelphiCodeToDoc\Lib\Bpl2009"  -GD
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+68 lines, 0.27 seconds, 1545532 bytes code, 1072 bytes data.
+Creating JEDI Debug informations for E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclContainers120.bpl
+JDBG successfully generated
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclDeveloperTools.dpk...
+Cleaning package cache for JclDeveloperTools120.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclDeveloperTools.dpk
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclDeveloperTools.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -N"..\..\lib\d12" -I"..\..\lib\d12;..\..\source\include" -R"..\..\lib\d12;..\..\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Dcp;..\..\lib\d12;..\..\source\include" -LU"rtl;vcl;Jcl;JclContainers" -LN"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -LE"E:\workspace\DelphiCodeToDoc\Lib\Bpl2009"  -GD
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+85 lines, 0.14 seconds, 320332 bytes code, 12552 bytes data.
+Creating JEDI Debug informations for E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclDeveloperTools120.bpl
+JDBG successfully generated
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclVcl.dpk...
+Cleaning package cache for JclVcl120.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclVcl.dpk
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclVcl.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -N"..\..\lib\d12" -I"..\..\lib\d12;..\..\source\include" -R"..\..\lib\d12;..\..\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Dcp;..\..\lib\d12;..\..\source\include" -LU"rtl;vcl;vclimg;Jcl" -LN"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -LE"E:\workspace\DelphiCodeToDoc\Lib\Bpl2009"  -GD
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+66 lines, 0.09 seconds, 98624 bytes code, 1764 bytes data.
+Creating JEDI Debug informations for E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclVcl120.bpl
+JDBG successfully generated
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclBaseExpert.dpk...
+Cleaning package cache for JclBaseExpert120.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclBaseExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclBaseExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -N"..\..\lib\d12" -I"..\..\lib\d12;..\..\source\include" -R"..\..\lib\d12;..\..\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Dcp;..\..\lib\d12;..\..\source\include" -LU"rtl;vcl;vclx;designide;Jcl;JclDeveloperTools" -LN"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -LE"E:\workspace\DelphiCodeToDoc\Lib\Bpl2009"  -GD
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+21725 lines, 0.14 seconds, 43652 bytes code, 616 bytes data.
+Creating JEDI Debug informations for E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclBaseExpert120.bpl
+JDBG successfully generated
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclDebugExpert.dpk...
+Cleaning package cache for JclDebugExpert120.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclDebugExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclDebugExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -N"..\..\lib\d12" -I"..\..\lib\d12;..\..\source\include" -R"..\..\lib\d12;..\..\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Dcp;..\..\lib\d12;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclBaseExpert;JclDeveloperTools" -LN"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -LE"E:\workspace\DelphiCodeToDoc\Lib\Bpl2009"  -GD
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+6127 lines, 0.11 seconds, 31620 bytes code, 372 bytes data.
+Creating JEDI Debug informations for E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclDebugExpert120.bpl
+JDBG successfully generated
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclProjectAnalysisExpert.dpk...
+Cleaning package cache for JclProjectAnalysisExpert120.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclProjectAnalysisExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclProjectAnalysisExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -N"..\..\lib\d12" -I"..\..\lib\d12;..\..\source\include" -R"..\..\lib\d12;..\..\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Dcp;..\..\lib\d12;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclBaseExpert" -LN"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -LE"E:\workspace\DelphiCodeToDoc\Lib\Bpl2009"  -GD
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+4956 lines, 0.11 seconds, 21024 bytes code, 236 bytes data.
+Creating JEDI Debug informations for E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclProjectAnalysisExpert120.bpl
+JDBG successfully generated
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclFavoriteFoldersExpert.dpk...
+Cleaning package cache for JclFavoriteFoldersExpert120.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclFavoriteFoldersExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclFavoriteFoldersExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -N"..\..\lib\d12" -I"..\..\lib\d12;..\..\source\include" -R"..\..\lib\d12;..\..\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Dcp;..\..\lib\d12;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclVcl;JclBaseExpert" -LN"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -LE"E:\workspace\DelphiCodeToDoc\Lib\Bpl2009"  -GD
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+2036 lines, 0.11 seconds, 5724 bytes code, 96 bytes data.
+Creating JEDI Debug informations for E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclFavoriteFoldersExpert120.bpl
+JDBG successfully generated
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclRepositoryExpert.dpk...
+Cleaning package cache for JclRepositoryExpert120.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclRepositoryExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclRepositoryExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -N"..\..\lib\d12" -I"..\..\lib\d12;..\..\source\include" -R"..\..\lib\d12;..\..\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Dcp;..\..\lib\d12;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclContainers;JclBaseExpert;JclDeveloperTools" -LN"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -LE"E:\workspace\DelphiCodeToDoc\Lib\Bpl2009"  -GD
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+22463 lines, 0.16 seconds, 36700 bytes code, 600 bytes data.
+Creating JEDI Debug informations for E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclRepositoryExpert120.bpl
+JDBG successfully generated
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclSIMDViewExpert.dpk...
+Cleaning package cache for JclSIMDViewExpert120.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclSIMDViewExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclSIMDViewExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -N"..\..\lib\d12" -I"..\..\lib\d12;..\..\source\include" -R"..\..\lib\d12;..\..\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Dcp;..\..\lib\d12;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclBaseExpert" -LN"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -LE"E:\workspace\DelphiCodeToDoc\Lib\Bpl2009"  -GD
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+12761 lines, 0.14 seconds, 44620 bytes code, 868 bytes data.
+Creating JEDI Debug informations for E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclSIMDViewExpert120.bpl
+JDBG successfully generated
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclStackTraceViewerExpert.dpk...
+Cleaning package cache for JclStackTraceViewerExpert120.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclStackTraceViewerExpert.dpk
+"C:\Program Files\CodeGear\RAD Studio\6.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d12\JclStackTraceViewerExpert.dpk" --no-config -U"C:\Program Files\CodeGear\RAD Studio\6.0\lib" -N"..\..\lib\d12" -I"..\..\lib\d12;..\..\source\include" -R"..\..\lib\d12;..\..\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\;C:\Documents and Settings\All Users\Documents\RAD Studio\6.0\Dcp;..\..\lib\d12;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclBaseExpert" -LN"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12" -LE"E:\workspace\DelphiCodeToDoc\Lib\Bpl2009"  -GD
+CodeGear Delphi for Win32 compiler version 20.0
+Copyright (c) 1983,2008 CodeGear
+29741 lines, 0.16 seconds, 52540 bytes code, 676 bytes data.
+Creating JEDI Debug informations for E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclStackTraceViewerExpert120.bpl
+JDBG successfully generated
+Compilation success
+...done.
+Added "E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" to library search path.
+Added "E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" to library browsing path.
+Added "E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d12\debug" to Debug DCU Path.
+Cleaning package cache for JclBaseExpert120.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclBaseExpert120.bpl
+Registration ok
+Cleaning package cache for JclDebugExpert120.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclDebugExpert120.bpl
+Registration ok
+Cleaning package cache for JclProjectAnalysisExpert120.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclProjectAnalysisExpert120.bpl
+Registration ok
+Cleaning package cache for JclFavoriteFoldersExpert120.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclFavoriteFoldersExpert120.bpl
+Registration ok
+Cleaning package cache for JclRepositoryExpert120.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclRepositoryExpert120.bpl
+Registration ok
+Cleaning package cache for JclSIMDViewExpert120.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclSIMDViewExpert120.bpl
+Registration ok
+Cleaning package cache for JclStackTraceViewerExpert120.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Lib\Bpl2009\JclStackTraceViewerExpert120.bpl
+Registration ok

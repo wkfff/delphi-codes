@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{395A8081-54C7-41EC-832E-0B5A30989BCF}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    
+    
+    <Projects>
+      <Projects Name="cxBarEditItemD11.bpl">ExpressBars\Packages\cxBarEditItemD11.bdsproj</Projects>
+      <Projects Name="dclcxBarEditItemD11.bpl">ExpressBars\Packages\dclcxBarEditItemD11.bdsproj</Projects>
+      <Projects Name="dcldxBarD11.bpl">ExpressBars\Packages\dcldxBarD11.bdsproj</Projects>
+      <Projects Name="dcldxBarDBNavD11.bpl">ExpressBars\Packages\dcldxBarDBNavD11.bdsproj</Projects>
+      <Projects Name="dcldxBarExtDBItemsD11.bpl">ExpressBars\Packages\dcldxBarExtDBItemsD11.bdsproj</Projects>
+      <Projects Name="dcldxBarExtItemsD11.bpl">ExpressBars\Packages\dcldxBarExtItemsD11.bdsproj</Projects>
+      <Projects Name="dcldxRibbonD11.bpl">ExpressBars\Packages\dcldxRibbonD11.bdsproj</Projects>
+      <Projects Name="dcldxTabbedMDID11.bpl">ExpressBars\Packages\dcldxTabbedMDID11.bdsproj</Projects>
+      <Projects Name="dxBarD11.bpl">ExpressBars\Packages\dxBarD11.bdsproj</Projects>
+      <Projects Name="dxBarDBNavD11.bpl">ExpressBars\Packages\dxBarDBNavD11.bdsproj</Projects>
+      <Projects Name="dxBarExtDBItemsD11.bpl">ExpressBars\Packages\dxBarExtDBItemsD11.bdsproj</Projects>
+      <Projects Name="dxBarExtItemsD11.bpl">ExpressBars\Packages\dxBarExtItemsD11.bdsproj</Projects>
+      <Projects Name="dxRibbonD11.bpl">ExpressBars\Packages\dxRibbonD11.bdsproj</Projects>
+      <Projects Name="dxTabbedMDID11.bpl">ExpressBars\Packages\dxTabbedMDID11.bdsproj</Projects>
+      <Projects Name="dxComnD11.bpl">ExpressCommon Library\Packages\dxComnD11.bdsproj</Projects>
+      <Projects Name="dcldxCoreD11.bpl">ExpressCore Library\Packages\dcldxCoreD11.bdsproj</Projects>
+      <Projects Name="dxCoreD11.bpl">ExpressCore Library\Packages\dxCoreD11.bdsproj</Projects>
+      <Projects Name="cxADOAdaptersD11.bpl">ExpressDataController\Packages\cxADOAdaptersD11.bdsproj</Projects>
+      <Projects Name="cxBDEAdaptersD11.bpl">ExpressDataController\Packages\cxBDEAdaptersD11.bdsproj</Projects>
+      <Projects Name="cxDataD11.bpl">ExpressDataController\Packages\cxDataD11.bdsproj</Projects>
+      <Projects Name="cxIBXAdaptersD11.bpl">ExpressDataController\Packages\cxIBXAdaptersD11.bdsproj</Projects>
+      <Projects Name="dcldxdbtrD11.bpl">ExpressDBTree Suite\Packages\dcldxdbtrD11.bdsproj</Projects>
+      <Projects Name="dcldxtrmdD11.bpl">ExpressDBTree Suite\Packages\dcldxtrmdD11.bdsproj</Projects>
+      <Projects Name="dxdbtrD11.bpl">ExpressDBTree Suite\Packages\dxdbtrD11.bdsproj</Projects>
+      <Projects Name="dxtrmdD11.bpl">ExpressDBTree Suite\Packages\dxtrmdD11.bdsproj</Projects>
+      <Projects Name="dcldxDockingD11.bpl">ExpressDocking Library\Packages\dcldxDockingD11.bdsproj</Projects>
+      <Projects Name="dxDockingD11.bpl">ExpressDocking Library\Packages\dxDockingD11.bdsproj</Projects>
+      <Projects Name="cxEditorsD11.bpl">ExpressEditors Library\Packages\cxEditorsD11.bdsproj</Projects>
+      <Projects Name="dclcxEditorFieldLinkD11.bpl">ExpressEditors Library\Packages\dclcxEditorFieldLinkD11.bdsproj</Projects>
+      <Projects Name="dclcxEditorsD11.bpl">ExpressEditors Library\Packages\dclcxEditorsD11.bdsproj</Projects>
+      <Projects Name="cxExportD11.bpl">ExpressExport Library\Packages\cxExportD11.bdsproj</Projects>
+      <Projects Name="dcldxFlowChartD11.bpl">ExpressFlowChart\Packages\dcldxFlowChartD11.bdsproj</Projects>
+      <Projects Name="dxFlowChartD11.bpl">ExpressFlowChart\Packages\dxFlowChartD11.bdsproj</Projects>
+      <Projects Name="dxGDIPlusD11.bpl">ExpressGDI+ Library\Packages\dxGDIPlusD11.bdsproj</Projects>
+      <Projects Name="dcldxLayoutControlD11.bpl">ExpressLayout Control\Packages\dcldxLayoutControlD11.bdsproj</Projects>
+      <Projects Name="dxLayoutControlD11.bpl">ExpressLayout Control\Packages\dxLayoutControlD11.bdsproj</Projects>
+      <Projects Name="cxLibraryD11.bpl">ExpressLibrary\Packages\cxLibraryD11.bdsproj</Projects>
+      <Projects Name="dclcxLibraryD11.bpl">ExpressLibrary\Packages\dclcxLibraryD11.bdsproj</Projects>
+      <Projects Name="dcldxmdsD11.bpl">ExpressMemData\Packages\dcldxmdsD11.bdsproj</Projects>
+      <Projects Name="dxmdsD11.bpl">ExpressMemData\Packages\dxmdsD11.bdsproj</Projects>
+      <Projects Name="dcldxNavBarD11.bpl">ExpressNavBar\Packages\dcldxNavBarD11.bdsproj</Projects>
+      <Projects Name="dxNavBarD11.bpl">ExpressNavBar\Packages\dxNavBarD11.bdsproj</Projects>
+      <Projects Name="dcldxDBOrD11.bpl">ExpressOrgChart\Packages\dcldxDBOrD11.bdsproj</Projects>
+      <Projects Name="dcldxOrgCD11.bpl">ExpressOrgChart\Packages\dcldxOrgCD11.bdsproj</Projects>
+      <Projects Name="dxDBOrD11.bpl">ExpressOrgChart\Packages\dxDBOrD11.bdsproj</Projects>
+      <Projects Name="dxOrgCD11.bpl">ExpressOrgChart\Packages\dxOrgCD11.bdsproj</Projects>
+      <Projects Name="dxOrgChartAdvancedCustomizeFormD11.bpl">ExpressOrgChart\Packages\dxOrgChartAdvancedCustomizeFormD11.bdsproj</Projects>
+      <Projects Name="cxPageControlD11.bpl">ExpressPageControl\Packages\cxPageControlD11.bdsproj</Projects>
+      <Projects Name="cxPageControldxBarPopupMenuD11.bpl">ExpressPageControl\Packages\cxPageControldxBarPopupMenuD11.bdsproj</Projects>
+      <Projects Name="dclcxPageControlD11.bpl">ExpressPageControl\Packages\dclcxPageControlD11.bdsproj</Projects>
+      <Projects Name="dclcxPageControldxBarPopupMenuD11.bpl">ExpressPageControl\Packages\dclcxPageControldxBarPopupMenuD11.bdsproj</Projects>
+      <Projects Name="cxPivotGridChartD11.bpl">ExpressPivotGrid\Packages\cxPivotGridChartD11.bdsproj</Projects>
+      <Projects Name="cxPivotGridD11.bpl">ExpressPivotGrid\Packages\cxPivotGridD11.bdsproj</Projects>
+      <Projects Name="cxPivotGridOLAPD11.bpl">ExpressPivotGrid\Packages\cxPivotGridOLAPD11.bdsproj</Projects>
+      <Projects Name="dclcxPivotGridChartD11.bpl">ExpressPivotGrid\Packages\dclcxPivotGridChartD11.bdsproj</Projects>
+      <Projects Name="dclcxPivotGridD11.bpl">ExpressPivotGrid\Packages\dclcxPivotGridD11.bdsproj</Projects>
+      <Projects Name="dclcxPivotGridOLAPD11.bpl">ExpressPivotGrid\Packages\dclcxPivotGridOLAPD11.bdsproj</Projects>
+      <Projects Name="dcldxPSCoreD11.bpl">ExpressPrinting System\Packages\dcldxPSCoreD11.bdsproj</Projects>
+      <Projects Name="dcldxPScxCommonD11.bpl">ExpressPrinting System\Packages\dcldxPScxCommonD11.bdsproj</Projects>
+      <Projects Name="dcldxPScxExtCommonD11.bpl">ExpressPrinting System\Packages\dcldxPScxExtCommonD11.bdsproj</Projects>
+      <Projects Name="dcldxPScxGridLnkD11.bpl">ExpressPrinting System\Packages\dcldxPScxGridLnkD11.bdsproj</Projects>
+      <Projects Name="dcldxPScxPivotGridLnkD11.bpl">ExpressPrinting System\Packages\dcldxPScxPivotGridLnkD11.bdsproj</Projects>
+      <Projects Name="dcldxPScxSchedulerLnkD11.bpl">ExpressPrinting System\Packages\dcldxPScxSchedulerLnkD11.bdsproj</Projects>
+      <Projects Name="dcldxPScxSSLnkD11.bpl">ExpressPrinting System\Packages\dcldxPScxSSLnkD11.bdsproj</Projects>
+      <Projects Name="dcldxPScxTLLnkD11.bpl">ExpressPrinting System\Packages\dcldxPScxTLLnkD11.bdsproj</Projects>
+      <Projects Name="dcldxPScxVGridLnkD11.bpl">ExpressPrinting System\Packages\dcldxPScxVGridLnkD11.bdsproj</Projects>
+      <Projects Name="dcldxPSDBTeeChartD11.bpl">ExpressPrinting System\Packages\dcldxPSDBTeeChartD11.bdsproj</Projects>
+      <Projects Name="dcldxPSdxDBOCLnkD11.bpl">ExpressPrinting System\Packages\dcldxPSdxDBOCLnkD11.bdsproj</Projects>
+      <Projects Name="dcldxPSdxDBTVLnkD11.bpl">ExpressPrinting System\Packages\dcldxPSdxDBTVLnkD11.bdsproj</Projects>
+      <Projects Name="dcldxPSdxFCLnkD11.bpl">ExpressPrinting System\Packages\dcldxPSdxFCLnkD11.bdsproj</Projects>
+      <Projects Name="dcldxPSdxLCLnkD11.bpl">ExpressPrinting System\Packages\dcldxPSdxLCLnkD11.bdsproj</Projects>
+      <Projects Name="dcldxPSdxOCLnkD11.bpl">ExpressPrinting System\Packages\dcldxPSdxOCLnkD11.bdsproj</Projects>
+      <Projects Name="dcldxPSLnksD11.bpl">ExpressPrinting System\Packages\dcldxPSLnksD11.bdsproj</Projects>
+      <Projects Name="dcldxPSPrVwAdvD11.bpl">ExpressPrinting System\Packages\dcldxPSPrVwAdvD11.bdsproj</Projects>
+      <Projects Name="dcldxPSPrVwRibbonD11.bpl">ExpressPrinting System\Packages\dcldxPSPrVwRibbonD11.bdsproj</Projects>
+      <Projects Name="dcldxPSTeeChartD11.bpl">ExpressPrinting System\Packages\dcldxPSTeeChartD11.bdsproj</Projects>
+      <Projects Name="dxPSCoreD11.bpl">ExpressPrinting System\Packages\dxPSCoreD11.bdsproj</Projects>
+      <Projects Name="dxPScxCommonD11.bpl">ExpressPrinting System\Packages\dxPScxCommonD11.bdsproj</Projects>
+      <Projects Name="dxPScxExtCommonD11.bpl">ExpressPrinting System\Packages\dxPScxExtCommonD11.bdsproj</Projects>
+      <Projects Name="dxPScxGridLnkD11.bpl">ExpressPrinting System\Packages\dxPScxGridLnkD11.bdsproj</Projects>
+      <Projects Name="dxPScxPCProdD11.bpl">ExpressPrinting System\Packages\dxPScxPCProdD11.bdsproj</Projects>
+      <Projects Name="dxPScxPivotGridLnkD11.bpl">ExpressPrinting System\Packages\dxPScxPivotGridLnkD11.bdsproj</Projects>
+      <Projects Name="dxPScxSchedulerLnkD11.bpl">ExpressPrinting System\Packages\dxPScxSchedulerLnkD11.bdsproj</Projects>
+      <Projects Name="dxPScxSSLnkD11.bpl">ExpressPrinting System\Packages\dxPScxSSLnkD11.bdsproj</Projects>
+      <Projects Name="dxPScxTLLnkD11.bpl">ExpressPrinting System\Packages\dxPScxTLLnkD11.bdsproj</Projects>
+      <Projects Name="dxPScxVGridLnkD11.bpl">ExpressPrinting System\Packages\dxPScxVGridLnkD11.bdsproj</Projects>
+      <Projects Name="dxPSDBTeeChartD11.bpl">ExpressPrinting System\Packages\dxPSDBTeeChartD11.bdsproj</Projects>
+      <Projects Name="dxPSdxDBOCLnkD11.bpl">ExpressPrinting System\Packages\dxPSdxDBOCLnkD11.bdsproj</Projects>
+      <Projects Name="dxPSdxDBTVLnkD11.bpl">ExpressPrinting System\Packages\dxPSdxDBTVLnkD11.bdsproj</Projects>
+      <Projects Name="dxPSdxFCLnkD11.bpl">ExpressPrinting System\Packages\dxPSdxFCLnkD11.bdsproj</Projects>
+      <Projects Name="dxPSdxLCLnkD11.bpl">ExpressPrinting System\Packages\dxPSdxLCLnkD11.bdsproj</Projects>
+      <Projects Name="dxPSdxOCLnkD11.bpl">ExpressPrinting System\Packages\dxPSdxOCLnkD11.bdsproj</Projects>
+      <Projects Name="dxPSLnksD11.bpl">ExpressPrinting System\Packages\dxPSLnksD11.bdsproj</Projects>
+      <Projects Name="dxPSPrVwAdvD11.bpl">ExpressPrinting System\Packages\dxPSPrVwAdvD11.bdsproj</Projects>
+      <Projects Name="dxPSPrVwRibbonD11.bpl">ExpressPrinting System\Packages\dxPSPrVwRibbonD11.bdsproj</Projects>
+      <Projects Name="dxPSTeeChartD11.bpl">ExpressPrinting System\Packages\dxPSTeeChartD11.bdsproj</Projects>
+      <Projects Name="cxGridD11.bpl">ExpressQuantumGrid\Packages\cxGridD11.bdsproj</Projects>
+      <Projects Name="dclcxGridD11.bpl">ExpressQuantumGrid\Packages\dclcxGridD11.bdsproj</Projects>
+      <Projects Name="cxTreeListD11.bpl">ExpressQuantumTreeList\Packages\cxTreeListD11.bdsproj</Projects>
+      <Projects Name="cxTreeListdxBarPopupMenuD11.bpl">ExpressQuantumTreeList\Packages\cxTreeListdxBarPopupMenuD11.bdsproj</Projects>
+      <Projects Name="dclcxTreeListD11.bpl">ExpressQuantumTreeList\Packages\dclcxTreeListD11.bdsproj</Projects>
+      <Projects Name="dclcxTreeListdxBarPopupMenuD11.bpl">ExpressQuantumTreeList\Packages\dclcxTreeListdxBarPopupMenuD11.bdsproj</Projects>
+      <Projects Name="cxSchedulerD11.bpl">ExpressScheduler\Packages\cxSchedulerD11.bdsproj</Projects>
+      <Projects Name="cxSchedulerGridD11.bpl">ExpressScheduler\Packages\cxSchedulerGridD11.bdsproj</Projects>
+      <Projects Name="dclcxSchedulerD11.bpl">ExpressScheduler\Packages\dclcxSchedulerD11.bdsproj</Projects>
+      <Projects Name="dclcxSchedulerGridD11.bpl">ExpressScheduler\Packages\dclcxSchedulerGridD11.bdsproj</Projects>
+      <Projects Name="dcldxSBD11.bpl">ExpressSideBar\Packages\dcldxSBD11.bdsproj</Projects>
+      <Projects Name="dxSBD11.bpl">ExpressSideBar\Packages\dxSBD11.bdsproj</Projects>
+      <Projects Name="dcldxSkinsCoreD11.bpl">ExpressSkins Library\Packages\dcldxSkinsCoreD11.bdsproj</Projects>
+      <Projects Name="dcldxSkinscxEditorsHelperD11.bpl">ExpressSkins Library\Packages\dcldxSkinscxEditorsHelperD11.bdsproj</Projects>
+      <Projects Name="dcldxSkinscxPCPainterD11.bpl">ExpressSkins Library\Packages\dcldxSkinscxPCPainterD11.bdsproj</Projects>
+      <Projects Name="dcldxSkinscxSchedulerPainterD11.bpl">ExpressSkins Library\Packages\dcldxSkinscxSchedulerPainterD11.bdsproj</Projects>
+      <Projects Name="dcldxSkinsDesignHelperD11.bpl">ExpressSkins Library\Packages\dcldxSkinsDesignHelperD11.bdsproj</Projects>
+      <Projects Name="dcldxSkinsdxBarsPaintersD11.bpl">ExpressSkins Library\Packages\dcldxSkinsdxBarsPaintersD11.bdsproj</Projects>
+      <Projects Name="dcldxSkinsdxNavBarPainterD11.bpl">ExpressSkins Library\Packages\dcldxSkinsdxNavBarPainterD11.bdsproj</Projects>
+      <Projects Name="dcldxSkinsdxRibbonPaintersD11.bpl">ExpressSkins Library\Packages\dcldxSkinsdxRibbonPaintersD11.bdsproj</Projects>
+      <Projects Name="dxSkinBlackD11.bpl">ExpressSkins Library\Packages\dxSkinBlackD11.bdsproj</Projects>
+      <Projects Name="dxSkinBlueD11.bpl">ExpressSkins Library\Packages\dxSkinBlueD11.bdsproj</Projects>
+      <Projects Name="dxSkinCaramelD11.bpl">ExpressSkins Library\Packages\dxSkinCaramelD11.bdsproj</Projects>
+      <Projects Name="dxSkinCoffeeD11.bpl">ExpressSkins Library\Packages\dxSkinCoffeeD11.bdsproj</Projects>
+      <Projects Name="dxSkinDarkRoomD11.bpl">ExpressSkins Library\Packages\dxSkinDarkRoomD11.bdsproj</Projects>
+      <Projects Name="dxSkinDarkSideD11.bpl">ExpressSkins Library\Packages\dxSkinDarkSideD11.bdsproj</Projects>
+      <Projects Name="dxSkinFoggyD11.bpl">ExpressSkins Library\Packages\dxSkinFoggyD11.bdsproj</Projects>
+      <Projects Name="dxSkinGlassOceansD11.bpl">ExpressSkins Library\Packages\dxSkinGlassOceansD11.bdsproj</Projects>
+      <Projects Name="dxSkiniMaginaryD11.bpl">ExpressSkins Library\Packages\dxSkiniMaginaryD11.bdsproj</Projects>
+      <Projects Name="dxSkinLilianD11.bpl">ExpressSkins Library\Packages\dxSkinLilianD11.bdsproj</Projects>
+      <Projects Name="dxSkinLiquidSkyD11.bpl">ExpressSkins Library\Packages\dxSkinLiquidSkyD11.bdsproj</Projects>
+      <Projects Name="dxSkinLondonLiquidSkyD11.bpl">ExpressSkins Library\Packages\dxSkinLondonLiquidSkyD11.bdsproj</Projects>
+      <Projects Name="dxSkinMcSkinD11.bpl">ExpressSkins Library\Packages\dxSkinMcSkinD11.bdsproj</Projects>
+      <Projects Name="dxSkinMoneyTwinsD11.bpl">ExpressSkins Library\Packages\dxSkinMoneyTwinsD11.bdsproj</Projects>
+      <Projects Name="dxSkinOffice2007BlackD11.bpl">ExpressSkins Library\Packages\dxSkinOffice2007BlackD11.bdsproj</Projects>
+      <Projects Name="dxSkinOffice2007BlueD11.bpl">ExpressSkins Library\Packages\dxSkinOffice2007BlueD11.bdsproj</Projects>
+      <Projects Name="dxSkinOffice2007GreenD11.bpl">ExpressSkins Library\Packages\dxSkinOffice2007GreenD11.bdsproj</Projects>
+      <Projects Name="dxSkinOffice2007PinkD11.bpl">ExpressSkins Library\Packages\dxSkinOffice2007PinkD11.bdsproj</Projects>
+      <Projects Name="dxSkinOffice2007SilverD11.bpl">ExpressSkins Library\Packages\dxSkinOffice2007SilverD11.bdsproj</Projects>
+      <Projects Name="dxSkinOffice2010BlackD11.bpl">ExpressSkins Library\Packages\dxSkinOffice2010BlackD11.bdsproj</Projects>
+      <Projects Name="dxSkinOffice2010BlueD11.bpl">ExpressSkins Library\Packages\dxSkinOffice2010BlueD11.bdsproj</Projects>
+      <Projects Name="dxSkinOffice2010SilverD11.bpl">ExpressSkins Library\Packages\dxSkinOffice2010SilverD11.bdsproj</Projects>
+      <Projects Name="dxSkinPumpkinD11.bpl">ExpressSkins Library\Packages\dxSkinPumpkinD11.bdsproj</Projects>
+      <Projects Name="dxSkinsCoreD11.bpl">ExpressSkins Library\Packages\dxSkinsCoreD11.bdsproj</Projects>
+      <Projects Name="dxSkinscxPCPainterD11.bpl">ExpressSkins Library\Packages\dxSkinscxPCPainterD11.bdsproj</Projects>
+      <Projects Name="dxSkinscxSchedulerPainterD11.bpl">ExpressSkins Library\Packages\dxSkinscxSchedulerPainterD11.bdsproj</Projects>
+      <Projects Name="dxSkinsdxBarPainterD11.bpl">ExpressSkins Library\Packages\dxSkinsdxBarPainterD11.bdsproj</Projects>
+      <Projects Name="dxSkinsdxBarSkinnedCustomizationFormD11.bpl">ExpressSkins Library\Packages\dxSkinsdxBarSkinnedCustomizationFormD11.bdsproj</Projects>
+      <Projects Name="dxSkinsdxDLPainterD11.bpl">ExpressSkins Library\Packages\dxSkinsdxDLPainterD11.bdsproj</Projects>
+      <Projects Name="dxSkinsdxNavBarPainterD11.bpl">ExpressSkins Library\Packages\dxSkinsdxNavBarPainterD11.bdsproj</Projects>
+      <Projects Name="dxSkinsdxRibbonPainterD11.bpl">ExpressSkins Library\Packages\dxSkinsdxRibbonPainterD11.bdsproj</Projects>
+      <Projects Name="dxSkinSevenD11.bpl">ExpressSkins Library\Packages\dxSkinSevenD11.bdsproj</Projects>
+      <Projects Name="dxSkinSharpD11.bpl">ExpressSkins Library\Packages\dxSkinSharpD11.bdsproj</Projects>
+      <Projects Name="dxSkinSilverD11.bpl">ExpressSkins Library\Packages\dxSkinSilverD11.bdsproj</Projects>
+      <Projects Name="dxSkinSpringTimeD11.bpl">ExpressSkins Library\Packages\dxSkinSpringTimeD11.bdsproj</Projects>
+      <Projects Name="dxSkinStardustD11.bpl">ExpressSkins Library\Packages\dxSkinStardustD11.bdsproj</Projects>
+      <Projects Name="dxSkinSummer2008D11.bpl">ExpressSkins Library\Packages\dxSkinSummer2008D11.bdsproj</Projects>
+      <Projects Name="dxSkinValentineD11.bpl">ExpressSkins Library\Packages\dxSkinValentineD11.bdsproj</Projects>
+      <Projects Name="dxSkinXmas2008BlueD11.bpl">ExpressSkins Library\Packages\dxSkinXmas2008BlueD11.bdsproj</Projects>
+      <Projects Name="dcldxSpellCheckerD11.bpl">ExpressSpellChecker\Packages\dcldxSpellCheckerD11.bdsproj</Projects>
+      <Projects Name="dxSpellCheckerD11.bpl">ExpressSpellChecker\Packages\dxSpellCheckerD11.bdsproj</Projects>
+      <Projects Name="cxSpreadSheetD11.bpl">ExpressSpreadSheet\Packages\cxSpreadSheetD11.bdsproj</Projects>
+      <Projects Name="dclcxSpreadSheetD11.bpl">ExpressSpreadSheet\Packages\dclcxSpreadSheetD11.bdsproj</Projects>
+      <Projects Name="cxVerticalGridD11.bpl">ExpressVerticalGrid\Packages\cxVerticalGridD11.bdsproj</Projects>
+      <Projects Name="dclcxVerticalGridD11.bpl">ExpressVerticalGrid\Packages\dclcxVerticalGridD11.bdsproj</Projects>
+      <Projects Name="dxThemeD11.bpl">XP Theme Manager\Packages\dxThemeD11.bdsproj</Projects>
+      <Projects Name="Targets">cxBarEditItemD11.bpl dclcxBarEditItemD11.bpl dcldxBarD11.bpl dcldxBarDBNavD11.bpl dcldxBarExtDBItemsD11.bpl dcldxBarExtItemsD11.bpl dcldxRibbonD11.bpl dcldxTabbedMDID11.bpl dxBarD11.bpl dxBarDBNavD11.bpl dxBarExtDBItemsD11.bpl dxBarExtItemsD11.bpl dxRibbonD11.bpl dxTabbedMDID11.bpl dxComnD11.bpl dcldxCoreD11.bpl dxCoreD11.bpl cxADOAdaptersD11.bpl cxBDEAdaptersD11.bpl cxDataD11.bpl cxIBXAdaptersD11.bpl dcldxdbtrD11.bpl dcldxtrmdD11.bpl dxdbtrD11.bpl dxtrmdD11.bpl dcldxDockingD11.bpl dxDockingD11.bpl cxEditorsD11.bpl dclcxEditorFieldLinkD11.bpl dclcxEditorsD11.bpl cxExportD11.bpl dcldxFlowChartD11.bpl dxFlowChartD11.bpl dxGDIPlusD11.bpl dcldxLayoutControlD11.bpl dxLayoutControlD11.bpl cxLibraryD11.bpl dclcxLibraryD11.bpl dcldxmdsD11.bpl dxmdsD11.bpl dcldxNavBarD11.bpl dxNavBarD11.bpl dcldxDBOrD11.bpl dcldxOrgCD11.bpl dxDBOrD11.bpl dxOrgCD11.bpl dxOrgChartAdvancedCustomizeFormD11.bpl cxPageControlD11.bpl cxPageControldxBarPopupMenuD11.bpl dclcxPageControlD11.bpl dclcxPageControldxBarPopupMenuD11.bpl cxPivotGridChartD11.bpl cxPivotGridD11.bpl cxPivotGridOLAPD11.bpl dclcxPivotGridChartD11.bpl dclcxPivotGridD11.bpl dclcxPivotGridOLAPD11.bpl dcldxPSCoreD11.bpl dcldxPScxCommonD11.bpl dcldxPScxExtCommonD11.bpl dcldxPScxGridLnkD11.bpl dcldxPScxPivotGridLnkD11.bpl dcldxPScxSchedulerLnkD11.bpl dcldxPScxSSLnkD11.bpl dcldxPScxTLLnkD11.bpl dcldxPScxVGridLnkD11.bpl dcldxPSDBTeeChartD11.bpl dcldxPSdxDBOCLnkD11.bpl dcldxPSdxDBTVLnkD11.bpl dcldxPSdxFCLnkD11.bpl dcldxPSdxLCLnkD11.bpl dcldxPSdxOCLnkD11.bpl dcldxPSLnksD11.bpl dcldxPSPrVwAdvD11.bpl dcldxPSPrVwRibbonD11.bpl dcldxPSTeeChartD11.bpl dxPSCoreD11.bpl dxPScxCommonD11.bpl dxPScxExtCommonD11.bpl dxPScxGridLnkD11.bpl dxPScxPCProdD11.bpl dxPScxPivotGridLnkD11.bpl dxPScxSchedulerLnkD11.bpl dxPScxSSLnkD11.bpl dxPScxTLLnkD11.bpl dxPScxVGridLnkD11.bpl dxPSDBTeeChartD11.bpl dxPSdxDBOCLnkD11.bpl dxPSdxDBTVLnkD11.bpl dxPSdxFCLnkD11.bpl dxPSdxLCLnkD11.bpl dxPSdxOCLnkD11.bpl dxPSLnksD11.bpl dxPSPrVwAdvD11.bpl dxPSPrVwRibbonD11.bpl dxPSTeeChartD11.bpl cxGridD11.bpl dclcxGridD11.bpl cxTreeListD11.bpl cxTreeListdxBarPopupMenuD11.bpl dclcxTreeListD11.bpl dclcxTreeListdxBarPopupMenuD11.bpl cxSchedulerD11.bpl cxSchedulerGridD11.bpl dclcxSchedulerD11.bpl dclcxSchedulerGridD11.bpl dcldxSBD11.bpl dxSBD11.bpl dcldxSkinsCoreD11.bpl dcldxSkinscxEditorsHelperD11.bpl dcldxSkinscxPCPainterD11.bpl dcldxSkinscxSchedulerPainterD11.bpl dcldxSkinsDesignHelperD11.bpl dcldxSkinsdxBarsPaintersD11.bpl dcldxSkinsdxNavBarPainterD11.bpl dcldxSkinsdxRibbonPaintersD11.bpl dxSkinBlackD11.bpl dxSkinBlueD11.bpl dxSkinCaramelD11.bpl dxSkinCoffeeD11.bpl dxSkinDarkRoomD11.bpl dxSkinDarkSideD11.bpl dxSkinFoggyD11.bpl dxSkinGlassOceansD11.bpl dxSkiniMaginaryD11.bpl dxSkinLilianD11.bpl dxSkinLiquidSkyD11.bpl dxSkinLondonLiquidSkyD11.bpl dxSkinMcSkinD11.bpl dxSkinMoneyTwinsD11.bpl dxSkinOffice2007BlackD11.bpl dxSkinOffice2007BlueD11.bpl dxSkinOffice2007GreenD11.bpl dxSkinOffice2007PinkD11.bpl dxSkinOffice2007SilverD11.bpl dxSkinOffice2010BlackD11.bpl dxSkinOffice2010BlueD11.bpl dxSkinOffice2010SilverD11.bpl dxSkinPumpkinD11.bpl dxSkinsCoreD11.bpl dxSkinscxPCPainterD11.bpl dxSkinscxSchedulerPainterD11.bpl dxSkinsdxBarPainterD11.bpl dxSkinsdxBarSkinnedCustomizationFormD11.bpl dxSkinsdxDLPainterD11.bpl dxSkinsdxNavBarPainterD11.bpl dxSkinsdxRibbonPainterD11.bpl dxSkinSevenD11.bpl dxSkinSharpD11.bpl dxSkinSilverD11.bpl dxSkinSpringTimeD11.bpl dxSkinStardustD11.bpl dxSkinSummer2008D11.bpl dxSkinValentineD11.bpl dxSkinXmas2008BlueD11.bpl dcldxSpellCheckerD11.bpl dxSpellCheckerD11.bpl cxSpreadSheetD11.bpl dclcxSpreadSheetD11.bpl cxVerticalGridD11.bpl dclcxVerticalGridD11.bpl dxThemeD11.bpl</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{5822F983-35B7-43EF-85FB-9BAF45A2D442}">
+        <Dependency GUID="{550562DA-F1DB-4952-8F75-1F0B7D26DFE1}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+</BorlandProject>

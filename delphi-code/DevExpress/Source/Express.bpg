@@ -1,0 +1,501 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = cxBarEditItemD11.bpl dclcxBarEditItemD11.bpl dcldxBarD11.bpl dcldxBarDBNavD11.bpl dcldxBarExtDBItemsD11.bpl dcldxBarExtItemsD11.bpl dcldxRibbonD11.bpl dcldxTabbedMDID11.bpl dxBarD11.bpl dxBarDBNavD11.bpl dxBarExtDBItemsD11.bpl dxBarExtItemsD11.bpl dxRibbonD11.bpl dxTabbedMDID11.bpl dxComnD11.bpl dcldxCoreD11.bpl dxCoreD11.bpl cxADOAdaptersD11.bpl cxBDEAdaptersD11.bpl cxDataD11.bpl cxIBXAdaptersD11.bpl dcldxdbtrD11.bpl dcldxtrmdD11.bpl dxdbtrD11.bpl dxtrmdD11.bpl dcldxDockingD11.bpl dxDockingD11.bpl cxEditorsD11.bpl dclcxEditorFieldLinkD11.bpl dclcxEditorsD11.bpl cxExportD11.bpl dcldxFlowChartD11.bpl dxFlowChartD11.bpl dxGDIPlusD11.bpl dcldxLayoutControlD11.bpl dxLayoutControlD11.bpl cxLibraryD11.bpl dclcxLibraryD11.bpl dcldxmdsD11.bpl dxmdsD11.bpl dcldxNavBarD11.bpl dxNavBarD11.bpl dcldxDBOrD11.bpl dcldxOrgCD11.bpl dxDBOrD11.bpl dxOrgCD11.bpl dxOrgChartAdvancedCustomizeFormD11.bpl cxPageControlD11.bpl cxPageControldxBarPopupMenuD11.bpl dclcxPageControlD11.bpl dclcxPageControldxBarPopupMenuD11.bpl cxPivotGridChartD11.bpl cxPivotGridD11.bpl cxPivotGridOLAPD11.bpl dclcxPivotGridChartD11.bpl dclcxPivotGridD11.bpl dclcxPivotGridOLAPD11.bpl dcldxPSCoreD11.bpl dcldxPScxCommonD11.bpl dcldxPScxExtCommonD11.bpl dcldxPScxGridLnkD11.bpl dcldxPScxPivotGridLnkD11.bpl dcldxPScxSchedulerLnkD11.bpl dcldxPScxSSLnkD11.bpl dcldxPScxTLLnkD11.bpl dcldxPScxVGridLnkD11.bpl dcldxPSDBTeeChartD11.bpl dcldxPSdxDBOCLnkD11.bpl dcldxPSdxDBTVLnkD11.bpl dcldxPSdxFCLnkD11.bpl dcldxPSdxLCLnkD11.bpl dcldxPSdxOCLnkD11.bpl dcldxPSLnksD11.bpl dcldxPSPrVwAdvD11.bpl dcldxPSPrVwRibbonD11.bpl dcldxPSTeeChartD11.bpl dxPSCoreD11.bpl dxPScxCommonD11.bpl dxPScxExtCommonD11.bpl dxPScxGridLnkD11.bpl dxPScxPCProdD11.bpl dxPScxPivotGridLnkD11.bpl dxPScxSchedulerLnkD11.bpl dxPScxSSLnkD11.bpl dxPScxTLLnkD11.bpl dxPScxVGridLnkD11.bpl dxPSDBTeeChartD11.bpl dxPSdxDBOCLnkD11.bpl dxPSdxDBTVLnkD11.bpl dxPSdxFCLnkD11.bpl dxPSdxLCLnkD11.bpl dxPSdxOCLnkD11.bpl dxPSLnksD11.bpl dxPSPrVwAdvD11.bpl dxPSPrVwRibbonD11.bpl dxPSTeeChartD11.bpl cxGridD11.bpl dclcxGridD11.bpl cxTreeListD11.bpl cxTreeListdxBarPopupMenuD11.bpl dclcxTreeListD11.bpl dclcxTreeListdxBarPopupMenuD11.bpl cxSchedulerD11.bpl cxSchedulerGridD11.bpl dclcxSchedulerD11.bpl dclcxSchedulerGridD11.bpl dcldxSBD11.bpl dxSBD11.bpl dcldxSkinsCoreD11.bpl dcldxSkinscxEditorsHelperD11.bpl dcldxSkinscxPCPainterD11.bpl dcldxSkinscxSchedulerPainterD11.bpl dcldxSkinsDesignHelperD11.bpl dcldxSkinsdxBarsPaintersD11.bpl dcldxSkinsdxNavBarPainterD11.bpl dcldxSkinsdxRibbonPaintersD11.bpl dxSkinBlackD11.bpl dxSkinBlueD11.bpl dxSkinCaramelD11.bpl dxSkinCoffeeD11.bpl dxSkinDarkRoomD11.bpl dxSkinDarkSideD11.bpl dxSkinFoggyD11.bpl dxSkinGlassOceansD11.bpl dxSkiniMaginaryD11.bpl dxSkinLilianD11.bpl dxSkinLiquidSkyD11.bpl dxSkinLondonLiquidSkyD11.bpl dxSkinMcSkinD11.bpl dxSkinMoneyTwinsD11.bpl dxSkinOffice2007BlackD11.bpl dxSkinOffice2007BlueD11.bpl dxSkinOffice2007GreenD11.bpl dxSkinOffice2007PinkD11.bpl dxSkinOffice2007SilverD11.bpl dxSkinOffice2010BlackD11.bpl dxSkinOffice2010BlueD11.bpl dxSkinOffice2010SilverD11.bpl dxSkinPumpkinD11.bpl dxSkinsCoreD11.bpl dxSkinscxPCPainterD11.bpl dxSkinscxSchedulerPainterD11.bpl dxSkinsdxBarPainterD11.bpl dxSkinsdxBarSkinnedCustomizationFormD11.bpl dxSkinsdxDLPainterD11.bpl dxSkinsdxNavBarPainterD11.bpl dxSkinsdxRibbonPainterD11.bpl dxSkinSevenD11.bpl dxSkinSharpD11.bpl dxSkinSilverD11.bpl dxSkinSpringTimeD11.bpl dxSkinStardustD11.bpl dxSkinSummer2008D11.bpl dxSkinValentineD11.bpl dxSkinXmas2008BlueD11.bpl dcldxSpellCheckerD11.bpl dxSpellCheckerD11.bpl cxSpreadSheetD11.bpl dclcxSpreadSheetD11.bpl cxVerticalGridD11.bpl dclcxVerticalGridD11.bpl dxThemeD11.bpl 
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+cxBarEditItemD11.bpl: ExpressBars\Packages\cxBarEditItemD11.dpk
+  $(DCC)
+
+dclcxBarEditItemD11.bpl: ExpressBars\Packages\dclcxBarEditItemD11.dpk
+  $(DCC)
+
+dcldxBarD11.bpl: ExpressBars\Packages\dcldxBarD11.dpk
+  $(DCC)
+
+dcldxBarDBNavD11.bpl: ExpressBars\Packages\dcldxBarDBNavD11.dpk
+  $(DCC)
+
+dcldxBarExtDBItemsD11.bpl: ExpressBars\Packages\dcldxBarExtDBItemsD11.dpk
+  $(DCC)
+
+dcldxBarExtItemsD11.bpl: ExpressBars\Packages\dcldxBarExtItemsD11.dpk
+  $(DCC)
+
+dcldxRibbonD11.bpl: ExpressBars\Packages\dcldxRibbonD11.dpk
+  $(DCC)
+
+dcldxTabbedMDID11.bpl: ExpressBars\Packages\dcldxTabbedMDID11.dpk
+  $(DCC)
+
+dxBarD11.bpl: ExpressBars\Packages\dxBarD11.dpk
+  $(DCC)
+
+dxBarDBNavD11.bpl: ExpressBars\Packages\dxBarDBNavD11.dpk
+  $(DCC)
+
+dxBarExtDBItemsD11.bpl: ExpressBars\Packages\dxBarExtDBItemsD11.dpk
+  $(DCC)
+
+dxBarExtItemsD11.bpl: ExpressBars\Packages\dxBarExtItemsD11.dpk
+  $(DCC)
+
+dxRibbonD11.bpl: ExpressBars\Packages\dxRibbonD11.dpk
+  $(DCC)
+
+dxTabbedMDID11.bpl: ExpressBars\Packages\dxTabbedMDID11.dpk
+  $(DCC)
+
+dxComnD11.bpl: ExpressCommon Library\Packages\dxComnD11.dpk
+  $(DCC)
+
+dcldxCoreD11.bpl: ExpressCore Library\Packages\dcldxCoreD11.dpk
+  $(DCC)
+
+dxCoreD11.bpl: ExpressCore Library\Packages\dxCoreD11.dpk
+  $(DCC)
+
+cxADOAdaptersD11.bpl: ExpressDataController\Packages\cxADOAdaptersD11.dpk
+  $(DCC)
+
+cxBDEAdaptersD11.bpl: ExpressDataController\Packages\cxBDEAdaptersD11.dpk
+  $(DCC)
+
+cxDataD11.bpl: ExpressDataController\Packages\cxDataD11.dpk
+  $(DCC)
+
+cxIBXAdaptersD11.bpl: ExpressDataController\Packages\cxIBXAdaptersD11.dpk
+  $(DCC)
+
+dcldxdbtrD11.bpl: ExpressDBTree Suite\Packages\dcldxdbtrD11.dpk
+  $(DCC)
+
+dcldxtrmdD11.bpl: ExpressDBTree Suite\Packages\dcldxtrmdD11.dpk
+  $(DCC)
+
+dxdbtrD11.bpl: ExpressDBTree Suite\Packages\dxdbtrD11.dpk
+  $(DCC)
+
+dxtrmdD11.bpl: ExpressDBTree Suite\Packages\dxtrmdD11.dpk
+  $(DCC)
+
+dcldxDockingD11.bpl: ExpressDocking Library\Packages\dcldxDockingD11.dpk
+  $(DCC)
+
+dxDockingD11.bpl: ExpressDocking Library\Packages\dxDockingD11.dpk
+  $(DCC)
+
+cxEditorsD11.bpl: ExpressEditors Library\Packages\cxEditorsD11.dpk
+  $(DCC)
+
+dclcxEditorFieldLinkD11.bpl: ExpressEditors Library\Packages\dclcxEditorFieldLinkD11.dpk
+  $(DCC)
+
+dclcxEditorsD11.bpl: ExpressEditors Library\Packages\dclcxEditorsD11.dpk
+  $(DCC)
+
+cxExportD11.bpl: ExpressExport Library\Packages\cxExportD11.dpk
+  $(DCC)
+
+dcldxFlowChartD11.bpl: ExpressFlowChart\Packages\dcldxFlowChartD11.dpk
+  $(DCC)
+
+dxFlowChartD11.bpl: ExpressFlowChart\Packages\dxFlowChartD11.dpk
+  $(DCC)
+
+dxGDIPlusD11.bpl: ExpressGDI+ Library\Packages\dxGDIPlusD11.dpk
+  $(DCC)
+
+dcldxLayoutControlD11.bpl: ExpressLayout Control\Packages\dcldxLayoutControlD11.dpk
+  $(DCC)
+
+dxLayoutControlD11.bpl: ExpressLayout Control\Packages\dxLayoutControlD11.dpk
+  $(DCC)
+
+cxLibraryD11.bpl: ExpressLibrary\Packages\cxLibraryD11.dpk
+  $(DCC)
+
+dclcxLibraryD11.bpl: ExpressLibrary\Packages\dclcxLibraryD11.dpk
+  $(DCC)
+
+dcldxmdsD11.bpl: ExpressMemData\Packages\dcldxmdsD11.dpk
+  $(DCC)
+
+dxmdsD11.bpl: ExpressMemData\Packages\dxmdsD11.dpk
+  $(DCC)
+
+dcldxNavBarD11.bpl: ExpressNavBar\Packages\dcldxNavBarD11.dpk
+  $(DCC)
+
+dxNavBarD11.bpl: ExpressNavBar\Packages\dxNavBarD11.dpk
+  $(DCC)
+
+dcldxDBOrD11.bpl: ExpressOrgChart\Packages\dcldxDBOrD11.dpk
+  $(DCC)
+
+dcldxOrgCD11.bpl: ExpressOrgChart\Packages\dcldxOrgCD11.dpk
+  $(DCC)
+
+dxDBOrD11.bpl: ExpressOrgChart\Packages\dxDBOrD11.dpk
+  $(DCC)
+
+dxOrgCD11.bpl: ExpressOrgChart\Packages\dxOrgCD11.dpk
+  $(DCC)
+
+dxOrgChartAdvancedCustomizeFormD11.bpl: ExpressOrgChart\Packages\dxOrgChartAdvancedCustomizeFormD11.dpk
+  $(DCC)
+
+cxPageControlD11.bpl: ExpressPageControl\Packages\cxPageControlD11.dpk
+  $(DCC)
+
+cxPageControldxBarPopupMenuD11.bpl: ExpressPageControl\Packages\cxPageControldxBarPopupMenuD11.dpk
+  $(DCC)
+
+dclcxPageControlD11.bpl: ExpressPageControl\Packages\dclcxPageControlD11.dpk
+  $(DCC)
+
+dclcxPageControldxBarPopupMenuD11.bpl: ExpressPageControl\Packages\dclcxPageControldxBarPopupMenuD11.dpk
+  $(DCC)
+
+cxPivotGridChartD11.bpl: ExpressPivotGrid\Packages\cxPivotGridChartD11.dpk
+  $(DCC)
+
+cxPivotGridD11.bpl: ExpressPivotGrid\Packages\cxPivotGridD11.dpk
+  $(DCC)
+
+cxPivotGridOLAPD11.bpl: ExpressPivotGrid\Packages\cxPivotGridOLAPD11.dpk
+  $(DCC)
+
+dclcxPivotGridChartD11.bpl: ExpressPivotGrid\Packages\dclcxPivotGridChartD11.dpk
+  $(DCC)
+
+dclcxPivotGridD11.bpl: ExpressPivotGrid\Packages\dclcxPivotGridD11.dpk
+  $(DCC)
+
+dclcxPivotGridOLAPD11.bpl: ExpressPivotGrid\Packages\dclcxPivotGridOLAPD11.dpk
+  $(DCC)
+
+dcldxPSCoreD11.bpl: ExpressPrinting System\Packages\dcldxPSCoreD11.dpk
+  $(DCC)
+
+dcldxPScxCommonD11.bpl: ExpressPrinting System\Packages\dcldxPScxCommonD11.dpk
+  $(DCC)
+
+dcldxPScxExtCommonD11.bpl: ExpressPrinting System\Packages\dcldxPScxExtCommonD11.dpk
+  $(DCC)
+
+dcldxPScxGridLnkD11.bpl: ExpressPrinting System\Packages\dcldxPScxGridLnkD11.dpk
+  $(DCC)
+
+dcldxPScxPivotGridLnkD11.bpl: ExpressPrinting System\Packages\dcldxPScxPivotGridLnkD11.dpk
+  $(DCC)
+
+dcldxPScxSchedulerLnkD11.bpl: ExpressPrinting System\Packages\dcldxPScxSchedulerLnkD11.dpk
+  $(DCC)
+
+dcldxPScxSSLnkD11.bpl: ExpressPrinting System\Packages\dcldxPScxSSLnkD11.dpk
+  $(DCC)
+
+dcldxPScxTLLnkD11.bpl: ExpressPrinting System\Packages\dcldxPScxTLLnkD11.dpk
+  $(DCC)
+
+dcldxPScxVGridLnkD11.bpl: ExpressPrinting System\Packages\dcldxPScxVGridLnkD11.dpk
+  $(DCC)
+
+dcldxPSDBTeeChartD11.bpl: ExpressPrinting System\Packages\dcldxPSDBTeeChartD11.dpk
+  $(DCC)
+
+dcldxPSdxDBOCLnkD11.bpl: ExpressPrinting System\Packages\dcldxPSdxDBOCLnkD11.dpk
+  $(DCC)
+
+dcldxPSdxDBTVLnkD11.bpl: ExpressPrinting System\Packages\dcldxPSdxDBTVLnkD11.dpk
+  $(DCC)
+
+dcldxPSdxFCLnkD11.bpl: ExpressPrinting System\Packages\dcldxPSdxFCLnkD11.dpk
+  $(DCC)
+
+dcldxPSdxLCLnkD11.bpl: ExpressPrinting System\Packages\dcldxPSdxLCLnkD11.dpk
+  $(DCC)
+
+dcldxPSdxOCLnkD11.bpl: ExpressPrinting System\Packages\dcldxPSdxOCLnkD11.dpk
+  $(DCC)
+
+dcldxPSLnksD11.bpl: ExpressPrinting System\Packages\dcldxPSLnksD11.dpk
+  $(DCC)
+
+dcldxPSPrVwAdvD11.bpl: ExpressPrinting System\Packages\dcldxPSPrVwAdvD11.dpk
+  $(DCC)
+
+dcldxPSPrVwRibbonD11.bpl: ExpressPrinting System\Packages\dcldxPSPrVwRibbonD11.dpk
+  $(DCC)
+
+dcldxPSTeeChartD11.bpl: ExpressPrinting System\Packages\dcldxPSTeeChartD11.dpk
+  $(DCC)
+
+dxPSCoreD11.bpl: ExpressPrinting System\Packages\dxPSCoreD11.dpk
+  $(DCC)
+
+dxPScxCommonD11.bpl: ExpressPrinting System\Packages\dxPScxCommonD11.dpk
+  $(DCC)
+
+dxPScxExtCommonD11.bpl: ExpressPrinting System\Packages\dxPScxExtCommonD11.dpk
+  $(DCC)
+
+dxPScxGridLnkD11.bpl: ExpressPrinting System\Packages\dxPScxGridLnkD11.dpk
+  $(DCC)
+
+dxPScxPCProdD11.bpl: ExpressPrinting System\Packages\dxPScxPCProdD11.dpk
+  $(DCC)
+
+dxPScxPivotGridLnkD11.bpl: ExpressPrinting System\Packages\dxPScxPivotGridLnkD11.dpk
+  $(DCC)
+
+dxPScxSchedulerLnkD11.bpl: ExpressPrinting System\Packages\dxPScxSchedulerLnkD11.dpk
+  $(DCC)
+
+dxPScxSSLnkD11.bpl: ExpressPrinting System\Packages\dxPScxSSLnkD11.dpk
+  $(DCC)
+
+dxPScxTLLnkD11.bpl: ExpressPrinting System\Packages\dxPScxTLLnkD11.dpk
+  $(DCC)
+
+dxPScxVGridLnkD11.bpl: ExpressPrinting System\Packages\dxPScxVGridLnkD11.dpk
+  $(DCC)
+
+dxPSDBTeeChartD11.bpl: ExpressPrinting System\Packages\dxPSDBTeeChartD11.dpk
+  $(DCC)
+
+dxPSdxDBOCLnkD11.bpl: ExpressPrinting System\Packages\dxPSdxDBOCLnkD11.dpk
+  $(DCC)
+
+dxPSdxDBTVLnkD11.bpl: ExpressPrinting System\Packages\dxPSdxDBTVLnkD11.dpk
+  $(DCC)
+
+dxPSdxFCLnkD11.bpl: ExpressPrinting System\Packages\dxPSdxFCLnkD11.dpk
+  $(DCC)
+
+dxPSdxLCLnkD11.bpl: ExpressPrinting System\Packages\dxPSdxLCLnkD11.dpk
+  $(DCC)
+
+dxPSdxOCLnkD11.bpl: ExpressPrinting System\Packages\dxPSdxOCLnkD11.dpk
+  $(DCC)
+
+dxPSLnksD11.bpl: ExpressPrinting System\Packages\dxPSLnksD11.dpk
+  $(DCC)
+
+dxPSPrVwAdvD11.bpl: ExpressPrinting System\Packages\dxPSPrVwAdvD11.dpk
+  $(DCC)
+
+dxPSPrVwRibbonD11.bpl: ExpressPrinting System\Packages\dxPSPrVwRibbonD11.dpk
+  $(DCC)
+
+dxPSTeeChartD11.bpl: ExpressPrinting System\Packages\dxPSTeeChartD11.dpk
+  $(DCC)
+
+cxGridD11.bpl: ExpressQuantumGrid\Packages\cxGridD11.dpk
+  $(DCC)
+
+dclcxGridD11.bpl: ExpressQuantumGrid\Packages\dclcxGridD11.dpk
+  $(DCC)
+
+cxTreeListD11.bpl: ExpressQuantumTreeList\Packages\cxTreeListD11.dpk
+  $(DCC)
+
+cxTreeListdxBarPopupMenuD11.bpl: ExpressQuantumTreeList\Packages\cxTreeListdxBarPopupMenuD11.dpk
+  $(DCC)
+
+dclcxTreeListD11.bpl: ExpressQuantumTreeList\Packages\dclcxTreeListD11.dpk
+  $(DCC)
+
+dclcxTreeListdxBarPopupMenuD11.bpl: ExpressQuantumTreeList\Packages\dclcxTreeListdxBarPopupMenuD11.dpk
+  $(DCC)
+
+cxSchedulerD11.bpl: ExpressScheduler\Packages\cxSchedulerD11.dpk
+  $(DCC)
+
+cxSchedulerGridD11.bpl: ExpressScheduler\Packages\cxSchedulerGridD11.dpk
+  $(DCC)
+
+dclcxSchedulerD11.bpl: ExpressScheduler\Packages\dclcxSchedulerD11.dpk
+  $(DCC)
+
+dclcxSchedulerGridD11.bpl: ExpressScheduler\Packages\dclcxSchedulerGridD11.dpk
+  $(DCC)
+
+dcldxSBD11.bpl: ExpressSideBar\Packages\dcldxSBD11.dpk
+  $(DCC)
+
+dxSBD11.bpl: ExpressSideBar\Packages\dxSBD11.dpk
+  $(DCC)
+
+dcldxSkinsCoreD11.bpl: ExpressSkins Library\Packages\dcldxSkinsCoreD11.dpk
+  $(DCC)
+
+dcldxSkinscxEditorsHelperD11.bpl: ExpressSkins Library\Packages\dcldxSkinscxEditorsHelperD11.dpk
+  $(DCC)
+
+dcldxSkinscxPCPainterD11.bpl: ExpressSkins Library\Packages\dcldxSkinscxPCPainterD11.dpk
+  $(DCC)
+
+dcldxSkinscxSchedulerPainterD11.bpl: ExpressSkins Library\Packages\dcldxSkinscxSchedulerPainterD11.dpk
+  $(DCC)
+
+dcldxSkinsDesignHelperD11.bpl: ExpressSkins Library\Packages\dcldxSkinsDesignHelperD11.dpk
+  $(DCC)
+
+dcldxSkinsdxBarsPaintersD11.bpl: ExpressSkins Library\Packages\dcldxSkinsdxBarsPaintersD11.dpk
+  $(DCC)
+
+dcldxSkinsdxNavBarPainterD11.bpl: ExpressSkins Library\Packages\dcldxSkinsdxNavBarPainterD11.dpk
+  $(DCC)
+
+dcldxSkinsdxRibbonPaintersD11.bpl: ExpressSkins Library\Packages\dcldxSkinsdxRibbonPaintersD11.dpk
+  $(DCC)
+
+dxSkinBlackD11.bpl: ExpressSkins Library\Packages\dxSkinBlackD11.dpk
+  $(DCC)
+
+dxSkinBlueD11.bpl: ExpressSkins Library\Packages\dxSkinBlueD11.dpk
+  $(DCC)
+
+dxSkinCaramelD11.bpl: ExpressSkins Library\Packages\dxSkinCaramelD11.dpk
+  $(DCC)
+
+dxSkinCoffeeD11.bpl: ExpressSkins Library\Packages\dxSkinCoffeeD11.dpk
+  $(DCC)
+
+dxSkinDarkRoomD11.bpl: ExpressSkins Library\Packages\dxSkinDarkRoomD11.dpk
+  $(DCC)
+
+dxSkinDarkSideD11.bpl: ExpressSkins Library\Packages\dxSkinDarkSideD11.dpk
+  $(DCC)
+
+dxSkinFoggyD11.bpl: ExpressSkins Library\Packages\dxSkinFoggyD11.dpk
+  $(DCC)
+
+dxSkinGlassOceansD11.bpl: ExpressSkins Library\Packages\dxSkinGlassOceansD11.dpk
+  $(DCC)
+
+dxSkiniMaginaryD11.bpl: ExpressSkins Library\Packages\dxSkiniMaginaryD11.dpk
+  $(DCC)
+
+dxSkinLilianD11.bpl: ExpressSkins Library\Packages\dxSkinLilianD11.dpk
+  $(DCC)
+
+dxSkinLiquidSkyD11.bpl: ExpressSkins Library\Packages\dxSkinLiquidSkyD11.dpk
+  $(DCC)
+
+dxSkinLondonLiquidSkyD11.bpl: ExpressSkins Library\Packages\dxSkinLondonLiquidSkyD11.dpk
+  $(DCC)
+
+dxSkinMcSkinD11.bpl: ExpressSkins Library\Packages\dxSkinMcSkinD11.dpk
+  $(DCC)
+
+dxSkinMoneyTwinsD11.bpl: ExpressSkins Library\Packages\dxSkinMoneyTwinsD11.dpk
+  $(DCC)
+
+dxSkinOffice2007BlackD11.bpl: ExpressSkins Library\Packages\dxSkinOffice2007BlackD11.dpk
+  $(DCC)
+
+dxSkinOffice2007BlueD11.bpl: ExpressSkins Library\Packages\dxSkinOffice2007BlueD11.dpk
+  $(DCC)
+
+dxSkinOffice2007GreenD11.bpl: ExpressSkins Library\Packages\dxSkinOffice2007GreenD11.dpk
+  $(DCC)
+
+dxSkinOffice2007PinkD11.bpl: ExpressSkins Library\Packages\dxSkinOffice2007PinkD11.dpk
+  $(DCC)
+
+dxSkinOffice2007SilverD11.bpl: ExpressSkins Library\Packages\dxSkinOffice2007SilverD11.dpk
+  $(DCC)
+
+dxSkinOffice2010BlackD11.bpl: ExpressSkins Library\Packages\dxSkinOffice2010BlackD11.dpk
+  $(DCC)
+
+dxSkinOffice2010BlueD11.bpl: ExpressSkins Library\Packages\dxSkinOffice2010BlueD11.dpk
+  $(DCC)
+
+dxSkinOffice2010SilverD11.bpl: ExpressSkins Library\Packages\dxSkinOffice2010SilverD11.dpk
+  $(DCC)
+
+dxSkinPumpkinD11.bpl: ExpressSkins Library\Packages\dxSkinPumpkinD11.dpk
+  $(DCC)
+
+dxSkinsCoreD11.bpl: ExpressSkins Library\Packages\dxSkinsCoreD11.dpk
+  $(DCC)
+
+dxSkinscxPCPainterD11.bpl: ExpressSkins Library\Packages\dxSkinscxPCPainterD11.dpk
+  $(DCC)
+
+dxSkinscxSchedulerPainterD11.bpl: ExpressSkins Library\Packages\dxSkinscxSchedulerPainterD11.dpk
+  $(DCC)
+
+dxSkinsdxBarPainterD11.bpl: ExpressSkins Library\Packages\dxSkinsdxBarPainterD11.dpk
+  $(DCC)
+
+dxSkinsdxBarSkinnedCustomizationFormD11.bpl: ExpressSkins Library\Packages\dxSkinsdxBarSkinnedCustomizationFormD11.dpk
+  $(DCC)
+
+dxSkinsdxDLPainterD11.bpl: ExpressSkins Library\Packages\dxSkinsdxDLPainterD11.dpk
+  $(DCC)
+
+dxSkinsdxNavBarPainterD11.bpl: ExpressSkins Library\Packages\dxSkinsdxNavBarPainterD11.dpk
+  $(DCC)
+
+dxSkinsdxRibbonPainterD11.bpl: ExpressSkins Library\Packages\dxSkinsdxRibbonPainterD11.dpk
+  $(DCC)
+
+dxSkinSevenD11.bpl: ExpressSkins Library\Packages\dxSkinSevenD11.dpk
+  $(DCC)
+
+dxSkinSharpD11.bpl: ExpressSkins Library\Packages\dxSkinSharpD11.dpk
+  $(DCC)
+
+dxSkinSilverD11.bpl: ExpressSkins Library\Packages\dxSkinSilverD11.dpk
+  $(DCC)
+
+dxSkinSpringTimeD11.bpl: ExpressSkins Library\Packages\dxSkinSpringTimeD11.dpk
+  $(DCC)
+
+dxSkinStardustD11.bpl: ExpressSkins Library\Packages\dxSkinStardustD11.dpk
+  $(DCC)
+
+dxSkinSummer2008D11.bpl: ExpressSkins Library\Packages\dxSkinSummer2008D11.dpk
+  $(DCC)
+
+dxSkinValentineD11.bpl: ExpressSkins Library\Packages\dxSkinValentineD11.dpk
+  $(DCC)
+
+dxSkinXmas2008BlueD11.bpl: ExpressSkins Library\Packages\dxSkinXmas2008BlueD11.dpk
+  $(DCC)
+
+dcldxSpellCheckerD11.bpl: ExpressSpellChecker\Packages\dcldxSpellCheckerD11.dpk
+  $(DCC)
+
+dxSpellCheckerD11.bpl: ExpressSpellChecker\Packages\dxSpellCheckerD11.dpk
+  $(DCC)
+
+cxSpreadSheetD11.bpl: ExpressSpreadSheet\Packages\cxSpreadSheetD11.dpk
+  $(DCC)
+
+dclcxSpreadSheetD11.bpl: ExpressSpreadSheet\Packages\dclcxSpreadSheetD11.dpk
+  $(DCC)
+
+cxVerticalGridD11.bpl: ExpressVerticalGrid\Packages\cxVerticalGridD11.dpk
+  $(DCC)
+
+dclcxVerticalGridD11.bpl: ExpressVerticalGrid\Packages\dclcxVerticalGridD11.dpk
+  $(DCC)
+
+dxThemeD11.bpl: XP Theme Manager\Packages\dxThemeD11.dpk
+  $(DCC)
+

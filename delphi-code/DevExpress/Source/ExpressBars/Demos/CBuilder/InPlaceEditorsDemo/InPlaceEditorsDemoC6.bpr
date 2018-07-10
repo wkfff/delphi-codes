@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--C++Builder XML Project-->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="InPlaceEditorsDemo.exe"/>
+    <OBJFILES value="InPlaceEditorsDemo.obj ..\Common\EBarsUtils.obj ..\Common\AboutDemoForm.obj ..\Common\EBarsDemoRating.obj InPlaceEditorsDemoValue.obj InPlaceEditorsDemoAbout.obj InPlaceEditorsDemoCheckBoxes.obj InPlaceEditorsDemoComboBoxes.obj InPlaceEditorsDemoFrameManager.obj InPlaceEditorsDemoimage.obj InPlaceEditorsDemoMain.obj InPlaceEditorsDemoMultiLineText.obj InPlaceEditorsDemoText.obj InPlaceEditorsDemoSplash.obj"/>
+    <RESFILES value="InPlaceEditorsDemo.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) ..\Common\EBarsUtils.dfm ..\Common\AboutDemoForm.dfm ..\Common\EBarsDemoRating.dfm InPlaceEditorsDemoValue.dfm InPlaceEditorsDemoAbout.dfm InPlaceEditorsDemoCheckBoxes.dfm InPlaceEditorsDemoComboBoxes.dfm InPlaceEditorsDemoimage.dfm InPlaceEditorsDemoMain.dfm InPlaceEditorsDemoMultiLineText.dfm InPlaceEditorsDemoText.dfm InPlaceEditorsDemoSplash.dfm InPlaceEditorsDemoFrameManager.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vcl.lib rtl.lib vcldb.lib dbrtl.lib bdertl.lib adortl.lib VCLX.lib dxComnC4.lib dxThemeC4.lib cxDataC4.lib cxLibraryVCLC.lib dxBarC4.lib dxBarExtItemsC4.lib dxBarExtDBItemsC4.lib cxBaredititemc4.lib dxBarDBNavC4.lib dxsbC4.lib dxRibbonC4.lib dxGDIPlusC4.lib cxeditorsc4.lib dxCoreC4.lib "/>
+    <SPARELIBS value="vcl.lib rtl.lib vcldb.lib dbrtl.lib bdertl.lib adortl.lib VCLX.lib dxComnC4.lib dxThemeC4.lib cxDataC4.lib cxLibraryVCLC.lib dxBarC4.lib dxBarExtItemsC4.lib dxBarExtDBItemsC4.lib cxBaredititemc4.lib dxBarDBNavC4.lib dxsbC4.lib dxRibbonC4.lib dxGDIPlusC4.lib cxeditorsc4.lib dxCoreC4.lib "/>
+    <PACKAGES value=""/>
+    <PATHCPP value=".;..\Common"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="iLink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="InPlaceEditorsDemo.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl;..\..\..\..\Library\CBuilder6"/>
+    <LIBPATH value="$(BCB)\lib\obj;$(BCB)\lib;..\..\..\..\Library\CBuilder6"/>
+    <WARNINGS value="-w-par"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-I$(BCB)\include;$(BCB)\include\vcl;..\Common -Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c -tW -tWM -D$(SYSDEFINES);$(USERDEFINES)"/>
+    <LFLAGS value="-L$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\Common;$(RELEASELIBPATH) -aa -Tpe -x -Gn -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj Memmgr.Lib $(PACKAGES) sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib "/>
+  </LINKER>
+  <IDEOPTIONS/>
+</PROJECT>

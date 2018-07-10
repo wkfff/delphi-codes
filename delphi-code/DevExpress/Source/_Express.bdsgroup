@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{1E765BFE-F6B2-4A71-8FE7-3A09C4B71B1B}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  
+    
+    
+    
+    <Projects>
+      <Projects Name="dxCoreD11.bpl">ExpressCore Library\Packages\dxCoreD11.bdsproj</Projects>
+      <Projects Name="dxGDIPlusD11.bpl">ExpressGDI+ Library\Packages\dxGDIPlusD11.bdsproj</Projects>
+      <Projects Name="dxThemeD11.bpl">XP Theme Manager\Packages\dxThemeD11.bdsproj</Projects>
+      <Projects Name="dxDockingD11.bpl">ExpressDocking Library\Packages\dxDockingD11.bdsproj</Projects>
+      <Projects Name="cxLibraryD11.bpl">ExpressLibrary\Packages\cxLibraryD11.bdsproj</Projects>
+      <Projects Name="dxBarD11.bpl">ExpressBars\Packages\dxBarD11.bdsproj</Projects>
+      <Projects Name="dxComnD11.bpl">ExpressCommon Library\Packages\dxComnD11.bdsproj</Projects>
+      <Projects Name="dcldxBarD11.bpl">ExpressBars\Packages\dcldxBarD11.bdsproj</Projects>
+      <Projects Name="dclcxLibraryD11.bpl">ExpressLibrary\Packages\dclcxLibraryD11.bdsproj</Projects>
+      <Projects Name="Targets">dxCoreD11.bpl dxGDIPlusD11.bpl dxThemeD11.bpl dxDockingD11.bpl cxLibraryD11.bpl dxBarD11.bpl dxComnD11.bpl dcldxBarD11.bpl dclcxLibraryD11.bpl</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{0D364AB2-E323-43F7-9C26-555D2772E677}">
+        <Dependency GUID="{507A6DE3-4878-4D65-B902-09AE1018AF10}"/>
+        <Dependency GUID="{550562DA-F1DB-4952-8F75-1F0B7D26DFE1}"/>
+        <Dependency GUID="{5822F983-35B7-43EF-85FB-9BAF45A2D442}"/>
+        <Dependency GUID="{CD1A4815-EC3D-4C4C-A45D-042CA014B671}"/>
+      </Dependency>
+      <Dependency GUID="{507A6DE3-4878-4D65-B902-09AE1018AF10}">
+        <Dependency GUID="{550562DA-F1DB-4952-8F75-1F0B7D26DFE1}"/>
+        <Dependency GUID="{5822F983-35B7-43EF-85FB-9BAF45A2D442}"/>
+        <Dependency GUID="{CD1A4815-EC3D-4C4C-A45D-042CA014B671}"/>
+      </Dependency>
+      <Dependency GUID="{56E3EAB3-B5F7-4146-B16A-32F69C4A5B08}">
+        <Dependency GUID="{27B5A4A3-0AEC-427C-919F-147314836D60}"/>
+        <Dependency GUID="{550562DA-F1DB-4952-8F75-1F0B7D26DFE1}"/>
+        <Dependency GUID="{507A6DE3-4878-4D65-B902-09AE1018AF10}"/>
+      </Dependency>
+      <Dependency GUID="{27B5A4A3-0AEC-427C-919F-147314836D60}">
+        <Dependency GUID="{550562DA-F1DB-4952-8F75-1F0B7D26DFE1}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+</BorlandProject>

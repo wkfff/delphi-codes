@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+
+<BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800227">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Project1">
+ <param name="Local" value="html\Project1.htm">
+</OBJECT>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="_ClassHierarchy">
+ <param name="Local" value="html\_ClassHierarchy.htm">
+</OBJECT>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Units">
+</OBJECT>
+<UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Unit1">
+ <param name="Local" value="html\Project1\Unit1.htm">
+ <param name="ImageNumber" value="2">
+</OBJECT>
+<UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Classes">
+</OBJECT>
+<UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="TForm1">
+ <param name="Local" value="html\Project1\Unit1\TForm1.htm">
+ <param name="ImageNumber" value="2">
+</OBJECT>
+<UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Classes">
+</OBJECT>
+<UL>
+
+</UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Constants">
+</OBJECT>
+<UL>
+
+</UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Variables">
+</OBJECT>
+<UL>
+
+</UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Fields">
+</OBJECT>
+<UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Button1">
+ <param name="Local" value="html\Project1\Unit1\TForm1\Button1.htm">
+</OBJECT>
+
+</UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Properties">
+</OBJECT>
+<UL>
+
+</UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Methods">
+</OBJECT>
+<UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="A">
+ <param name="Local" value="html\Project1\Unit1\TForm1\A_7AC7.htm">
+</OBJECT>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="B">
+ <param name="Local" value="html\Project1\Unit1\TForm1\B_CCDD.htm">
+</OBJECT>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Button1Click">
+ <param name="Local" value="html\Project1\Unit1\TForm1\Button1Click_0D38.htm">
+</OBJECT>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="FormCreate">
+ <param name="Local" value="html\Project1\Unit1\TForm1\FormCreate_B871.htm">
+</OBJECT>
+
+</UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Events">
+</OBJECT>
+<UL>
+
+</UL>
+
+</UL>
+
+</UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Types">
+</OBJECT>
+<UL>
+
+</UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Constants">
+</OBJECT>
+<UL>
+
+</UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Variables">
+</OBJECT>
+<UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Form1">
+ <param name="Local" value="html\Project1\Unit1\Form1.htm">
+</OBJECT>
+
+</UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="Functions">
+</OBJECT>
+<UL>
+
+</UL>
+
+</UL>
+
+</UL>
+
+<LI> <OBJECT type="text/sitemap">
+ <param name="Name" value="End">
+</OBJECT>
+
+</UL>
+</BODY>
+</HTML>
+

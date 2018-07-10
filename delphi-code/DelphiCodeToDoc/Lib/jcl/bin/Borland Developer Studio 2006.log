@@ -1,0 +1,518 @@
+================================================================================
+JCL 2.2 Release Build 3845
+==========Borland Developer Studio 2006=========================================
+Installed personalities :
+32 bit Delphi
+================================================================================
+Multiple profile installation
+Single profile installation
+================================================================================
+Saving conditional defines...
+Loaded template for include file E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include\jcl.template.inc
+Saved include file E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include\jcld10.inc
+Building source\common library units for Borland Developer Studio 2006...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" bzip2 Jcl8087 JclAbstractContainers JclAlgorithms JclAnsiStrings JclArrayLists JclArraySets JclBase JclBinaryTrees JclCharsets JclCompilerUtils JclComplex JclCompression JclContainerIntf JclCounter JclDateTime JclDevToolsResources JclExprEval JclFileUtils JclHashMaps JclHashSets JclIDEUtils JclIniFiles JclLinkedLists JclLogic JclMath JclMIDI JclMime JclNotify JclPCRE JclQueues JclResources JclRTTI JclSchedule JclSimpleXml JclSortedMaps JclStacks JclStatistics JclStreams JclStrHashMap JclStringConversions JclStringLists JclStrings JclSynch JclSysInfo JclSysUtils JclTrees JclUnicode JclUnitConv JclUnitVersioning JclUnitVersioningProviders JclUsesUtils JclValidation JclVectors JclWideStrings pcre zlibh --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+546822 lines, 1.69 seconds, 52449 bytes code, 16852 bytes data.
+Building source\windows library units for Borland Developer Studio 2006...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" Hardlinks JclAppInst JclCIL JclCLR JclCOM JclConsole JclDebug JclDebugSerialization JclDebugXMLDeserializer JclDebugXMLSerializer JclDotNet JclHelpUtils JclHookExcept JclLANMan JclLocales JclMapi JclMetadata JclMiscel JclMsdosSys JclMultimedia JclNTFS JclPeImage JclRegistry JclSecurity JclShell JclStructStorage JclSvcCtrl JclTask JclTD32 JclTimeZones JclWin32 JclWin32Ex JclWinMIDI mscoree_TLB mscorlib_TLB MSHelpServices_TLB MSTask sevenzip Snmp --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+212711 lines, 0.94 seconds, 2157 bytes code, 188 bytes data.
+Building source\vcl library units for Borland Developer Studio 2006...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" JclFont JclGraphics JclGraphUtils JclOpenDialogFavorites JclOpenDialogHooks JclPrint JclVclResources JclVersionControl JclVersionCtrlCVSImpl JclVersionCtrlSVNImpl --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+38537 lines, 0.31 seconds, 3652 bytes code, 36 bytes data.
+Building devtools\jpp library units for Borland Developer Studio 2006...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" JppLexer JppMain JppParser JppState --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+13006 lines, 0.12 seconds, 6776 bytes code, 28 bytes data.
+Building devtools\jpp\Templates library units for Borland Developer Studio 2006...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" JclAlgorithmsTemplates JclArrayListsTemplates JclArraySetsTemplates JclBinaryTreesTemplates JclContainer1DTemplates JclContainer2DTemplates JclContainerIntfTemplates JclContainerKnownMaps JclContainerKnownTypes JclContainerTemplates JclContainerTypes JclExcDlgTemplates JclHashMapsTemplates JclLinkedListsTemplates JclQueuesTemplates JclSortedMapsTemplates JclStacksTemplates JclTemplates JclTreesTemplates JclVectorsTemplates --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C- -$D- -$I- -$L- -$O+ -$Q- -$R- -$W- -$Y- -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+61949 lines, 0.78 seconds, 3581 bytes code, 28 bytes data.
+Building source\common library debug units for Borland Developer Studio 2006...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" bzip2 Jcl8087 JclAbstractContainers JclAlgorithms JclAnsiStrings JclArrayLists JclArraySets JclBase JclBinaryTrees JclCharsets JclCompilerUtils JclComplex JclCompression JclContainerIntf JclCounter JclDateTime JclDevToolsResources JclExprEval JclFileUtils JclHashMaps JclHashSets JclIDEUtils JclIniFiles JclLinkedLists JclLogic JclMath JclMIDI JclMime JclNotify JclPCRE JclQueues JclResources JclRTTI JclSchedule JclSimpleXml JclSortedMaps JclStacks JclStatistics JclStreams JclStrHashMap JclStringConversions JclStringLists JclStrings JclSynch JclSysInfo JclSysUtils JclTrees JclUnicode JclUnitConv JclUnitVersioning JclUnitVersioningProviders JclUsesUtils JclValidation JclVectors JclWideStrings pcre zlibh --no-config -U"C:\Program Files\Borland\BDS\4.0\lib\debug" -U"C:\Program Files\Borland\BDS\4.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10\debug" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+546822 lines, 1.83 seconds, 52621 bytes code, 16852 bytes data.
+Building source\windows library debug units for Borland Developer Studio 2006...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" Hardlinks JclAppInst JclCIL JclCLR JclCOM JclConsole JclDebug JclDebugSerialization JclDebugXMLDeserializer JclDebugXMLSerializer JclDotNet JclHelpUtils JclHookExcept JclLANMan JclLocales JclMapi JclMetadata JclMiscel JclMsdosSys JclMultimedia JclNTFS JclPeImage JclRegistry JclSecurity JclShell JclStructStorage JclSvcCtrl JclTask JclTD32 JclTimeZones JclWin32 JclWin32Ex JclWinMIDI mscoree_TLB mscorlib_TLB MSHelpServices_TLB MSTask sevenzip Snmp --no-config -U"C:\Program Files\Borland\BDS\4.0\lib\debug" -U"C:\Program Files\Borland\BDS\4.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10\debug" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+212711 lines, 1.02 seconds, 2298 bytes code, 188 bytes data.
+Building source\vcl library debug units for Borland Developer Studio 2006...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" JclFont JclGraphics JclGraphUtils JclOpenDialogFavorites JclOpenDialogHooks JclPrint JclVclResources JclVersionControl JclVersionCtrlCVSImpl JclVersionCtrlSVNImpl --no-config -U"C:\Program Files\Borland\BDS\4.0\lib\debug" -U"C:\Program Files\Borland\BDS\4.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10\debug" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+38537 lines, 0.36 seconds, 3921 bytes code, 36 bytes data.
+Building devtools\jpp library debug units for Borland Developer Studio 2006...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" JppLexer JppMain JppParser JppState --no-config -U"C:\Program Files\Borland\BDS\4.0\lib\debug" -U"C:\Program Files\Borland\BDS\4.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10\debug" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+13006 lines, 0.14 seconds, 7436 bytes code, 28 bytes data.
+Building devtools\jpp\Templates library debug units for Borland Developer Studio 2006...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" JclAlgorithmsTemplates JclArrayListsTemplates JclArraySetsTemplates JclBinaryTreesTemplates JclContainer1DTemplates JclContainer2DTemplates JclContainerIntfTemplates JclContainerKnownMaps JclContainerKnownTypes JclContainerTemplates JclContainerTypes JclExcDlgTemplates JclHashMapsTemplates JclLinkedListsTemplates JclQueuesTemplates JclSortedMapsTemplates JclStacksTemplates JclTemplates JclTreesTemplates JclVectorsTemplates --no-config -U"C:\Program Files\Borland\BDS\4.0\lib\debug" -U"C:\Program Files\Borland\BDS\4.0\lib" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$J+ -$C+ -$D+ -$I+ -$L+ -$O- -$Q+ -$R+ -$W+ -$Y+ -N"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10\debug" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -R"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+61949 lines, 0.88 seconds, 3650 bytes code, 28 bytes data.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\Jcl.dpk...
+Cleaning package cache for Jcl100.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\Jcl.dpk
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\Jcl.dpk" --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -N"..\..\lib\d10" -I"..\..\lib\d10;..\..\source\include" -R"..\..\lib\d10;..\..\source\include" -DBCB;WIN32;CONDITIONALEXPRESSIONS;VER180;RELEASE -U"E:\workspace\DelphiCodeToDoc\jcl\lib\d10\;..\..\lib\d10;..\..\source\include" -LU"rtl" -LN"E:\workspace\DelphiCodeToDoc\jcl\lib\d10" -LE"E:\workspace\DelphiCodeToDoc\Bpl"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+129 lines, 0.25 seconds, 1469700 bytes code, 143568 bytes data.
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclContainers.dpk...
+Cleaning package cache for JclContainers100.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclContainers.dpk
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclContainers.dpk" --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -N"..\..\lib\d10" -I"..\..\lib\d10;..\..\source\include" -R"..\..\lib\d10;..\..\source\include" -DBCB;WIN32;CONDITIONALEXPRESSIONS;VER180;RELEASE -U"E:\workspace\DelphiCodeToDoc\jcl\lib\d10\;..\..\lib\d10;..\..\source\include" -LU"rtl;Jcl" -LN"E:\workspace\DelphiCodeToDoc\jcl\lib\d10" -LE"E:\workspace\DelphiCodeToDoc\Bpl"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+68 lines, 0.12 seconds, 1390772 bytes code, 1068 bytes data.
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclDeveloperTools.dpk...
+Cleaning package cache for JclDeveloperTools100.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclDeveloperTools.dpk
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclDeveloperTools.dpk" --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -N"..\..\lib\d10" -I"..\..\lib\d10;..\..\source\include" -R"..\..\lib\d10;..\..\source\include" -DBCB;WIN32;CONDITIONALEXPRESSIONS;VER180;RELEASE -U"E:\workspace\DelphiCodeToDoc\jcl\lib\d10\;..\..\lib\d10;..\..\source\include" -LU"rtl;vcl;Jcl;JclContainers" -LN"E:\workspace\DelphiCodeToDoc\jcl\lib\d10" -LE"E:\workspace\DelphiCodeToDoc\Bpl"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+85 lines, 0.08 seconds, 252784 bytes code, 12552 bytes data.
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclVcl.dpk...
+Cleaning package cache for JclVcl100.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclVcl.dpk
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclVcl.dpk" --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -N"..\..\lib\d10" -I"..\..\lib\d10;..\..\source\include" -R"..\..\lib\d10;..\..\source\include" -DBCB;WIN32;CONDITIONALEXPRESSIONS;VER180;RELEASE -U"E:\workspace\DelphiCodeToDoc\jcl\lib\d10\;..\..\lib\d10;..\..\source\include" -LU"rtl;vcl;vcljpg;Jcl" -LN"E:\workspace\DelphiCodeToDoc\jcl\lib\d10" -LE"E:\workspace\DelphiCodeToDoc\Bpl"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+66 lines, 0.08 seconds, 92076 bytes code, 1756 bytes data.
+Compilation success
+...done.
+Building AlgorithmsExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" AlgorithmsExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+168119 lines, 0.33 seconds, 452232 bytes code, 36976 bytes data.
+Building ApiHookExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ApiHookExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+126244 lines, 0.25 seconds, 401480 bytes code, 36420 bytes data.
+Building AppInstExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" AppInstExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+120319 lines, 0.25 seconds, 493424 bytes code, 37180 bytes data.
+Building ArchiveDemo.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ArchiveDemo.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+138467 lines, 0.28 seconds, 631540 bytes code, 38984 bytes data.
+Building ClipLineDemo.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ClipLineDemo.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+125888 lines, 0.25 seconds, 397204 bytes code, 36416 bytes data.
+Building ClrDemo.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ClrDemo.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+140613 lines, 0.30 seconds, 675844 bytes code, 46760 bytes data.
+Building ConsoleExamples.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ConsoleExamples.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+118093 lines, 0.22 seconds, 130104 bytes code, 32060 bytes data.
+Building ContainerPerformance.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ContainerPerformance.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+220304 lines, 0.41 seconds, 574168 bytes code, 36952 bytes data.
+Building CreateProcAsUserExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" CreateProcAsUserExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+120134 lines, 0.25 seconds, 424060 bytes code, 36576 bytes data.
+Building DependView.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" DependView.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+156151 lines, 0.31 seconds, 753524 bytes code, 39204 bytes data.
+Building EnvironmentExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" EnvironmentExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+117778 lines, 0.25 seconds, 463216 bytes code, 36928 bytes data.
+Building ExceptionReportConverter.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ExceptionReportConverter.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+146879 lines, 0.30 seconds, 543948 bytes code, 37868 bytes data.
+Building ExprEvalExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ExprEvalExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+126941 lines, 0.25 seconds, 436036 bytes code, 36940 bytes data.
+Building FileMapping.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" FileMapping.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+116052 lines, 0.23 seconds, 433000 bytes code, 36640 bytes data.
+Building FileSearchDemo.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" FileSearchDemo.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+119777 lines, 0.27 seconds, 524180 bytes code, 37340 bytes data.
+Building FileSummaryExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" FileSummaryExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+126592 lines, 0.25 seconds, 460884 bytes code, 37328 bytes data.
+Building FramesTrackExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" FramesTrackExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+140632 lines, 0.28 seconds, 479060 bytes code, 37220 bytes data.
+Building HashingExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" HashingExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+191088 lines, 0.36 seconds, 584024 bytes code, 36864 bytes data.
+Building JclDebugMTTest.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" JclDebugMTTest.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+145158 lines, 0.28 seconds, 458536 bytes code, 37024 bytes data.
+Building JEDISoftLinks.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" JEDISoftLinks.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+122841 lines, 0.23 seconds, 130676 bytes code, 32220 bytes data.
+Building LanManExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" LanManExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+120105 lines, 0.23 seconds, 438536 bytes code, 36688 bytes data.
+Building ListExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ListExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+182353 lines, 0.33 seconds, 562596 bytes code, 36836 bytes data.
+Building LocalesExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" LocalesExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+122690 lines, 0.27 seconds, 507072 bytes code, 37232 bytes data.
+Building MakeJclDbg.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" MakeJclDbg.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+140564 lines, 0.25 seconds, 191692 bytes code, 32656 bytes data.
+Building MapiExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" MapiExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+121161 lines, 0.28 seconds, 533508 bytes code, 37552 bytes data.
+Building MapToJdbg.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" MapToJdbg.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+143756 lines, 0.28 seconds, 579740 bytes code, 38060 bytes data.
+Building MidiOutExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" MidiOutExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+122863 lines, 0.27 seconds, 452780 bytes code, 36952 bytes data.
+Building MultiMediaExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" MultiMediaExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+123219 lines, 0.27 seconds, 577672 bytes code, 37824 bytes data.
+Building NtSvcExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" NtSvcExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+123458 lines, 0.27 seconds, 563140 bytes code, 37544 bytes data.
+Building NumFormatExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" NumFormatExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+117923 lines, 0.25 seconds, 449700 bytes code, 36872 bytes data.
+Building PCREDemo.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" PCREDemo.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+123445 lines, 0.27 seconds, 557232 bytes code, 101144 bytes data.
+Building PeFuncExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" PeFuncExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+126286 lines, 0.25 seconds, 447524 bytes code, 36772 bytes data.
+Building PeViewer.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" PeViewer.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+183596 lines, 0.36 seconds, 956060 bytes code, 41280 bytes data.
+Building ReadMailExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ReadMailExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+121054 lines, 0.27 seconds, 516708 bytes code, 37472 bytes data.
+Building RegistryExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" RegistryExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+117876 lines, 0.75 seconds, 499620 bytes code, 37104 bytes data.
+Building ResFix.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ResFix.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+149683 lines, 0.31 seconds, 666420 bytes code, 38588 bytes data.
+Building RTTIExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" RTTIExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+124168 lines, 0.25 seconds, 437400 bytes code, 36632 bytes data.
+Building ScreenJPG.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ScreenJPG.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+149705 lines, 0.31 seconds, 714472 bytes code, 40732 bytes data.
+Building SingleInstExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" SingleInstExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+120186 lines, 0.25 seconds, 413712 bytes code, 36468 bytes data.
+Building SourceLocExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" SourceLocExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+142620 lines, 0.30 seconds, 502324 bytes code, 37416 bytes data.
+Building StackTrackDLLsComLibrary.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" StackTrackDLLsComLibrary.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+126983 lines, 0.27 seconds, 429712 bytes code, 36560 bytes data.
+Building StackTrackDLLsDynamicLibrary.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" StackTrackDLLsDynamicLibrary.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+126868 lines, 0.23 seconds, 112164 bytes code, 31964 bytes data.
+Building StackTrackDLLsExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" StackTrackDLLsExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+143661 lines, 0.30 seconds, 548376 bytes code, 37664 bytes data.
+Building StackTrackDLLsStaticLibrary.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" StackTrackDLLsStaticLibrary.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+126868 lines, 0.23 seconds, 112164 bytes code, 31964 bytes data.
+Building StackTrackExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" StackTrackExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+140556 lines, 0.28 seconds, 479392 bytes code, 37176 bytes data.
+Building StretchGraphicExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" StretchGraphicExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+133802 lines, 0.28 seconds, 627836 bytes code, 40412 bytes data.
+Building StructStorageExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" StructStorageExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+125574 lines, 0.25 seconds, 519112 bytes code, 37372 bytes data.
+Building SysInfoExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" SysInfoExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+118012 lines, 0.25 seconds, 459172 bytes code, 37372 bytes data.
+Building TaskDemo.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" TaskDemo.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+128615 lines, 0.28 seconds, 566156 bytes code, 37960 bytes data.
+Building TestMoveArray.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" TestMoveArray.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+128662 lines, 0.22 seconds, 118628 bytes code, 31944 bytes data.
+Building TextConverter.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" TextConverter.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+116038 lines, 0.23 seconds, 405900 bytes code, 36416 bytes data.
+Building TextReaderExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" TextReaderExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+119904 lines, 0.27 seconds, 490032 bytes code, 37136 bytes data.
+Building ThreadExceptExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ThreadExceptExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+144789 lines, 0.30 seconds, 490472 bytes code, 37456 bytes data.
+Building TimeZoneDemo.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" TimeZoneDemo.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+118825 lines, 0.25 seconds, 539264 bytes code, 37640 bytes data.
+Building TlbToMap.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" TlbToMap.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+140864 lines, 0.30 seconds, 594604 bytes code, 38112 bytes data.
+Building ToolHelpViewer.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" ToolHelpViewer.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+167182 lines, 0.34 seconds, 775244 bytes code, 39116 bytes data.
+Building TreeExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" TreeExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+157880 lines, 0.28 seconds, 496248 bytes code, 36776 bytes data.
+Building TreeStructure.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" TreeStructure.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+178340 lines, 0.34 seconds, 516012 bytes code, 37316 bytes data.
+Building UnitVersioningTest.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" UnitVersioningTest.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+144795 lines, 0.30 seconds, 508716 bytes code, 37516 bytes data.
+Building UnitVersioningTestDLL.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" UnitVersioningTestDLL.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+117734 lines, 0.22 seconds, 111316 bytes code, 31924 bytes data.
+Building UnmangleNameExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" UnmangleNameExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+126390 lines, 0.27 seconds, 494952 bytes code, 37216 bytes data.
+Building VerInfoExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" VerInfoExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+119586 lines, 0.25 seconds, 448020 bytes code, 36872 bytes data.
+Building WideStringExample.dpr...
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" WideStringExample.dpr --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -E"E:\workspace\DelphiCodeToDoc\Lib\jcl\bin" -N"." -U"E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" -I"E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+118014 lines, 0.25 seconds, 562412 bytes code, 37552 bytes data.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclBaseExpert.dpk...
+Cleaning package cache for JclBaseExpert100.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclBaseExpert.dpk
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclBaseExpert.dpk" --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -N"..\..\lib\d10" -I"..\..\lib\d10;..\..\source\include" -R"..\..\lib\d10;..\..\source\include" -DBCB;WIN32;CONDITIONALEXPRESSIONS;VER180;RELEASE -U"E:\workspace\DelphiCodeToDoc\jcl\lib\d10\;..\..\lib\d10;..\..\source\include" -LU"rtl;vcl;vclx;designide;Jcl;JclDeveloperTools" -LN"E:\workspace\DelphiCodeToDoc\jcl\lib\d10" -LE"E:\workspace\DelphiCodeToDoc\Bpl"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+21725 lines, 0.11 seconds, 39720 bytes code, 616 bytes data.
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclDebugExpert.dpk...
+Cleaning package cache for JclDebugExpert100.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclDebugExpert.dpk
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclDebugExpert.dpk" --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -N"..\..\lib\d10" -I"..\..\lib\d10;..\..\source\include" -R"..\..\lib\d10;..\..\source\include" -DBCB;WIN32;CONDITIONALEXPRESSIONS;VER180;RELEASE -U"E:\workspace\DelphiCodeToDoc\jcl\lib\d10\;..\..\lib\d10;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclBaseExpert;JclDeveloperTools" -LN"E:\workspace\DelphiCodeToDoc\jcl\lib\d10" -LE"E:\workspace\DelphiCodeToDoc\Bpl"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+6127 lines, 0.08 seconds, 29508 bytes code, 368 bytes data.
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclProjectAnalysisExpert.dpk...
+Cleaning package cache for JclProjectAnalysisExpert100.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclProjectAnalysisExpert.dpk
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclProjectAnalysisExpert.dpk" --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -N"..\..\lib\d10" -I"..\..\lib\d10;..\..\source\include" -R"..\..\lib\d10;..\..\source\include" -DBCB;WIN32;CONDITIONALEXPRESSIONS;VER180;RELEASE -U"E:\workspace\DelphiCodeToDoc\jcl\lib\d10\;..\..\lib\d10;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclBaseExpert" -LN"E:\workspace\DelphiCodeToDoc\jcl\lib\d10" -LE"E:\workspace\DelphiCodeToDoc\Bpl"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+4956 lines, 0.08 seconds, 19556 bytes code, 232 bytes data.
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclFavoriteFoldersExpert.dpk...
+Cleaning package cache for JclFavoriteFoldersExpert100.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclFavoriteFoldersExpert.dpk
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclFavoriteFoldersExpert.dpk" --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -N"..\..\lib\d10" -I"..\..\lib\d10;..\..\source\include" -R"..\..\lib\d10;..\..\source\include" -DBCB;WIN32;CONDITIONALEXPRESSIONS;VER180;RELEASE -U"E:\workspace\DelphiCodeToDoc\jcl\lib\d10\;..\..\lib\d10;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclVcl;JclBaseExpert" -LN"E:\workspace\DelphiCodeToDoc\jcl\lib\d10" -LE"E:\workspace\DelphiCodeToDoc\Bpl"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+2036 lines, 0.08 seconds, 5208 bytes code, 96 bytes data.
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclRepositoryExpert.dpk...
+Cleaning package cache for JclRepositoryExpert100.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclRepositoryExpert.dpk
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclRepositoryExpert.dpk" --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -N"..\..\lib\d10" -I"..\..\lib\d10;..\..\source\include" -R"..\..\lib\d10;..\..\source\include" -DBCB;WIN32;CONDITIONALEXPRESSIONS;VER180;RELEASE -U"E:\workspace\DelphiCodeToDoc\jcl\lib\d10\;..\..\lib\d10;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclContainers;JclBaseExpert;JclDeveloperTools" -LN"E:\workspace\DelphiCodeToDoc\jcl\lib\d10" -LE"E:\workspace\DelphiCodeToDoc\Bpl"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+22463 lines, 0.11 seconds, 32756 bytes code, 600 bytes data.
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclSIMDViewExpert.dpk...
+Cleaning package cache for JclSIMDViewExpert100.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclSIMDViewExpert.dpk
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclSIMDViewExpert.dpk" --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -N"..\..\lib\d10" -I"..\..\lib\d10;..\..\source\include" -R"..\..\lib\d10;..\..\source\include" -DBCB;WIN32;CONDITIONALEXPRESSIONS;VER180;RELEASE -U"E:\workspace\DelphiCodeToDoc\jcl\lib\d10\;..\..\lib\d10;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclBaseExpert" -LN"E:\workspace\DelphiCodeToDoc\jcl\lib\d10" -LE"E:\workspace\DelphiCodeToDoc\Bpl"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+12761 lines, 0.09 seconds, 42064 bytes code, 868 bytes data.
+Compilation success
+...done.
+Building E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclStackTraceViewerExpert.dpk...
+Cleaning package cache for JclStackTraceViewerExpert100.bpl
+Cleaning ok
+Compiling package E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclStackTraceViewerExpert.dpk
+"C:\Program Files\Borland\BDS\4.0\bin\dcc32.exe" "E:\workspace\DelphiCodeToDoc\Lib\jcl\packages\d10\JclStackTraceViewerExpert.dpk" --no-config -U"C:\Program Files\Borland\BDS\4.0\lib" -N"..\..\lib\d10" -I"..\..\lib\d10;..\..\source\include" -R"..\..\lib\d10;..\..\source\include" -DBCB;WIN32;CONDITIONALEXPRESSIONS;VER180;RELEASE -U"E:\workspace\DelphiCodeToDoc\jcl\lib\d10\;..\..\lib\d10;..\..\source\include" -LU"rtl;vcl;designide;Jcl;JclBaseExpert" -LN"E:\workspace\DelphiCodeToDoc\jcl\lib\d10" -LE"E:\workspace\DelphiCodeToDoc\Bpl"
+Borland Delphi for Win32 compiler version 18.0
+Copyright (c) 1983,2005 Borland Software Corporation
+29741 lines, 0.11 seconds, 47528 bytes code, 676 bytes data.
+Compilation success
+...done.
+Added "E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\include" to library search path.
+Added "E:\workspace\DelphiCodeToDoc\Lib\jcl\source\common;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\windows;E:\workspace\DelphiCodeToDoc\Lib\jcl\source\vcl;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp;E:\workspace\DelphiCodeToDoc\Lib\jcl\devtools\jpp\Templates" to library browsing path.
+Added "E:\workspace\DelphiCodeToDoc\Lib\jcl\lib\d10\debug" to Debug DCU Path.
+Cleaning package cache for JclBaseExpert100.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Bpl\JclBaseExpert100.bpl
+Registration ok
+Cleaning package cache for JclDebugExpert100.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Bpl\JclDebugExpert100.bpl
+Registration ok
+Cleaning package cache for JclProjectAnalysisExpert100.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Bpl\JclProjectAnalysisExpert100.bpl
+Registration ok
+Cleaning package cache for JclFavoriteFoldersExpert100.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Bpl\JclFavoriteFoldersExpert100.bpl
+Registration ok
+Cleaning package cache for JclRepositoryExpert100.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Bpl\JclRepositoryExpert100.bpl
+Registration ok
+Cleaning package cache for JclSIMDViewExpert100.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Bpl\JclSIMDViewExpert100.bpl
+Registration ok
+Cleaning package cache for JclStackTraceViewerExpert100.bpl
+Cleaning ok
+Registering package E:\workspace\DelphiCodeToDoc\Bpl\JclStackTraceViewerExpert100.bpl
+Registration ok

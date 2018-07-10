@@ -1,0 +1,1095 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2005-03-20 10:32\n"
+"PO-Revision-Date: 2007-05-14 22:54\n"
+"Last-Translator: Somebody <your.email@address.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2\n"
+
+#  Doesn't have any letters
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3563
+msgid "-"
+msgstr ""
+
+#. %ItemName; %ItemDescription
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:224
+msgid "        <tr bgcolor=\"#FFFFFF\">           <td class=\"Generated\" "
+"width=\"33%%\">%s</td>          <td class=\"Generated\">%s</td>        "
+"</tr>"
+msgstr ""
+
+#. no parameter
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:233
+msgid "      </table>    </td>  </tr></table><br>"
+msgstr ""
+
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:267
+msgid "    </td>  </tr></table><br>"
+msgstr ""
+
+#. COMMON LINES SECTION COLORED LINE %Item
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:199
+msgid "  <tr>     <td width=\"10\">&nbsp;</td>    <td bgcolor=\"#FFFFCC\" "
+"class=\"Generated\">       <p>%s</p>    </td>  "
+"</tr>"
+msgstr ""
+
+#. COMMON LINES SECTION LINE %Item
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:190
+msgid "  <tr>     <td width=\"10\">&nbsp;</td>    <td class=\"Generated\">       "
+"<p>%s</p>    </td>  </tr>"
+msgstr ""
+
+#  Doesn't have any letters
+#. Form1..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvEdit4..EmptyValue
+#. Form1..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvEdit5..EmptyValue
+#. Form1..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvEdit6..EmptyValue
+#: UI/frmNiceWizard.dfm:762  UI/frmNiceWizard.dfm:772
+#: UI/frmNiceWizard.dfm:782
+msgid "#0"
+msgstr ""
+
+#. / HEAD section
+#. Programmer's name for it: PDF_COMMON_HEADER
+#: Generator/Pdf/uDocGenPDF_Tools.pas:49
+msgid "#HTMLDOC 1.8.24 Open Source-t pdf13 -f %s.pdf --webpage --title "
+"--textcolor #000000 --linkcolor #0000ff --linkstyle underline --size "
+"Universal --left 0.50in --right 0.50in --top 0.50in --bottom 0.50in "
+"--header .t. --footer h.1 --nup 1 --tocheader .t. --tocfooter ..i "
+"--portrait --color --no-pscommands --no-xrxcomments --compression=1 "
+"--jpeg=0 --fontsize 8.0 --fontspacing 1.0 --headingfont Helvetica "
+"--bodyfont Times --headfootsize 8.0 --headfootfont Helvetica "
+"--charset iso-8859-1 --links --embedfonts --pagemode document "
+"--pagelayout single --firstpage p1 --pageeffect none --pageduration "
+"10 --effectduration 1.0 --no-encryption --permissions all  "
+"--owner-password \"\"  --user-password \"\" --browserwidth 1025 "
+"--strict"
+msgstr ""
+
+#. / each file of FILES section : %TemplateName
+#: Generator/Chm/uDocGenCHM_Tools.pas:86
+msgid "%s.htm"
+msgstr ""
+
+#. MainForm..ActionManager1..............Caption
+#: UI/fMainForm.dfm:3742
+msgid "&LanguageTemplate"
+msgstr ""
+
+#  Doesn't have any letters
+#. Form1..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvEdit4..Text
+#. Form1..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvEdit5..Text
+#. Form1..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvEdit6..Text
+#: UI/frmNiceWizard.dfm:765  UI/frmNiceWizard.dfm:775
+#: UI/frmNiceWizard.dfm:785
+msgid "*"
+msgstr ""
+
+#. Programmer's name for it: HTM_FILE_FILTER : string
+#: Process/Extract/DocGenHTML_Common.pas:23
+msgid "*.htm"
+msgstr ""
+
+#. / CHM file extention
+#. Programmer's name for it: CHM_FILE_EXT
+#: Process/Extract/DocGenCHM_Common.pas:40
+msgid ".chm"
+msgstr ""
+
+#. / CSS file extention
+#. Programmer's name for it: CSS_FILE_EXT: string
+#: Process/Extract/DocGenHTML_Common.pas:25
+msgid ".css"
+msgstr ""
+
+#. / HHC file extention
+#. Programmer's name for it: HHC_FILE_EXT
+#: Process/Extract/DocGenCHM_Common.pas:38
+msgid ".hhc"
+msgstr ""
+
+#. / HHK file extention
+#. Programmer's name for it: HHK_FILE_EXT
+#: Process/Extract/DocGenCHM_Common.pas:39
+msgid ".hhk"
+msgstr ""
+
+#. / HHP file extention
+#. Programmer's name for it: HHP_FILE_EXT
+#: Process/Extract/DocGenCHM_Common.pas:37
+msgid ".hhp"
+msgstr ""
+
+#. / HTML file extention
+#. Programmer's name for it: HTML_FILE_EXT: string
+#. Programmer's name for it: HTM_FILE_EXT :string
+#: Process/Extract/DocGenHTML_Common.pas:24  UI/fMainForm.pas:116
+msgid ".htm"
+msgstr ""
+
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:275
+msgid ".SectionName {  font-weight: bold; color: #000000; font-family: "
+"Verdana, Arial, Helvetica, sans-serif; font-size: small}.Generated {  "
+"color: #9900FF; font-family: Verdana, Arial, Helvetica, sans-serif; "
+"font-size: small; font-style: normal; font-weight: normal}.IndexName "
+"{ font-weight: normal; background-color: #CCCCCC; font-family: "
+"Verdana, Arial, Helvetica, sans-serif; font-size: small}.Normal {  "
+"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: small; "
+"font-style: normal; font-weight: normal}.Footer { color: #000000; "
+"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: "
+"xx-small; font-style: normal; font-weight: normal}a:hover {  color: "
+"#FF0000; text-decoration: underline}"
+msgstr ""
+
+#. / FILES section
+#: Generator/Chm/uDocGenCHM_Tools.pas:82
+msgid "[FILES]"
+msgstr ""
+
+#. / INFOTYPES section
+#: Generator/Chm/uDocGenCHM_Tools.pas:90
+msgid "[INFOTYPES]"
+msgstr ""
+
+#. +'Binary TOC=Yes'+NativeLineBreak - gets some troubles with option !!!
+#: Generator/Chm/uDocGenCHM_Tools.pas:63
+msgid "[OPTIONS]"
+msgstr ""
+
+#. / WINDOWS section : %Name, %ContentFile, %IndexFile, %DefaultTopic, %DefaultTopic
+#: Generator/Chm/uDocGenCHM_Tools.pas:78
+msgid "[WINDOWS]%s=,\"%s.hhc\",\"%s.hhk\",\"html\\%s.htm\",\"html\\%s.htm\",,,,,0x23520"
+",,0x3026,[0,0,1024,768],0x1030000,,,,,,0"
+msgstr ""
+
+#. Programmer's name for it: REG_ROOT_KEY
+#: ReadWrite/ConvertTypes.pas:46
+msgid "\\Software\\Jedi\\JediCodeFormat"
+msgstr ""
+
+#. / HEAD section
+#. Programmer's name for it: CHM_COMMON_TOC_FOLDER_END
+#: Generator/Chm/uDocGenCHM_Tools.pas:130
+msgid "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML//EN\"><HTML><HEAD><meta "
+"name=\"GENERATOR\" content=\"Microsoft&reg; HTML Help Workshop 4.1\"><!-- "
+"Sitemap 1.0 --></HEAD>"
+msgstr ""
+
+#. HEAD SECTION %ProjectName, %Summary, %CSSFile
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:139
+msgid "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" "
+"\"http://www.w3.org/TR/html4/strict.dtd\"><html><head><title>%s - "
+"%s</title><meta http-equiv=\"Content-Type\" content=\"text/html\"><link "
+"rel=\"stylesheet\" href=\"%s\" type=\"text/css\"></head><body "
+"bgcolor=\"#FFFFFF\">"
+msgstr ""
+
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:254
+msgid "</body></html>"
+msgstr ""
+
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:202
+msgid "</table><br>"
+msgstr ""
+
+#. / HEADING section END :
+#. Programmer's name for it: CHM_COMMON_TOC_FOLDER_END
+#: Generator/Chm/uDocGenCHM_Tools.pas:121
+msgid "</UL>"
+msgstr ""
+
+#. / BODY END section :
+#. Programmer's name for it: CHM_COMMON_TOC_FOLDER_END
+#: Generator/Chm/uDocGenCHM_Tools.pas:145
+msgid "</UL></BODY></HTML>"
+msgstr ""
+
+#. Label linked to a file %FileName, %Label
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:280
+msgid "<a href=\"%s\">%s</a>"
+msgstr ""
+
+#. / BODY START section :
+#. Programmer's name for it: CHM_COMMON_TOC_FOLDER_END
+#: Generator/Chm/uDocGenCHM_Tools.pas:139
+msgid "<BODY><OBJECT type=\"text/site properties\">\t<param name=\"Window "
+"Styles\" value=\"0x800227\">\t<param name=\"ImageType\" "
+"value=\"Folder\"></OBJECT><UL>"
+msgstr ""
+
+#. / HTML sign for EndOfLine
+#. Programmer's name for it: HTML_EOL : string
+#: Process/Extract/DocGenHTML_Common.pas:27
+msgid "<BR>"
+msgstr ""
+
+#. +'<p>&nbsp;</p>'+AnsiLineBreak
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:252
+msgid "<hr width=\"100%%\" align=\"left\"><span class=\"Footer\">%s<br>Created "
+"with DelphiCodeToDoc. To obtain the latest revision, please visit <a "
+"href=\"http://dephicodetodoc.sourceforge.net/\"><b>http://dephicodetodoc"
+".sourceforge.net/</b></a><br>"
+msgstr ""
+
+#. FOOTER SECTION
+#. Programmer's name for it: L_Exports
+#: Process/Extract/DocGenHTML_Common.pas:247
+msgid "<hr width=\"100%%\" align=\"left\"><span class=\"Footer\">Created with "
+"DelphiCodeToDoc. To obtain the latest revision,please see <a "
+"href=\"http://dephicodetodoc.sourceforge.net/\"><b>http://dephicodetodoc"
+".sourceforge.net/</b></a><br>Under GNU GPL licence. Copyright (c) "
+"2003 - TridenT.</span><br><p>&nbsp;</p></body></html>"
+msgstr ""
+
+#. / Linked HEADING section START : %HeadingName, %HeadingLink
+#: Generator/Chm/uDocGenCHM_Tools.pas:115
+msgid "<LI> <OBJECT type=\"text/sitemap\"> <param name=\"Name\" value=\"%s\"> "
+"<param name=\"Local\" value=\"html\\%s.htm\"> <param name=\"ImageNumber\" "
+"value=\"2\"></OBJECT>"
+msgstr ""
+
+#. / Linked HEADING section START : %HeadingName, %HeadingLink
+#: Generator/Chm/uDocGenCHM_Tools.pas:107
+msgid "<LI> <OBJECT type=\"text/sitemap\"> <param name=\"Name\" value=\"%s\"> "
+"<param name=\"Local\" value=\"html\\%s.htm\"></OBJECT>"
+msgstr ""
+
+#. / Simple HEADING section START : %HeadingName
+#: Generator/Chm/uDocGenCHM_Tools.pas:99
+msgid "<LI> <OBJECT type=\"text/sitemap\"> <param name=\"Name\" "
+"value=\"%s\"></OBJECT>"
+msgstr ""
+
+#. MULTI SECTION %SectionName;
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:262
+msgid "<span class=\"SectionName\">%s</span><br><table width=\"100%%\" "
+"border=\"0\" cellspacing=\"0\">  <tr>    <td width=\"10\">&nbsp;</td>    "
+"<td>"
+msgstr ""
+
+#. Unit description section %SectionName
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:180
+msgid "<span class=\"SectionName\">%s</span><br><table width=\"95%%\" border=\"0\" "
+"bgcolor=\"#FFFFCC\" cellspacing=\"0\">"
+msgstr ""
+
+#. Unit description section %SectionName; %Item
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:243
+msgid "<span class=\"SectionName\">%s</span><br><table width=\"95%%\" border=\"0\" "
+"bgcolor=\"#FFFFCC\" cellspacing=\"0\">  <tr>    <td width=\"10\" "
+"bgcolor=\"#FFFFFF\">&nbsp;</td>    <td class=\"Generated\">%s</td>  "
+"</tr></table><br>"
+msgstr ""
+
+#. COMMON LINES SECTION INIT %SectionName
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:175
+msgid "<span class=\"SectionName\">%s</span><br><table width=\"95%%\" border=\"0\" "
+"cellspacing=\"0\">"
+msgstr ""
+
+#. %SectionName% %IndexName1; %IndexName2
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:217
+msgid "<span class=\"SectionName\">%s</span><br><table width=\"95%%\" border=\"0\" "
+"cellspacing=\"0\">  <tr>     <td width=\"10\">&nbsp;</td>    <td>       "
+"<table width=\"100%%\" border=\"1\" cellspacing=\"0\" class=\"IndexName\">    "
+"    <tr bgcolor=\"#FFFFFF\">           <td class=\"IndexName\" "
+"width=\"33%%\">%s</td>          <td class=\"IndexName\">%s</td>        "
+"</tr>"
+msgstr ""
+
+#. SIMPLE-LINE SECTION %SectionName; %Item;
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:170
+msgid "<span class=\"SectionName\">%s</span><br><table width=\"95%%\" border=\"0\" "
+"cellspacing=\"0\">  <tr>    <td width=\"10\">&nbsp;</td>    <td "
+"class=\"Generated\">%s</td>  </tr></table><br>"
+msgstr ""
+
+#. TOOLBAR SECTION %ProjectName; %ContentName, %IndexName; %PreviousItemName, %NextItemName
+#. Programmer's name for it: L_Name
+#: Process/Extract/DocGenHTML_Common.pas:159
+msgid "<table width=\"100%%\" border=\"0\" cellspacing=\"0\" bgcolor=\"#99CCFF\">  "
+"<tr>    <td class=\"Generated\"><b>%s</b></td>    <td class=\"Normal\">   "
+"   <div align=\"center\">%s</div>    </td>    <td class=\"Normal\">      "
+"<div align=\"center\">%s</div>    </td>    <td class=\"Normal\">      "
+"<div align=\"center\">%s</div>    </td>    <td class=\"Normal\">      "
+"<div align=\"center\">%s</div>    </td>  "
+"</tr></table><br>"
+msgstr ""
+
+#. / Folder type HEADING
+#. Programmer's name for it: CHM_COMMON_TOC_FOLDER
+#: Generator/Chm/uDocGenCHM_Tools.pas:118
+msgid "<UL>"
+msgstr ""
+
+#  Doesn't look like text
+#. MainForm..ActionMainMenuBar1..Caption
+#: UI/fMainForm.dfm:182
+msgid "ActionMainMenuBar1"
+msgstr ""
+
+#  Doesn't look like text
+#. MainForm..ActionToolBar1..Caption
+#: UI/fMainForm.dfm:167
+msgid "ActionToolBar1"
+msgstr ""
+
+#. Programmer's name for it: pdNameAllowHtmlInDescription
+#: Settings/uOptions.pas:220
+msgid "AllowHtmlInDescription"
+msgstr ""
+
+#. Programmer's name for it: pdNameSortAlpha
+#: Settings/uOptions.pas:207
+msgid "AlphaSort"
+msgstr ""
+
+#. Programmer's name for it: L_Author
+#: Generator/Html/uDocGenHTML_Tools.pas:41
+#. Programmer's name for it: pdNameAuthor
+#: Settings/uOptions.pas:194
+msgid "Author"
+msgstr ""
+
+#. Name for Options
+#. Programmer's name for it: pdNameBoolsAsChecks
+#: Settings/uOptions.pas:189
+msgid "BoolsAsChecks"
+msgstr ""
+
+#. Programmer's name for it: pdNameBracketStarJavaDocCharPrefix
+#: Settings/uOptions.pas:215
+msgid "BracketStarJavaDocCharPrefix"
+msgstr ""
+
+#. AboutBox..Panel1..Copyright..Caption
+#: UI/fAbout.dfm:32
+msgid "By TridenT 2006 - Under GNU GPL licence"
+msgstr ""
+
+#  FullWizardForm..JvWizard1..JvWizardOutputFormat..JvRadioGroup_OutputFormat....Items.Strings
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvRadioGroup_OutputFormat....Items.Strings
+#: UI/fNiceWizard.dfm:1392
+msgid "CHM"
+msgstr "CHM"
+
+#. Programmer's name for it: pdNameConditionalDefines
+#: Settings/uOptions.pas:198
+msgid "ConditionalDefines"
+msgstr ""
+
+#. Programmer's name for it: CONFIG_FILE_FILTERS
+#: ReadWrite/ConvertTypes.pas:53
+msgid "Config files (*.cfg)|*.cfg|Text files (*.txt)|*.txt|All files "
+"(*.*)|*.*"
+msgstr ""
+
+#. Programmer's name for it: pdNameCopyright
+#: Settings/uOptions.pas:196
+msgid "Copyright"
+msgstr ""
+
+#. AboutBox..Panel1..Copyright..Caption
+#: UI/fAbout.dfm:32
+msgid "Copyright TridenT 2003 - Under GNU GPL "
+"licence"
+msgstr ""
+
+#  MainForm..JvExpress1..ebConfiguration..Caption
+#  MainForm..ActionManager1..ActionConfiguration..Caption
+#. Programmer's name for it: pdNameCssConfiguration
+#: Settings/uOptions.pas:224
+#, fuzzy
+msgid "CssConfiguration"
+msgstr ""
+
+#  Programmer's name for it: pdCaptionCustomFooter
+#. Programmer's name for it: pdNameCssCustomFile
+#: Settings/uOptions.pas:225
+#, fuzzy
+msgid "CssCustomFile"
+msgstr ""
+
+#. Programmer's name for it: pdNameCurlyJavaDocCharPrefix
+#: Settings/uOptions.pas:217
+msgid "CurlyJavaDocCharPrefix"
+msgstr ""
+
+#. frmShowParseTree..pnlBottom..lblCurrent..Caption
+#: Parse/UI/fShowParseTree.dfm:71
+msgid "Current:"
+msgstr ""
+
+#. Programmer's name for it: pdNameCustomFooter
+#: Settings/uOptions.pas:200
+msgid "CustomFooter"
+msgstr ""
+
+#. Programmer's name for it: pdNameCustomHeader
+#: Settings/uOptions.pas:199
+msgid "CustomHeader"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionImportOldProject..Dialog.DefaultExt
+#: UI/fMainForm.dfm:3801
+msgid "dcd"
+msgstr ""
+
+#. Programmer's name for it: SOURCE_FILE_FILTERS
+#: ReadWrite/ConvertTypes.pas:50
+msgid "Delphi source (*.pas, *.dpr, *.dpk)|*.pas; *.dpr; *.dpk|Text files "
+"(*.txt)|*.txt|All files (*.*)|*.*"
+msgstr ""
+
+#. / CSS base filename (without extention)
+#. Programmer's name for it: CSS_BASE_FILENAME :string
+#: Process/Extract/DocGenHTML_Common.pas:26
+msgid "DelphiCodeToDoc"
+msgstr ""
+
+#. / ENDING ID in the project file
+#. Programmer's name for it: C_OPTIONS_IDENTIFICATION_END: string
+#: Process/Extract/uOptions.pas:338
+msgid "DelphiCodeToDoc Options END"
+msgstr ""
+
+#. / STARTING ID in the project file
+#. Programmer's name for it: C_OPTIONS_IDENTIFICATION_START: string
+#: Process/Extract/uOptions.pas:336
+msgid "DelphiCodeToDoc Options START"
+msgstr ""
+
+#. frmShowParseTree..pnlBottom..lblDepth..Caption
+#: Parse/UI/fShowParseTree.dfm:78
+msgid "Depth:"
+msgstr ""
+
+#. NiceWizardForm..JvWizard1..JvWizardDescription..Header.Title.Text
+#: UI/fNiceWizard.dfm:103
+#. Programmer's name for it: L_Description
+#: Generator/Html/uDocGenHTML_Tools.pas:39
+#. Programmer's name for it: pdNameDescription
+#: Settings/uOptions.pas:193
+msgid "Description"
+msgstr ""
+
+#. Programmer's name for it: pdNameDisplayHiddenItems
+#: Settings/uOptions.pas:222
+msgid "DisplayHiddenItems"
+msgstr ""
+
+#. Programmer's name for it: oeTextIDEndNOK
+#: Settings/uOptions.pas:281
+msgid "Ending ID doesn't match with this application"
+msgstr ""
+
+#. Programmer's name for it: pdNameFilesExcludeList
+#: Settings/uOptions.pas:219
+msgid "FilesExcludeList"
+msgstr ""
+
+#. Programmer's name for it: pdNameFilesIncludeList
+#: Settings/uOptions.pas:218
+msgid "FilesIncludeList"
+msgstr ""
+
+#  Doesn't look like text
+#. Form1..Caption
+#: UI/frmNiceWizard.dfm:7
+msgid "Form1"
+msgstr ""
+
+#. Programmer's name for it: pdNameHideEmptyOutputBlock
+#: Settings/uOptions.pas:213
+msgid "HideEmptyOutputBlock"
+msgstr ""
+
+#. Programmer's name for it: pdNameHideEmptyTAGSection
+#: Settings/uOptions.pas:209
+msgid "HideEmptyTAGSection"
+msgstr ""
+
+#  Programmer's name for it: pdCaptionHTMLLink
+#  FullWizardForm..JvWizard1..JvWizardOutputFormat..JvRadioGroup_OutputFormat....Items.Strings
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvRadioGroup_OutputFormat....Items.Strings
+#: UI/fNiceWizard.dfm:1391
+msgid "HTML"
+msgstr "HTML"
+
+#. Programmer's name for it: HTML_INLUDE_PATH
+#: Process/Extract/DocGenCHM_Common.pas:36
+msgid "html\\"
+msgstr ""
+
+#. Programmer's name for it: pdNameHTMLLink
+#: Settings/uOptions.pas:195
+msgid "HTMLlink"
+msgstr ""
+
+#. AboutBox..Panel1..ProductDescription....Lines.Strings
+#: UI/fAbout.dfm:204
+#. MainForm..JvPageControl1..tsInformation..Memo1....Lines.Strings
+#: UI/fMainForm.dfm:237
+msgid "http://dephicodetodoc.sourceforge.net/"
+msgstr ""
+
+#. frmShowParseTree..pnlBottom..lblImmediateChildCount..Caption
+#: Parse/UI/fShowParseTree.dfm:92
+msgid "Immediate child count:"
+msgstr ""
+
+#. frmShowParseTree..pcPages..tsTokens..lvTokens......Caption
+#: Parse/UI/fShowParseTree.dfm:113
+#. Programmer's name for it: L_Index
+#: Generator/Html/uDocGenHTML_Tools.pas:87
+msgid "Index"
+msgstr ""
+
+#. Programmer's name for it: pdNameInLineJavaDocCharPrefix
+#: Settings/uOptions.pas:216
+msgid "InLineJavaDocCharPrefix"
+msgstr ""
+
+#  FullWizardForm..JvWizard1..JvWizardJavaDoc..Header.Title.Text
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..Header.Title.Text
+#: UI/fNiceWizard.dfm:849
+msgid "JavaDoc"
+msgstr "JavaDoc"
+
+#  Doesn't look like text
+#. Form1..JvWizard1..JvWizardHTMLoutput..JvGroupBox5..JvFilenameEdit1..Text
+#: UI/frmNiceWizard.dfm:1313
+msgid "JvFilenameEdit1"
+msgstr ""
+
+#. Programmer's name for it: pdNameLanguage
+#: Settings/uOptions.pas:201
+msgid "Language"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionLanguageEnglish..Caption
+#: UI/fMainForm.dfm:3922
+msgid "LanguageTemplate"
+msgstr ""
+
+#. Programmer's name for it: pdNameLaunchBrowser
+#: Settings/uOptions.pas:206
+msgid "LaunchBrowser"
+msgstr ""
+
+#. MainForm..Caption
+#: UI/fMainForm.dfm:4
+msgid "MainForm"
+msgstr ""
+
+#. Programmer's name for it: pdNameMethodCommentFromAncestor
+#: Settings/uOptions.pas:223
+msgid "MethodCommentFromAncestor"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. frmShowParseTree..Font.Name
+#: Parse/UI/fShowParseTree.dfm:11
+#. AboutBox..Font.Name
+#: UI/fAbout.dfm:13
+#. AboutBox..Panel1..ProductName..Font.Name
+#: UI/fAbout.dfm:158
+#. AboutBox..Panel1..ProductDescription..Font.Name
+#: UI/fAbout.dfm:193
+#. MainForm..Font.Name
+#: UI/fMainForm.dfm:11
+#. MainForm..JvExpress1..HighlightFont.Name
+#: UI/fMainForm.dfm:29
+#. MainForm..JvExpress1..ebInformation..Font.Name
+#: UI/fMainForm.dfm:46
+#. MainForm..JvExpress1..ebInformation..HighlightFont.Name
+#: UI/fMainForm.dfm:52
+#. MainForm..JvExpress1..ebConfiguration..Font.Name
+#: UI/fMainForm.dfm:67
+#. MainForm..JvExpress1..ebConfiguration..HighlightFont.Name
+#: UI/fMainForm.dfm:73
+#. MainForm..JvExpress1..ebProjectFiles..Font.Name
+#: UI/fMainForm.dfm:87
+#. MainForm..JvExpress1..ebProjectFiles..HighlightFont.Name
+#: UI/fMainForm.dfm:93
+#. MainForm..JvExpress1..ebReference..Font.Name
+#: UI/fMainForm.dfm:107
+#. MainForm..JvExpress1..ebReference..HighlightFont.Name
+#: UI/fMainForm.dfm:113
+#. MainForm..JvExpress1..ebMessages..Font.Name
+#: UI/fMainForm.dfm:127
+#. MainForm..JvExpress1..ebMessages..HighlightFont.Name
+#: UI/fMainForm.dfm:133
+#. MainForm..JvPageControl1..tsInformation..Memo1..Font.Name
+#: UI/fMainForm.dfm:225
+#. MainForm..JvPageControl1..tsReference..tvReference..LabelMustCheckBefore..Font.Name
+#: UI/fMainForm.dfm:354
+#. MainForm..JvPageControl1..tsQuality..JvRichEditTagDetails..Font.Name
+#: UI/fMainForm.dfm:428
+#. NiceWizardForm..Font.Name
+#: UI/fNiceWizard.dfm:13
+#. NiceWizardForm..JvWizard1..JvWizardWelcome..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:65
+#. NiceWizardForm..JvWizard1..JvWizardWelcome..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:75
+#. NiceWizardForm..JvWizard1..JvWizardWelcome..JvStaticText8..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:91
+#. NiceWizardForm..JvWizard1..JvWizardDescription..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:108
+#. NiceWizardForm..JvWizard1..JvWizardDescription..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:116
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText1..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:133
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText3..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:154
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText4..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:175
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText2..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:203
+#. NiceWizardForm..JvWizard1..JvWizardDescription..JvStaticText16..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:249
+#. NiceWizardForm..JvWizard1..JvWizardFiles..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:274
+#. NiceWizardForm..JvWizard1..JvWizardFiles..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:282
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText5..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:297
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnAdd..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:408
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnReplace..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:442
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnDelete..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:476
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText6..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:490
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText7..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:508
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnSelectFile..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:572
+#. NiceWizardForm..JvWizard1..JvWizardFiles..btnSelectFolder..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:631
+#. NiceWizardForm..JvWizard1..JvWizardFiles..CheckBox_RecurseDirectories..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:647
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText15..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:662
+#. NiceWizardForm..JvWizard1..JvWizardFiles..JvStaticText17..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:680
+#. NiceWizardForm..JvWizard1..JvWizardComments..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:697
+#. NiceWizardForm..JvWizard1..JvWizardComments..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:705
+#. NiceWizardForm..JvWizard1..JvWizardComments..CheckBox_ParseImplementation..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:722
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportJavaDoc..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:745
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportInline..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:761
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportXMLDoc..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:776
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox_CommentsSystem..CheckBox_SupportJEDI..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:791
+#. NiceWizardForm..JvWizard1..JvWizardComments..CheckBox_AllowHtmlInDescription..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:806
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox1..CheckBox_PropertyCommentFromAssessors..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:827
+#. NiceWizardForm..JvWizard1..JvWizardComments..JvGroupBox1..CheckBox_MethodCommentFromAncestor..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:841
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:854
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:862
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..Font.Name
+#: UI/fNiceWizard.dfm:875
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvStaticText10..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:889
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvStaticText11..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:906
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..JvStaticText12..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:923
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..Edit_BracketstarPrefix..Font.Name
+#: UI/fNiceWizard.dfm:939
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..Edit_CurlyPrefix..Font.Name
+#: UI/fNiceWizard.dfm:954
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..JvGroupBox3..Edit_InlinePrefix..Font.Name
+#: UI/fNiceWizard.dfm:969
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..CheckBox_SkipFirstLine..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:988
+#. NiceWizardForm..JvWizard1..JvWizardJavaDoc..CheckBox_SkipLastLine..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1002
+#. NiceWizardForm..JvWizard1..JvWizardXMLDoc..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:1014
+#. NiceWizardForm..JvWizard1..JvWizardXMLDoc..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:1022
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:1036
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:1044
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..CheckBox_AlphaSortMembers..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1059
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvStaticText9..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1071
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Private..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1097
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Protected..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1111
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Public..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1125
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Published..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1139
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_MemberVisibilityFilter..JvCheckBox_Automated..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1153
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Constants..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1175
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Types..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1189
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Variables..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1203
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Functions..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1217
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Classes..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1231
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Fields..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1245
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Methods..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1259
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Properties..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1273
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Events..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1287
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Records..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1301
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Units..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1315
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvGroupBox_OutputMemberFilter..JvCheckBox_Resourcestring..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1329
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..CheckBox_ViewDocumentationAfterBuild..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1344
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..JvStaticText13..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1356
+#. NiceWizardForm..JvWizard1..JvWizardOutputFormat..CheckBox_DisplayHiddenItems..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1407
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:1419
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:1427
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvGroupBox_CSSConfiguration..rbCssCustom..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1457
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvGroupBox_CSSConfiguration..rbCssInternal..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1477
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvCheckBox_HideEmptyBlock..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1493
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..JvCheckBox_HideEmptyTAGSection..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1507
+#. NiceWizardForm..JvWizard1..JvWizardHTMLoutput..CheckBox_WarnWhenEmptyTag..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1521
+#. NiceWizardForm..JvWizard1..JvWizardCHMoutput..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:1533
+#. NiceWizardForm..JvWizard1..JvWizardCHMoutput..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:1541
+#. NiceWizardForm..JvWizard1..JvWizardTEXToutput..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:1555
+#. NiceWizardForm..JvWizard1..JvWizardTEXToutput..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:1563
+#. NiceWizardForm..JvWizard1..JvWizardPDFOutput..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:1577
+#. NiceWizardForm..JvWizard1..JvWizardPDFOutput..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:1585
+#. NiceWizardForm..JvWizard1..JvWizardHLPOutput..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:1599
+#. NiceWizardForm..JvWizard1..JvWizardHLPOutput..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:1607
+#. NiceWizardForm..JvWizard1..JvWizardAdvanced..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:1621
+#. NiceWizardForm..JvWizard1..JvWizardAdvanced..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:1629
+#. NiceWizardForm..JvWizard1..JvWizardAdvanced..JvLabel1..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1646
+#. NiceWizardForm..JvWizard1..JvWizardFinish..Header.Title.Font.Name
+#: UI/fNiceWizard.dfm:1665
+#. NiceWizardForm..JvWizard1..JvWizardFinish..Header.Subtitle.Font.Name
+#: UI/fNiceWizard.dfm:1673
+#. NiceWizardForm..JvWizard1..JvWizardFinish..JvStaticText14..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1686
+#. NiceWizardForm..JvWizard1..JvWizardRouteMapList1..ActiveFont.Name
+#: UI/fNiceWizard.dfm:1704
+#. NiceWizardForm..JvWizard1..JvWizardRouteMapList1..HotTrackFont.Name
+#: UI/fNiceWizard.dfm:1710
+#. QuickWizardForm..Font.Name
+#: UI/fQuickWizard.dfm:12
+#. QuickWizardForm..JvRadioButton1..HotTrackFont.Name
+#: UI/fQuickWizard.dfm:138
+#. QuickWizardForm..JvRadioButton2..HotTrackFont.Name
+#: UI/fQuickWizard.dfm:159
+#. QuickWizardForm..JvStaticText1..HotTrackFont.Name
+#: UI/fQuickWizard.dfm:181
+msgid "MS Sans Serif"
+msgstr ""
+
+#. Programmer's name for it: L_Name
+#: Generator/Html/uDocGenHTML_Tools.pas:95
+#. Programmer's name for it: pdNameName
+#: Settings/uOptions.pas:190
+msgid "Name"
+msgstr ""
+
+#. Programmer's name for it: oeTextNoError
+#: Settings/uOptions.pas:277
+msgid "No error"
+msgstr ""
+
+#. MainForm..JvExpress1..Caption
+#: UI/fMainForm.dfm:33
+msgid "Outlook"
+msgstr ""
+
+#. Programmer's name for it: pdNameOutputFilteringCategory
+#: Settings/uOptions.pas:214
+msgid "OutputFilteringCategory"
+msgstr ""
+
+#. Programmer's name for it: pdNameOutputFolder
+#: Settings/uOptions.pas:203
+msgid "OutputFolder"
+msgstr ""
+
+#. Programmer's name for it: pdNameOutputFormat
+#: Settings/uOptions.pas:202
+msgid "OutputFormat"
+msgstr ""
+
+#. frmShowParseTree..Caption
+#: Parse/UI/fShowParseTree.dfm:4
+msgid "Parse Tree"
+msgstr ""
+
+#. Programmer's name for it: pdNameParseImplementationSection
+#: Settings/uOptions.pas:212
+msgid "ParseImplementationSection"
+msgstr ""
+
+#. AboutBox..Panel1..ProductName..Caption
+#: UI/fAbout.dfm:154
+msgid "ProductName"
+msgstr ""
+
+#  Doesn't look like text
+#. QuickWizardForm..leProjectName..Text
+#: UI/fQuickWizard.dfm:89
+#. Programmer's name for it: L_Project1
+#: Settings/uOptions.pas:286
+msgid "Project1"
+msgstr ""
+
+#. Programmer's name for it: pdNamePropertyCommentFromAssessors
+#: Settings/uOptions.pas:221
+msgid "PropertyCommentFromAssessors"
+msgstr ""
+
+#. Programmer's name for it: pdNameRecurseDirectory
+#: Settings/uOptions.pas:197
+msgid "RecurseDirectory"
+msgstr ""
+
+#. frmShowParseTree..pnlTop..cbShowWhiteSpace..Caption
+#: Parse/UI/fShowParseTree.dfm:53
+msgid "Show NonSolid Tokens"
+msgstr ""
+
+#. Programmer's name for it: pdNameSkipFirstTAGLine
+#: Settings/uOptions.pas:210
+msgid "SkipFirstTAGLine"
+msgstr ""
+
+#. Programmer's name for it: pdNameSkipLastTAGLine
+#: Settings/uOptions.pas:211
+msgid "SkipLastTAGLine"
+msgstr ""
+
+#. Programmer's name for it: oeTextIDStartNOK
+#: Settings/uOptions.pas:280
+msgid "Starting ID doesn't match with this "
+"application"
+msgstr ""
+
+#. Form1..JvWizard1..JvWizardDescription..Header.Subtitle.Text
+#. Form1..JvWizard1..JvWizardXMLDoc..Header.Subtitle.Text
+#. Form1..JvWizard1..JvWizardTEXToutput..Header.Subtitle.Text
+#. Form1..JvWizard1..JvWizardPDFOutput..Header.Subtitle.Text
+#. Form1..JvWizard1..JvWizardHLPOutput..Header.Subtitle.Text
+#. Form1..JvWizard1..JvWizardAdvanced..Header.Subtitle.Text
+#. Form1..JvWizard1..JvWizardFinish..Header.Subtitle.Text
+#: UI/frmNiceWizard.dfm:84  UI/frmNiceWizard.dfm:841
+#: UI/frmNiceWizard.dfm:1396 UI/frmNiceWizard.dfm:1418
+#: UI/frmNiceWizard.dfm:1440 UI/frmNiceWizard.dfm:1462
+#: UI/frmNiceWizard.dfm:1483
+msgid "Subtitle"
+msgstr ""
+
+#. Programmer's name for it: L_Summary
+#: Generator/Html/uDocGenHTML_Tools.pas:37
+#. Programmer's name for it: pdNameSummary
+#: Settings/uOptions.pas:192
+msgid "Summary"
+msgstr ""
+
+#. Programmer's name for it: pdNameTagCommentSet
+#: Settings/uOptions.pas:205
+msgid "TagCommentSet"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. MainForm..JvExpress1..ebQuality..Font.Name
+#: UI/fMainForm.dfm:148
+#. MainForm..JvExpress1..ebQuality..HighlightFont.Name
+#: UI/fMainForm.dfm:154
+#. MainForm..ActionMainMenuBar1..Font.Name
+#: UI/fMainForm.dfm:189
+#. MainForm..JvInspectorDotNETPainter1..CategoryFont.Name
+#: UI/fMainForm.dfm:3956
+#. MainForm..JvInspectorDotNETPainter1..NameFont.Name
+#: UI/fMainForm.dfm:3961
+#. MainForm..JvInspectorDotNETPainter1..ValueFont.Name
+#: UI/fMainForm.dfm:3966
+#. MainForm..JvInspectorDotNETPainter1..HideSelectFont.Name
+#: UI/fMainForm.dfm:3972
+#. MainForm..JvInspectorDotNETPainter1..SelectedFont.Name
+#: UI/fMainForm.dfm:3977
+msgid "Tahoma"
+msgstr ""
+
+#. frmShowParseTree..pcPages..tsTokens..lvTokens......Caption
+#: Parse/UI/fShowParseTree.dfm:120
+msgid "Text"
+msgstr ""
+
+#. Programmer's name for it: pdNameTitle
+#: Settings/uOptions.pas:191
+msgid "Title"
+msgstr ""
+
+#. frmShowParseTree..pcPages..tsTokens..Caption
+#: Parse/UI/fShowParseTree.dfm:104
+msgid "Tokens"
+msgstr ""
+
+#. frmShowParseTree..pnlBottom..lblTotalNodeCount..Caption
+#: Parse/UI/fShowParseTree.dfm:85
+msgid "Total node count:"
+msgstr ""
+
+#. frmShowParseTree..pcPages..tsTree..Caption
+#: Parse/UI/fShowParseTree.dfm:132
+msgid "Tree"
+msgstr ""
+
+#. frmShowParseTree..pnlTop..lblTreeCount..Caption
+#: Parse/UI/fShowParseTree.dfm:39
+msgid "Tree has ? nodes"
+msgstr ""
+
+#. frmShowParseTree..pnlTop..lblTreeDepth..Caption
+#: Parse/UI/fShowParseTree.dfm:46
+msgid "Tree has max depth of ??"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsConfiguration..Caption
+#: UI/fMainForm.dfm:300
+msgid "tsConfiguration"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsInformation..Caption
+#: UI/fMainForm.dfm:214
+msgid "tsInformation"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsMessages..Caption
+#: UI/fMainForm.dfm:363
+msgid "tsMessages"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsProjectFiles..Caption
+#: UI/fMainForm.dfm:322
+msgid "tsProjectFiles"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsQuality..Caption
+#: UI/fMainForm.dfm:391
+msgid "tsQuality"
+msgstr ""
+
+#. MainForm..JvPageControl1..tsReference..Caption
+#: UI/fMainForm.dfm:330
+msgid "tsReference"
+msgstr ""
+
+#. frmShowParseTree..pcPages..tsTokens..lvTokens......Caption
+#: Parse/UI/fShowParseTree.dfm:116
+#. Programmer's name for it: L_Type
+#: Generator/Html/uDocGenHTML_Tools.pas:51
+msgid "Type"
+msgstr ""
+
+#. Programmer's name for it: oeTextUnknown
+#: Settings/uOptions.pas:279
+msgid "Unknown error"
+msgstr ""
+
+#. Programmer's name for it: pdNameVisibilitySet
+#: Settings/uOptions.pas:204
+msgid "VisibilitySet"
+msgstr ""
+
+#. Programmer's name for it: pdNameWarnEmptyTAG
+#: Settings/uOptions.pas:208
+msgid "WarnEmptyTAG"
+msgstr ""
+
+#. MainForm..ActionManager1..ActionOpenProject..Dialog.DefaultExt
+#: UI/fMainForm.dfm:3790
+#. MainForm..ActionManager1..ActionSaveAsProject..Dialog.DefaultExt
+#: UI/fMainForm.dfm:3822
+msgid "xml"
+msgstr ""
+
+#  FullWizardForm..JvWizard1..JvWizardXMLDoc..Header.Title.Text
+#. NiceWizardForm..JvWizard1..JvWizardXMLDoc..Header.Title.Text
+#: UI/fNiceWizard.dfm:1009
+msgid "XMLDoc"
+msgstr "XMLDoc"
+
+#. MainForm..ActionManager1..StyleName
+#: UI/fMainForm.dfm:3761
+msgid "XP Style"
+msgstr ""
+
+#  Doesn't look like text
+#. MainForm..ActionManager1..ActionSaveAsProject..Dialog.FileName
+#: UI/fMainForm.dfm:3823
+msgid "xxx2"
+msgstr ""
+

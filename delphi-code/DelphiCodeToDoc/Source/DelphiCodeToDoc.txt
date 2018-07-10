@@ -1,0 +1,726 @@
+DelphiCodeToDoc is a free documentation system for Delphi, released under the GNU General Public License. It uses information about source code symbols and formatted comments in files to produce accurate documentation from your application and component.
+
+http://dephicodetodoc.sourceforge.net/
+---------------------------------------------------------------------------------------------------------
+
+Library used in project with Delphi2009
+*DelphiCodeToDoc need the latest release of JCL&JVCL to compile.
+The name is JVCL336CompleteJCL1104-Build3248
+ It includes :
+ -Jedi Code Library : jcl-1.104.0.3248
+ -JEDI VCL : JVCL3.36
+ -Download this really nice work here : http://jvcl.sourceforge.net/
+
+Known Limitations
+*Class vars can be comment only with an inline comment just after the declaration
+*Only English language is support for generated documentation
+*@see TAG in not implemented
+*When a project is open, changing the language doesn't work for the configuration page
+
+
+Known BUGs
+*Some messages are not translated.
+*Classes differentiates Fields and Vars, which should be merged.
+
+
+History
+
+* #TODO# Fix option ParseImplementation
+* #TODO# Verify Nested type in TDOCClass
+* #TODO# Merge TDOCVars and TDOCFields
+* #TODO# Verify Assembly in library (strange functions are detected)
+* #TODO# Add alternate color (accessibility)
+* #TODO# Write VariantRecord TestCase : http://www.drbob42.com/uk-bug/hood-07.htm
+* #TODO# Verify comments with Variant records
+* #TODO# Write test with Extended records
+* #TODO# Write test with local variable, type, and verify if it is skipped.
+* #TODO# Write test with empty record as a empty class
+
+
+v0.23beta
+Public release
+
+v0.22beta.2
+* Fixed Parser error with empty @param description (Tracker 2781298)
+
+v0.22beta.1
+* Fixed some files not parsed due to specific NTFS attribute (Tracker 2523851)
+* Fixed Add option to exclude resourcestrings (Tracker 2736801, 1106583)
+* Fixed tag quality dont follow "output filtering category" config (Tracker 1855474)
+* Added Pdf generator
+
+
+v0.22beta
+Public release
+
+v0.21beta.2
+* Fixed redirection from console (hhc.exe) generates spurious string to log window
+* Fixed Exception with empty var section in class (Tracker 2488024)
+* Fixed no (htm) output generation when "ocClasses" is removed (Tracker 2487028)
+
+v0.21beta.1
+* Updated parser to support freepascal language (exponent **, operators)
+* Updated html output now in UTF8 format
+* Added support for comments just after a procedure (between procedure headings and the BEGIN keyword)
+
+v0.21beta
+Public Release
+
+v0.20beta.4
+* Fixed AllowHtmlInDescription option that was inverted
+
+v0.20beta.3
+* Updated String handling as WideString as Delphi 2009
+* Added some basic Delphi 2009 anon methods parsing
+* Fixed Overload function identification not compatible with widestring
+
+v0.20beta.2
+* Added application settings component to save the current language (Tracker 1680457)
+* Fixed Out keyword as field class generates a parser exception (Tracker 2032751)
+* Updated html output to be XHTML 1.0 Transitional validated
+* Fixed Relative path for output not working with command line (Tracker 2272357)
+* Added setting to use an external CSS file (Tracker 875929)
+
+v0.20beta.1
+* Added comments for the use of relative path in wizards (Tracker 1922417)
+* Fixed Parser fails to read unicode files (Tracker 1893138)
+* Fixed Exception with Empty class var sections (Tracker 1943655)
+* Fixed Parser fails with offset keyword in assembler (Tracker 1924677)
+
+v0.20beta
+Public Release
+
+v0.19beta.4
+* Fixed Generics crash the parser (Tracker 1828114)
+
+v0.19beta.3
+* Fixed unpredictable execution with some variables not initialized in the create visitor's method
+* Fixed double slash path delimiter in the output folder with Quick wizard
+
+v0.19beta.2
+* Fixed Comments after END keyword throw an exception (Tracker 1870254)
+* Fixed Record in a var section thow an exception (Tracker 1870547)
+
+
+v0.19beta.1
+* Fixed exception  with Function pointer const assigned (Tracker 1802084)
+* Fixed repeated build of output always adds the summary again (Tracker 1835631)
+* Fixed Default Full wizard generate nothing (Tracker 1867938)
+
+v0.19beta
+Public release
+
+v0.18beta.5
+* Fixed return code return from command-line tool when process failed (Tracker 1830301)
+
+v0.18beta.4
+* Refactored generic and HTML document generators
+
+v0.18beta.3
+* Fixed Exception with AUTOMATED visibility keyword (Tracker 1736944)
+* Fixed inherited comments not always copied from ancestor
+
+v0.18beta.2
+* Fixed Property wrongly shown as Documented (Tracker 1735145)
+
+v0.18beta.1
+* Fixed Parser Exception on {$ELSEIF} statement (Tracker 1732710)
+* Fixed exception with empty record as local variable (Tracker 1732652)
+* Comment Parser will now skip local variable of procedure/function
+
+v0.18beta
+Public release
+
+v0.17beta.3
+* Fixed packed record not shown in resulting doc (Tracker 1723230)
+
+v0.17beta.2
+* Added support for FunctionType comments (Tracker 1551120)
+
+v0.17beta.1
+* Fixed parser exception with function type (Tracker 1719702, 1719213)
+* Fixed parser exception with Variant records (Tracker 1719703)
+
+v0.17beta
+Public release
+
+#v0.16beta.9
+* Fixed Parsing function in implementation section (Tracker 1635904)
+
+v0.16beta.8
+* Fixed CHM files not generated in a specific folder
+* Moved CSS file to a new resource folder
+* Fixed Impossible to change copyrigth information in html footer (Tracker 1702094)
+* Fixed Links section is always displayed as #UNDER_CONSTRUCTION# (Tracker 1672418)
+* Added inheritance for comments of override methods (Tracker 1648834)
+
+v0.16beta.7
+* Added support for record and extended record (D2006) as class (Tracker 1168150)
+* Fixed Field comments for Records don't work right (Tracker 1534349)
+* Fixed Method on records not parsed (Tracker 1649093)
+* Fixed Parser exception with assembly attributes (Tracker 1649782)
+
+v0.16beta.6
+* Updated JCL/JVCL package to JVCL330CompleteJCL198-Build2509
+* Fixed Multiple variable declaration in one line not recognized
+* Fixed a Memory Leak with TDOCClassesTree missing destructor
+* Added Warn when "Included Files list" is empty (Tracker 1623150)
+* Removed unused units (converters and BasicStats)
+* Added support for UTF8 source files
+
+v0.16beta.5
+* Refactored Structure Sort using a Visitor
+* Fixed Config file date changed even if not modified (Tracker 1604036)
+* Added TAG coverage detail for each node
+* Added Tag coverage summary in mainform
+* Added brazillian portuguese translations
+
+v0.16beta.4
+* Fixed Parse Error with &variable syntax (Tracker 1589861)
+* Updated visitor for DocTemplate
+* Fixed Comments not included with different method declaration (Interface and Implementation) (Tracker 1337626)
+
+v0.16beta.3
+* Added Quality comments coverage visualization
+* Added simple comments coverage statistics
+
+v0.16beta.2
+* Fixed varargs keyword generate an exception (Tracker 1607892)
+* Fixed Parser exception with tabs after final end (Tracker 1601763)
+* Fixed Parser exception with the deprecated directive (Tracker 1581963)
+
+
+v0.16beta.1
+* Added Class tree (text format) in the documentation
+* Added Chinese translations (traditional and simplified)
+* Fixed Exports in unit throw an exception (Tracker 1402652)
+
+v0.16beta
+Public release
+
+v0.15beta.4
+Fixed Assertion with too many Childnodes (Tracker 1510470)
+Added support for relative output folder (Tracker 1549273)
+
+v0.15beta.3
+Fixed previous/next wrong links in HTML and CHM documentation
+Fixed spaces in file excluded and included list
+Fixed assertion with constant defined inside a class before a visibility identifier (tracker 1516235)
+Fixed exception with Keywords in (dotted) identifier name (Tracker 1516226)
+Fixed Deprecated PathDelimiter with lastest JCL library (Tracker 1547733)
+Fixed Unsafe keyword generate an exception (Tracker 1548390)
+Fixed VMTOFFSET and DMTOFFSET not recognize in ASM block (Tracker 1552479)
+
+v0.15beta.2
+Fixed regression when building constant, Type, variable, Function documentation
+Fixed call to hhc might fail (Tracker 1547734)
+Fixed class is not generated when unchecking mvPrivate option (Tracker 1547737 )
+Added support for complete use of relative dirs in Include list (Tracker 1547740, 1204843)
+Added Allow masks in exclude file list (Tracker 1547741)
+
+v0.15beta.1
+Fixed invalid characters in menu (charset changed from ANSI to DEFASULT)
+Added support for items defined only in implementation section (hidden items) (Tracker 1478189)
+Added option to display hidden items
+
+
+v0.15beta
+Public Release
+
+v0.14beta.5
+Updated projects to Delphi2006
+Added project name in form caption
+Added confirmation when closing an unsaved project
+
+v0.14beta.4
+Fixed Problem when DocAssessor is not defined in unit (Tracker 1482445)
+Fixed issue with (** comments (Tracker 1352650)
+Fixed Output Folder forbidden to be changed for existing projects (Tracker 1475301)
+Fixed load/save project
+
+v0.14beta.3
+Removed dosbox display when calling HHC.exe to build CHM (Tracker 1119969)
+Added hcc.exe messages to application's debug messages (Tracker 1462810)
+Added waiting panel message to the user (CHM compilation may take time!)
+
+v0.14beta.2
+Updated copyright and date information
+Fixed COM filename error (Tracker 1447905)
+Fixed Assertion when property linked to a class variable (Tracker 1460512)
+
+v0.14beta.1
+Fixed html link filename in toolbar not good (Tracker 1469081)
+Updated configuration file to XML (Tracker 1021103)
+Added function to import old *.dcd configuration file
+
+v0.14beta
+Public Release
+
+v0.13beta.14
+Fixed class property comment not attached to property (Tracker 1398703)
+
+v0.13beta.13
+Fixed parser exception with System.Object or System.Type cast (Tracker 1398699)
+Fixed parser exception with keyword as dotted name (Tracker 1411446)
+Fixed Exception with class declared in implementation section (Tracker 1413730)
+
+
+v0.13beta.12
+Added support for Ampersand '&' before identifier and method (Tracker 1398699)
+Added support for dynamic array and open array writing style (Tracker 1398699)
+
+v0.13beta.11
+Fixed Types with the same name in different namespaces are confused (Tracker 1398703)
+Fixed Error when using System.Object or System.Type (Tracker 1398699)
+Fixed parser exception with 'var' keyword in class (Tracker 1398699)
+Added support for '&' character before keyword (Tracker 1398699)
+Added Multicast (Add and remove) property specifier (Tracker 1398699)
+
+v0.13beta.10
+Added option to copy comment from assessor for uncommented property
+Added link to assessors for properties in HTML documentation
+Refactored OverloadID computation functions
+
+v0.13beta.9
+Fixed next link in HTML toobar never active
+Added support for dotted unit name
+Added parent's link for Class in HTML documentation
+Fixed no Remember directory when selecting files/folders (Tracker 1251032)
+Added Link for members to Related Class (Tracker 1206745)
+Added parent link in HTML for members, class, type ... (1079801)
+
+v0.13beta.8
+Added Sealed and Final class directives in parser (Tracker 1380515)
+Added Final method directive in parser (Tracker 1337618)
+Fixed assertion on second check and build (Tracker 1234775)
+Modified default option value HideEmptyOutputBlock from False to True
+Fixed parser exception with "&" instruction (Tracker 1307400)
+
+v0.13beta.7
+Fixed Nested members missing in CHM file
+Fixed Visiblity for nested class
+Fixed parser Exception with index keyword for external function (Tracker 369011)
+Fixed UseUnit, Class and Interface parent (Tracker 1348051)
+Fixed hide empty block functionnality not working
+
+v0.13beta.6
+Added support for nested constant in class
+Added support for nested class in other class
+
+v0.13beta.5
+Added support for nested variable in class
+Added Dotted namespace support (Tracker 1331694)
+
+v0.13beta.4
+Added dotted name for identifier (type, uses, inheritance ...)
+Added strict visibility keyword in HTML documentation
+
+v0.13beta.3
+Updated structure to simplify nested class and type
+
+v0.13beta.2
+Fixed Exception when a class is defined in implementation (Tracker 1226175)
+Fixed Exception when using Keywords as identifier (Tracker 1145132, 1298482)
+
+v0.13beta.1
+Fixed exception when trying to destroy TDocOptions class
+Added option 'AllowHtmlInDescription' to encode description for embedded Html
+Fixed special characters must be encode for html (Tracker 1232749)
+Fixed CSS file path have wrong path delimiter in HTML page (Tracker 1305970)
+Fixed Program hangs on second Check and build (Tracker 1234775)
+Fixed Application hang when trying to build after a parse error (Tracker 1230817)
+
+v0.13beta
+Public Release
+
+v0.12beta.4
+Fixed Links don't work in FireFox (Tracker 1213364)
+Added support for strict member visiblity (Tracker 1162329)
+Improved Parsing speed
+
+v0.12beta.3
+Fixed Tab indentation do unrecognised Tags (Tracker 1207104)
+Updated parsing with Delphi.NET syntax
+Updated parsing with Delphi 2005 syntax
+Fixed Lines after final END generates an Exception (Tracker 1067592)
+
+v0.12beta.2
+Added Conditional defines option
+Fixed parsing of conditional defines inside source code
+Fixed parsing error on an ELSEIF directive (Tracker 1203034)
+
+v0.12beta.1
+Fixed missing ending path delimiter when changing Output folder (Tracker 1206864)
+Fixed Excluded list does nothing (Tracker 1206914)
+
+v0.12beta
+Public Release
+
+v0.11beta.7
+Fixed Full wizard Finish button not working
+Fixed assertion with single function in unit (Tracker 1205324)
+
+v0.11beta.6
+Added comments in wizard
+Added confirmation panel when exiting wizard
+Updated French translation
+
+v0.11beta.5
+Fixed Library issue (memory leak)
+Added a new nice wizard (Tracker 947525, 947528, 971492)
+Added list of include and exclude files/folders in project configuration (Tracker 971492)
+
+
+v0.11beta.4
+Added Library support as units (Tracker 1101467)
+Added Exports section for DLL project
+
+v0.11beta.3
+Fixed Purge Output Folder function locks the program (Tracker 1119972)
+Added Properties description as other members (Tracker 987860)
+
+v0.11beta.2
+Added folders for output files (Tracker 1068490)
+Updated HTML links to relative
+
+v0.11beta.1
+Added Delphi DPR project support (Tracker 1106580)
+Added DPR file parsing (Tracker 1101467)
+Updated Quick wizard
+Updated JCL to v1.94 and JVCL to v3.00
+
+v0.11beta
+Public release
+
+v0.10beta.5
+Fixed Additionnal comment TAG not recognize inside BEGIN/END block (Tracker 1102878)
+**Fix "clean directory" command
+
+v0.10beta.4
+Added CHM output support (Tracker 1068553)
+
+v0.10beta.3
+Added confirmation panel when purging output folder (Tracker 1090605)
+Fixed Main Window not refresh when building output files (Tracker 1069242)
+Deleted Check menu item and Build, as Check&Build exists now (Tracker 1068492)
+Fixed Output HTML to be W3C HTML 4.01 valid (Tracker 1091427)
+Added delimiter in debug message before Check&Build command (Tracker 1088242)
+Added Menu item to clear messages (Tracker 1088242)
+
+v0.10beta.2
+Fixed Overloaded method result in single method (Tracker 916540)
+
+v0.10beta.1
+Fixed @return TAG doesn't work anymore (Tracker 1069251)
+
+v0.10beta
+Public Release
+
+v0.9beta.6
+Added "Todo TAG" support
+Added "Output Member Filtering" option to show/hide some categories (Tracker 997979)
+Fixed "Directories not exists" Exception (Tracker 1058399)
+
+
+v0.9beta.5
+Fixed Menu and toolbar not disabled when Parsing and building (Tracker 1035514)
+Fixed "Warn when empty TAG" function not working (Tracker 1035953)
+Improved empty TAG handling
+Added Extended Comment support with @Comment TAG
+Added Extended Comment support TAG with DoubleSlash in methods
+
+v0.9beta.4
+Improved Multiline TAG recognition.
+Updated Translations template
+
+v0.9beta.3
+Added Russian Translation (Tracker 1036934)
+Change cursor to "occupied cursor" when building the HTML project (Tracker 1035514)
+Added a "View Output" menu item (Tracker 1035514)
+Added a single "Check and Build" menu item (Tracker 1035514)
+Added a "Purge output folder" button (Tracker 1035514)
+Added HTML improvements (Tracker 1035636)
+
+v0.9beta.2
+Fixed EndOfLine comment not working for methods (Tracker 1038663)
+Fixed No support for interfaces (Tracker 1012884)
+Fixed No support for multiple class and interface ancestors
+
+v0.9beta.1
+Fixed "Procedural type" for field type generate an exception (Tracker 1042560)
+Fixed Incorrect menu font prevent Russian characters (Tracker 1036772)
+
+v0.9beta
+Public release
+
+v0.8beta.3
+Fixed Methods comment in Implementation section undocumented (Tracker 997985)
+Added Throws TAG for methods and functions (Tracker 1012857)
+Fixed untranslated options at project initialization (Tracker 1025884)
+
+v0.8beta.2
+Fixed Register Procedure doesn't get documented (Tracker 1012908)
+Fixed 'Hide empty TAG section' not working (Tracker 1012885)
+Added 'Hide Empty Output Block' option (Tracker 1012886)
+
+v0.8beta.1
+Added "Create Folder" functionnal when selecting Output Folder (Tracker 892440)
+Fixed Running from a UNC share prevents project creation (Tracker 1016893)
+Fixed Declaring function types cause Access Violation (Tracker 1016879) 
+Fixed Not just .pas files are parsed (Tracker 1016887)
+Updated French Translations
+
+v0.8beta
+Public Release
+
+v0.7alpha.6
+Fixed Simple function have no return type in documentation (Tracker 1010200)
+Updated French translation
+
+v0.7alpha.5
+Added DelphiCodeToDoc command line version (DOS)(Tracker 997523)
+
+v0.7alpha.4
+Fixed Error in "Next Link" when using member visibility filter (Tracker 996611)
+
+v0.7alpha.3
+Fixed Ignored TAGs if prefixed by decorator '*' (Tracker 997528)
+Fixed Output HTML table width different (Tracker 989272)
+
+v0.7alpha.2
+Fixed Cannot parse expression "Cast Index" (Tracker 1000672)
+Fixed Object type crash the application (Tracker 991180)
+
+v0.7alpha.1
+Fixed typo in class documentation (Tracker 991592)
+
+
+v0.7alpha
+Public Release
+
+v0.6alpha.4
+Fixed some Options label text and Menu
+Added Language auto-detection
+
+v0.6alpha.3
+Added languages support
+Added available translations detection
+Added French translations
+Fixed Runtime Error when Starting Program with very high speed CPU (Tracker 975770)
+
+v0.6alpha.2
+Improved error detection and debug message when checking and building project (Tracker 958988)
+Fixed no warning message when empty Param TAG description
+
+v0.6alpha.1
+Added library "DxGetText" for project translation
+Added partial French translation
+Fixed multi-line Param TAG support for Method (Tracker 961881)
+Fixed @Param TAG is case sensitive
+Fixed @Return TAG don't support multiline
+
+v0.6alpha
+Public release
+
+v0.5alpha4
+Added project's Summary, Description and Author options and generation on the Main Page 
+Improved debug error explanation when loading or saving project file
+Fixed problem while loading a project file, but old projects could not be load anymore (Tracker 947523)
+
+v0.5alpha3
+Fixed "Class Method" not recognize for name and TAG (Tracker 953997)
+
+v0.5alpha.2
+Added MultiLines support for @Param TAG (Tracker 941113)
+
+v0.5alpha.1
+Simple functions,constants, types and variables (not members) are generated, with the TAG support. (Tracker 94059)
+
+v0.5alpha
+Added Open and Save project command
+
+v0.4alpha.4
+Added BracketStar comment style support
+Added support for BrackerStar's Prefix comments
+
+v0.4alpha.3
+Added options to specify prefix of JavaDoc comments (Tracker 930320)
+Added support for Curly JavaDoc's Prefix comments
+Added support for Inline's Prefix comments
+Fixed Special EndOfLine character generate an exception (char #19 for example)
+Deleted Charset specification in CSS generated file. Most browser can auto-detect it. (Tracker 930775)
+
+
+v0.4alpha.2
+Fixed {$IFOPT O+} preprocessor symbol generate an exception (Tracker 928445)
+Added "@return" TAG support for methods
+Added Constants description from JavaDoc and Inline
+Fixed Double-bytes character support in comments and literal strings (Tracker 930775)
+
+v0.4alpha.1
+Fixed Simple Functions (not method) make an application error (Tracker 920134)
+Fixed Class defined only in implementation section (not present in interface) crash the Builder  (Tracker 924358)
+Fixed untyped property crashs the application (Tracker 924366)
+
+v0.4alpha
+Added more information in summary tab of application
+
+v0.3alpha.4
+Fixed ParseTree appears during an exception (Feature request 903123)
+Fixed parameter name appearing in Parameter description TAG.
+
+v0.3alpha.3
+Fixed Untyped parameter in function crash the parser (Tracker 916780)
+Fixed method declaration from interface cause an assertion (Tracker 916816)
+
+v0.3alpha.2
+Added Inline description of Fields
+Added support for EndOfLine comment (double slash after a field for example)
+
+v0.3alpha.1
+Added "Java TAG" from source code for Class
+Added Inline description of Class, Method.
+Improved Description and summary in JavaDoc Style recognition
+
+v0.3alpha
+Changed minor user interface things.
+
+v0.2alpha.4
+Added options to skip first and last TAG line in block comment. This is usefull for border embellishment 
+Clear Options not used in code (marked as UNDER CONSTRUCTION before)
+Added "Description TAG" from source code in Method HTML Generator
+Added "Author TAG" from source code in Method HTML Generator
+Added "Version TAG" from source code in Method HTML Generator
+Added "Parameter TAG" from source code in Method HTML Generator 
+
+v0.2alpha.3
+Added "Description TAG" from source code in Unit HTML Generator
+Added "Author TAG" from source code in Unit HTML Generator
+Added "Version TAG" from source code in Unit HTML Generator
+Added a new Options class with all options shared by Parser, Builder and Generator.
+Fixed "Filter visibility" option not working (Tracker 889240)
+Fixed toolbar HTML links for 'previous' and 'next' (Tracker 866927)
+
+v0.2alpha.2
+Fixed "Check project" function do not clear previous check (Tracker 882947)
+Fixed messages to user appearing in debug list
+Added a Close menu item (Tracker 866927)
+
+v0.2alpha.1
+Added support for Tag based comments in parser
+Fixed DoubleSlash comments at EndOfLine not owning to the good section in Parser
+Fixed global comments positionning in Parser
+
+v0.2alpha
+Added option to alphabetically sort the content (unit's name, member's name etc ...)
+
+v0.1alpha.16
+Fixed bad HTML link for variable, types and functions
+Fixed possibility to execute twice the WizardProject
+Interface types now works as Class and are genrated as well (tracker 877487)
+Added Member's visibility next to its name in the HTML Class file.
+Fixed table width for members section
+Added Index link in the HTML toolbar
+
+v0.1alpha.15
+Fixed unit's functions (not methods) structure builder exception error (Tracker 875503)
+Non-solid nodes (leaf) are no longer deleted from ParsedTree. There's no need to optimize performance again
+Curly comment are now separated line by line
+
+v0.1alpha.14
+Add project's units and class in the reference tree after a Check
+Output folder can now be choose
+Fixed Check function problem (files not found) with files when their archive attribute is clear (Tracker 874431)
+
+v0.1alpha.13
+Fixed Menu items caption more understandable
+Added a few hints on the menu items
+Add detail on informations panels
+Added cinfiguration item to Launch the browser after the build
+
+v0.0b12
+Added new user interface (still under development)
+Added options panel, debug and user messages interface
+
+v0.0b11
+Added HTML generator for members
+Added HTML generator for method's parameters
+
+v0.0b10
+Fixed HTML Generator for Units
+Added HTML Generator for Project
+Added HTML Generator for Classes
+Added build of .css file
+
+v0.0b9
+Start of HTML Generator
+Added HTML generator for Units
+Defined result wanted and css file
+
+v0.0b8
+Improved TeXT Generator
+Added parameters list for methods
+Added parameter type for methods
+Added interface Const to structure
+Added interface Vars to structure
+Added interface Types to structure
+Added interface Functions to structure
+Retrieve ident list & type (for parameters or type).
+
+v0.0b7
+Improved TeXT Generator
+Generated FileName are now "ParentName(n-2)+ParentName(n-1)+Name"
+Fixed Property name
+Added a list containing all members and a getter method
+Added related File in class.
+Added related Class in member
+Added return type for method
+
+v0.0b6
+Added 'const' in few function parameters
+Fixed TeXT filename generated with full pathname
+Added Visibility in GenTeXT report
+Added SourceCode in GenTeXT report
+
+v0.0b5
+First revision with file output
+Rewritted GetSourceCode function
+Added DocGenerator base (abstract) class for all generator
+Added a DocGenerator sample (TextFile)
+Fixed some field not available from external (private)
+Removed few "debug to screen" information
+
+v0.0b4
+"Debug to screen only" revision
+Fixed parent's class
+Forward class are not list anymore
+Fixed class that are empty (not forward!)
+Added visibility to methods
+Added source code dump to method
+Added property support (visibility, source code, type).
+
+v0.0b3
+"Debug to screen only" revision
+Fixed Constant TypeName
+Inheritance is bugged!
+Added fonction to retrieve source code from Node
+
+v0.0b2
+"Debug to screen only" revision
+Retrieve FunctionName, ConstructorName and DestructorName
+Retrieve GlobalVariable name, type and initialization
+Retrieve Const name and simple type
+
+v0.0b1
+"Debug to screen only" revision
+Program will now retrieve from source code :
+*UnitName
+*ClassName
+*FieldName
+*MethodName (Procedure)
+
+v0.0b0
+Initial revision
+First entry in CVS
+This revision is just the 'clean' version of JediCodeFormat tool.
+Only Declarative part of the code is kept, the code inside procedure or method is delete.

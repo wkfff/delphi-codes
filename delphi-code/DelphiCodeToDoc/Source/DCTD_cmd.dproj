@@ -1,0 +1,199 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{24eebc3e-9d40-4c2b-aceb-9c0cfa72bfa2}</ProjectGuid>
+			<MainSource>DCTD_cmd.dpr</MainSource>
+			<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+			<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<DCC_DependencyCheckOutputName>..\Exe\DCTD_cmd.exe</DCC_DependencyCheckOutputName>
+			<ProjectVersion>12.0</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_DependencyCheckOutputName>DCTD_cmd.exe</DCC_DependencyCheckOutputName>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_DependencyCheckOutputName>..\Exe\DCTD_cmd.exe</DCC_DependencyCheckOutputName>
+			<Version>7.0</Version>
+			<DCC_DebugInformation>False</DCC_DebugInformation>
+			<DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+			<DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+			<DCC_RangeChecking>True</DCC_RangeChecking>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_ExeOutput>..\Exe</DCC_ExeOutput>
+			<DCC_DcuOutput>..\tmp</DCC_DcuOutput>
+			<DCC_ObjOutput>..\tmp</DCC_ObjOutput>
+			<DCC_HppOutput>..\tmp</DCC_HppOutput>
+			<DCC_Define>DCTD_CONSOLE;RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_UNSAFE_TYPE>True</DCC_UNSAFE_TYPE>
+			<DCC_UNSAFE_CODE>True</DCC_UNSAFE_CODE>
+			<DCC_UNSAFE_CAST>True</DCC_UNSAFE_CAST>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_DependencyCheckOutputName>..\Exe\DCTD_cmd.exe</DCC_DependencyCheckOutputName>
+			<Version>7.0</Version>
+			<DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+			<DCC_RangeChecking>True</DCC_RangeChecking>
+			<DCC_ExeOutput>..\Exe</DCC_ExeOutput>
+			<DCC_DcuOutput>..\tmp</DCC_DcuOutput>
+			<DCC_ObjOutput>..\tmp</DCC_ObjOutput>
+			<DCC_HppOutput>..\tmp</DCC_HppOutput>
+			<DCC_Define>DCTD_CONSOLE;DEBUG;$(DCC_Define)</DCC_Define>
+			<DCC_UNSAFE_TYPE>True</DCC_UNSAFE_TYPE>
+			<DCC_UNSAFE_CODE>True</DCC_UNSAFE_CODE>
+			<DCC_UNSAFE_CAST>True</DCC_UNSAFE_CAST>
+			<DCC_UnitSearchPath>$(BDS)\Source\DUnit\src;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_ResourcePath>$(BDS)\Source\DUnit\src;$(DCC_ResourcePath)</DCC_ResourcePath>
+			<DCC_ObjPath>$(BDS)\Source\DUnit\src;$(DCC_ObjPath)</DCC_ObjPath>
+			<DCC_IncludePath>$(BDS)\Source\DUnit\src;$(DCC_IncludePath)</DCC_IncludePath>
+		</PropertyGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>VCLApplication</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+						<Parameters Name="RunParams">DelphiCodeToDoc_relative2.xml</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">296</VersionInfo>
+						<VersionInfo Name="Debug">True</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1033</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">TridenT</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">1.0.0.296</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments">http://www.trident.fr.st</VersionInfoKeys>
+					</VersionInfoKeys>
+					<Source>
+						<Source Name="MainSource">DCTD_cmd.dpr</Source>
+					</Source>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<ItemGroup>
+			<DelphiCompile Include="DCTD_cmd.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="Generator\uDocGeneratorVisitor.pas"/>
+			<DCCReference Include="Generator\uDocGeneratorBase.pas"/>
+			<DCCReference Include="Generator\Chm\uDocGeneratorChm.pas"/>
+			<DCCReference Include="Generator\Chm\uDocGenCHM_Tools.pas"/>
+			<DCCReference Include="Generator\Html\uDocGenHtmlVisitor.pas"/>
+			<DCCReference Include="Generator\Html\uDocGeneratorHtml.pas"/>
+			<DCCReference Include="Generator\Html\uDocGenHTML_Tools.pas"/>
+			<DCCReference Include="Parse\uTAGComment.pas"/>
+			<DCCReference Include="Parse\AsmKeywords.pas"/>
+			<DCCReference Include="Parse\BuildParseTree.pas"/>
+			<DCCReference Include="Parse\BuildTokenList.pas"/>
+			<DCCReference Include="Parse\ParseError.pas"/>
+			<DCCReference Include="Parse\ParseTreeNode.pas"/>
+			<DCCReference Include="Parse\ParseTreeNodeType.pas"/>
+			<DCCReference Include="Parse\SourceToken.pas"/>
+			<DCCReference Include="Parse\SourceTokenList.pas"/>
+			<DCCReference Include="Parse\Tokens.pas"/>
+			<DCCReference Include="Parse\TokenUtils.pas"/>
+			<DCCReference Include="Parse\PreProcessor\PreProcessorParseTree.pas"/>
+			<DCCReference Include="Parse\PreProcessor\PreProcessorExpressionParser.pas"/>
+			<DCCReference Include="Parse\PreProcessor\PreProcessorExpressionTokenise.pas"/>
+			<DCCReference Include="Parse\PreProcessor\PreProcessorExpressionTokens.pas"/>
+			<DCCReference Include="Process\VisitStructure.pas"/>
+			<DCCReference Include="Process\AllProcesses.pas"/>
+			<DCCReference Include="Process\BaseVisitor.pas"/>
+			<DCCReference Include="Process\Nesting.pas"/>
+			<DCCReference Include="Process\TreeWalker.pas"/>
+			<DCCReference Include="Process\VisitComment.pas"/>
+			<DCCReference Include="Process\VisitSetNesting.pas"/>
+			<DCCReference Include="Process\VisitSetXY.pas"/>
+			<DCCReference Include="ReadWrite\ConvertTypes.pas"/>
+			<DCCReference Include="ReadWrite\Converter.pas"/>
+			<DCCReference Include="Settings\uOptions.pas"/>
+			<DCCReference Include="Settings\uDocProject.pas"/>
+			<DCCReference Include="Settings\uOldOptions.pas"/>
+			<DCCReference Include="Structure\uDocVar.pas"/>
+			<DCCReference Include="Structure\uDocClass.pas"/>
+			<DCCReference Include="Structure\uDocClassTree.pas"/>
+			<DCCReference Include="Structure\uDocConstant.pas"/>
+			<DCCReference Include="Structure\uDocEvent.pas"/>
+			<DCCReference Include="Structure\uDocField.pas"/>
+			<DCCReference Include="Structure\uDocFunction.pas"/>
+			<DCCReference Include="Structure\uDocInterface.pas"/>
+			<DCCReference Include="Structure\uDocLibrary.pas"/>
+			<DCCReference Include="Structure\uDocMember.pas"/>
+			<DCCReference Include="Structure\uDocMethod.pas"/>
+			<DCCReference Include="Structure\uDocParameter.pas"/>
+			<DCCReference Include="Structure\uDocProgram.pas"/>
+			<DCCReference Include="Structure\uDocProperty.pas"/>
+			<DCCReference Include="Structure\uDocRecord.pas"/>
+			<DCCReference Include="Structure\uDocStructure.pas"/>
+			<DCCReference Include="Structure\uDocTagCoverage.pas"/>
+			<DCCReference Include="Structure\uDocTemplate.pas"/>
+			<DCCReference Include="Structure\uDocType.pas"/>
+			<DCCReference Include="Structure\uDocUnit.pas"/>
+			<DCCReference Include="Structure\uDocUseUnit.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocToNodesVisitor.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocBaseVisitor.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocFunctionTypeCommentFixVisitor.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocInheritanceFixVisitor.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocSortVisitor.pas"/>
+			<DCCReference Include="Structure\Visitor\uDocTagCoverageVisitor.pas"/>
+			<DCCReference Include="UI\uCommandLine.pas"/>
+			<DCCReference Include="UI\uMessages.pas"/>
+			<DCCReference Include="Utils\RedCon.pas"/>
+			<DCCReference Include="Utils\FileUtils.pas"/>
+			<DCCReference Include="Utils\JcfLog.pas"/>
+			<DCCReference Include="Utils\JcfMiscFunctions.pas"/>
+			<DCCReference Include="Utils\JcfUnicodeFiles.pas"/>
+			<DCCReference Include="Utils\JcfUnicode.pas"/>
+			<DCCReference Include="Utils\JcfStringUtils.pas"/>
+			<DCCReference Include="Generator\Pdf\uHtmlDocRegistry.pas"/>
+			<DCCReference Include="Generator\Pdf\uDocGeneratorPdf.pas"/>
+			<DCCReference Include="Generator\Pdf\uDocGenPDF_Tools.pas"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+	</Project>

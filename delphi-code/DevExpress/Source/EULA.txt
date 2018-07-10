@@ -1,0 +1,138 @@
+DEVELOPER EXPRESS INC
+
+ExpressQuantumGrid SUITE SOFTWARE COMPONENT PRODUCT
+ExpressBars SUITE SOFTWARE COMPONENT PRODUCT
+ExpressPrinting System SUITE SOFTWARE COMPONENT PRODUCT
+ExpressScheduler SUITE SOFTWARE COMPONENT PRODUCT
+ExpressPivotGrid SUITE SOFTWARE COMPONENT PRODUCT
+ExpressQuantumTreeList SUITE SOFTWARE COMPONENT PRODUCT
+ExpressVerticalGrid SUITE SOFTWARE COMPONENT PRODUCT
+ExpressNavBar SUITE SOFTWARE COMPONENT PRODUCT
+ExpressLayout Control SUITE SOFTWARE COMPONENT PRODUCT
+ExpressSpellChecker SUITE SOFTWARE COMPONENT PRODUCT
+ExpressSkins Library SUITE SOFTWARE COMPONENT PRODUCT 
+ExpressSpreadSheet SUITE SOFTWARE COMPONENT PRODUCT
+ExpressDBTree SUITE SOFTWARE COMPONENT PRODUCT
+ExpressOrgChart SUITE SOFTWARE COMPONENT PRODUCT
+ExpressFlowChart SUITE SOFTWARE COMPONENT PRODUCT
+Copyright (C) 1999-2011 Developer Express Inc.
+
+END-USER LICENSE AGREEMENT
+FOR ALL SOFTWARE COMPONENT PRODUCT(S)
+
+IMPORTANT- READ CAREFULLY: This DEVELOPER EXPRESS INC ("DEVEXPRESS") End-User License Agreement ("EULA") is a legal agreement between you, a developer of software applications, ("Developer End User") and DEVEXPRESS for all DEVEXPRESS products, controls, source code, demos, intermediate files, media, printed materials, and "online" or electronic documentation ("SOFTWARE COMPONENT PRODUCT(S)") contained in this installation file.
+
+DEVEXPRESS grants to you as an individual, a personal, nonexclusive license to install and use the SOFTWARE COMPONENT PRODUCT(S) for the sole purposes of designing, developing, testing, and deploying application programs which you create. By installing, copying, or otherwise using the SOFTWARE COMPONENT PRODUCT(S), you agree to be bound by the terms of this EULA. If you do not agree to any part of the terms of this EULA, DO NOT INSTALL, USE, EVALUATE, OR REPLICATE IN ANY MANNER, ANY PART, FILE OR PORTION OF THE SOFTWARE COMPONENT PRODUCT(S).
+
+All SOFTWARE COMPONENT PRODUCT(S) is licensed, not sold. If you are an individual, you must acquire an individual license for the SOFTWARE COMPONENT PRODUCT(S) from DEVEXPRESS or its authorized resellers. If you are an entity, you must acquire and assign an individual license for each Developer End User within your organization using and or developing with the SOFTWARE COMPONENT PRODUCT(S) from DEVEXPRESS or its authorized resellers.
+
+If the SOFTWARE COMPONENT PRODUCT(S) you have obtained is marked as a "TRIAL" or "EVALUATION," you may install one copy of the SOFTWARE COMPONENT PRODUCT(S) for testing purposes for a period of 30 calendar days from the date of installation ("Evaluation Period"). Upon expiration of the Evaluation Period, the SOFTWARE COMPONENT PRODUCT(S) must be uninstalled and all copies destroyed.
+
+RIGOROUS ENFORCEMENT OF INTELLECTUAL PROPERTY RIGHTS. If the licensed right of use for this SOFTWARE COMPONENT PRODUCT(S) is purchased by you with any intent to reverse engineer, decompile, create derivative works, and the exploitation or unauthorized transfer of, any DEVEXPRESS intellectual property and trade secrets, to include any exposed methods or source code where provided, no licensed right of use shall exist, and any PRODUCT(s) created as a result shall be judged illegal by definition of all applicable law. Any sale or resale of intellectual property or created derivatives so obtained will be prosecuted to the fullest extent of all local, federal and international law.
+
+1. GRANT OF LICENSE.
+
+This EULA, if legally executed as defined herein, licenses and so grants the single individual Developer End User the following rights:
+
+SOFTWARE COMPONENT PRODUCT(S) - Developer End User may install and use the SOFTWARE COMPONENT PRODUCT(S) on a single computer. Developer End User may also install and use the SOFTWARE COMPONENT PRODUCT(S) on a portable computer.
+
+2. LIMITATIONS ON REVERSE ENGINEERING, DECOMPILATION, AND DISASSEMBLY.
+
+You may not reverse engineer, decompile, create derivative works, translate, or disassemble the SOFTWARE COMPONENT PRODUCT(S), and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation. You agree to take all reasonable, legal and appropriate measures to prohibit the illegal dissemination of the SOFTWARE COMPONENT PRODUCT(S) or any of its constituent parts and redistributables to the fullest extent of all applicable local, US Codes and International Laws and Treaties regarding anti-circumvention, including but not limited to, the Geneva and Berne World Intellectual Property Organization (WIPO) Diplomatic Conferences.
+
+3. SEPARATION OF COMPONENTS.
+
+The SOFTWARE COMPONENT PRODUCT(S) is licensed as a single PRODUCT(s). The SOFTWARE COMPONENT PRODUCT(S) and its constituent parts and any provided redistributables may not be reverse engineered, decompiled, disassembled or separated for use on more than one computer, nor placed for distribution, sale, or resale as individual creations by Developer End User. The provision of source code, if included with the SOFTWARE COMPONENT PRODUCT(S), does not constitute transfer of any legal rights to such code, and resale or distribution of all or any portion of all source code and intellectual property will be prosecuted to the fullest extent of all applicable local, federal and international laws. All DEVEXPRESS libraries, source code, redistributables and other files remain DEVEXPRESS's exclusive property. You may not distribute any files, except those that DEVEXPRESS has expressly designated as Redistributable.
+
+4. RENTAL.
+
+You may not rent, lease, or lend the SOFTWARE COMPONENT PRODUCT(S).
+
+5. TRANSFER.
+
+You may NOT permanently or temporarily transfer ANY of your rights under this EULA to any individual or entity without prior written approval from DEVEXPRESS. Regardless of any modifications which you make and regardless of how you might compile, link, and/or package your programs, under no circumstances may the libraries, Redistributables, and/or other files of the SOFTWARE COMPONENT PRODUCT(S) (including any portions thereof) be used for developing programs by anyone other than you. Only you as the licensed Developer End User have the right to use the libraries, redistributables, or other files of the SOFTWARE COMPONENT PRODUCT(S) (or any portions thereof) for developing programs created with the SOFTWARE COMPONENT PRODUCT(S). In particular, you may not share copies of the Redistributables with other co-developers. You may not reproduce or distribute any DEVEXPRESS documentation without DEVEXPRESS's explicit permission.
+
+If you are an entity (Company), you must acquire and assign a license to each Developer End User within your organization using and or developing with the SOFTWARE COMPONENT PRODUCT(S). With written notification to DEVEXPRESS, Company may transfer the license obtained for a Developer End User to another Developer End User employed or otherwise engaged by Company if the initial Developer End User is no longer employed or engaged by Company or is reassigned to another function within Company and no longer develops software applications using the SOFTWARE COMPONENT PRODUCT(S). In addition, with written notification to DEVEXPRESS, Company may transfer its license of the SOFTWARE COMPONENT PRODUCT(S) to a successor Company.
+
+6. ROYALTY FREE REDISTRIBUTION.
+
+DEVEXPRESS PRODUCT(s) may include certain files ("Redistributable(s)") intended for distribution by you to the users of software applications which you create. Redistributables include, for example, those files identified in printed or on-line documentation as redistributable files, or those files preselected for deployment by an install utility provided with the SOFTWARE COMPONENT PRODUCT(S) (if any). In all circumstances, the Redistributables for the SOFTWARE COMPONENT PRODUCT(S) are only those files specifically designated as such by DEVEXPRESS.
+
+Subject to all of the terms and conditions in this EULA, you may reproduce and distribute copies of t
+he Redistributables, provided that such copies are made from the original copy of the Redistributables included with the SOFTWARE COMPONENT PRODUCT(S) or modified versions of the Redistributables which are provided to you by DEVEXPRESS or those which you create. Copies of Redistributables may only be distributed with and for the sole purpose of executing application programs permitted under this EULA that you have created using the SOFTWARE COMPONENT PRODUCT(S).
+
+REDISTRIBUTABLES. To obtain a list of redistributables that apply under this EULA, contact support@devexpress.com
+
+AT NO TIME MAY DEVELOPER END USER CREATE ANY TOOL, REDISTRIBUTABLE, OR SOFTWARE COMPONENT PRODUCT(S) THAT DIRECTLY OR INDIRECTLY COMPETES WITH DEVEXPRESS SOFTWARE COMPONENT PRODUCT(S) WHICH UTILIZES ALL OR ANY PORTION OF THE SOFTWARE COMPONENT PRODUCT(S) contained within this installation.
+
+Distribution by the Developer End User of any design-time tools (EXE's OCX's or DLL's), executables, and source code distributed to Developer End User by DEVEXPRESS as part of this SOFTWARE COMPONENT PRODUCT(S) and not explicitly identified as a redistributable file is strictly prohibited. The Developer End User shall not develop software applications that provide an application programming interface to the SOFTWARE COMPONENT PRODUCT(S) or the SOFTWARE COMPONENT PRODUCT(S) as modified.
+
+The Developer End User may NOT distribute the SOFTWARE COMPONENT PRODUCT(S), in any format, to other users for development or application compilation purposes. Specifically, if Developer End User creates a control using the SOFTWARE COMPONENT PRODUCT(S) as a constituent control, Developer End User may NOT distribute the control created with the SOFTWARE COMPONENT PRODUCT(S) (in any format) to users to be used used at design time and or for ANY development purposes.
+
+Developer End User MAY NOT REDISTRIBUTE any SOFTWARE COMPONENT PRODUCT(s) files if using an evaluation, trial, Not for Resale, or demo version of the SOFTWARE COMPONENT PRODUCT(s).
+
+7. UPGRADES.
+
+If the SOFTWARE COMPONENT PRODUCT(S) is labeled as an upgrade, you must be properly licensed to use the SOFTWARE COMPONENT PRODUCT(S) identified by DEVEXPRESS as being eligible for the upgrade in order to use the SOFTWARE COMPONENT PRODUCT(S). A SOFTWARE COMPONENT PRODUCT(S) labeled as an upgrade replaces and/or supplements the SOFTWARE COMPONENT PRODUCT(S) that formed the basis for your eligibility for the upgrade, and together constitutes a single PRODUCT(S). You may use the resulting upgraded PRODUCT(S) only in accordance with all the terms of this EULA.
+
+8. COPYRIGHT.
+
+All title and copyrights in and to the SOFTWARE COMPONENT PRODUCT(S) (including but not limited to any copywritten images, demos, source code, intermediate files, packages, photographs, redistributables, animations, video, audio, music, text, and "applets" incorporated into the SOFTWARE COMPONENT PRODUCT(S) the accompanying printed materials, and any copies of the SOFTWARE COMPONENT PRODUCT(S)) are owned by DEVEXPRESS or its subsidiaries. The SOFTWARE COMPONENT PRODUCT(S) is protected by copyright laws and international treaty provisions and therefore, you must treat the SOFTWARE COMPONENT PRODUCT(S) like any other copyrighted material except that you may install the SOFTWARE COMPONENT PRODUCT(S) as described in this EULA.
+
+9. DUAL-MEDIA SOFTWARE COMPONENT PRODUCT(S).
+
+You may receive the SOFTWARE COMPONENT PRODUCT(S) in more than one medium. Regardless of the medium, you may use only one medium that is appropriate for your single computer. You may not loan, sell, rent, lease, or otherwise transfer in any manner the other medium to another user or entity.
+
+10. U.S. GOVERNMENT RESTRICTED RIGHTS.
+
+The Licensed Software is Commercial Computer Software provided with RESTRICTED RIGHTS under Federal Acquisition Regulations and agency supplements to them. Use, duplication or disclosure by the U.S. Government is subject to restrictions as set forth in subparagraph (c)(1)(ii) of the Rights in Technical Data and Computer Software clause at DFAR 255.227-7013 et. seq. or 252.211-7015, or subparagraphs (a) through (d) of the Commercial Computer Software Restricted Rights at FAR 52.227-19, as applicable, or similar clauses in the NASA FAR Supplement. Contractor-manufacturer is Developer Express Inc. / 801 N. Brand Blvd Suite 850, Glendale CA 91203.
+
+11. EXPORT RESTRICTIONS.
+
+DEVEXPRESS expressly complies with all export restrictions imposed by the government of the United States of America. You, as Developer End User, must agree not to export or re-export the SOFTWARE COMPONENT PRODUCT(S) within any created application to any country, person, entity or end user subject to U.S.A. export restrictions. Restricted countries currently include, but are not necessarily limited to Cuba, Iran, North Korea, Sudan, and Syria. You warrant and represent that neither the U.S.A. Bureau of Export Administration nor any other federal agency has suspended, revoked or denied your export privileges.
+
+12. NOTE ON JAVA SUPPORT.
+
+Certain SOFTWARE COMPONENT PRODUCT(S) may contain support for programs written in Java. Java technology is not fault tolerant and is not designed, manufactured, or intended for use or resale as on-line control equipment in hazardous environments requiring fail-safe performance, such as in the operation of nuclear facilities, aircraft navigation or communication systems, air traffic control, direct life support machines, or weapons systems, in which the failure of Java technology could lead directly to death, personal injury, or severe physical or environmental damage.
+
+13. DISCLAIMER OF WARRANTY.
+
+DEVEXPRESS expressly disclaims any warranty for the SOFTWARE COMPONENT PRODUCT(S). THE SOFTWARE COMPONENT PRODUCT(S) AND ANY RELATED DOCUMENTATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. DEVEXPRESS DOES NOT WARRANT, GUARANTEE, OR MAKE ANY REPRESENTATIONS REGARDING THE USE, OR THE RESULTS OF THE USE, OF THE SOFTWARE COMPONENT PRODUCT(S) IN TERMS OF CORRECTNESS, ACCURACY, RELIABILITY, OR OTHERWISE. THE ENTIRE RISK ARISING OUT OF USE OR PERFORMANCE OF THE SOFTWARE COMPONENT PRODUCT(S) REMAINS WITH YOU. No oral or written information or advice given by DEVEXPRESS or its employees shall create a warranty or in any way increase the scope of this warranty.
+
+14. LIMITATIONS ON LIABILITY.
+
+To the maximum extent permitted by applicable law, in no event shall DEVEXPRESS be liable for any special, incidental, indirect, or consequential damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use the SOFTWARE COMPONENT PRODUCT(S) or the provision of or failure to provide Support Services, even if DEVEXPRESS has been advised of the possibility of such damages.
+
+Developer End User understands that the SOFTWARE COMPONENT PRODUCT(S) may produce inaccurate results because of a failure or fault within the SOFTWARE COMPONENT PRODUCT(S) or failure by Developer End User to properly use and or deploy the SOFTWARE COMPONENT PRODUCT(S). Developer End User assumes full and sole responsibility for any use of the SOFTWARE COMPONENT PRODUCT(S), and bears the entire risk for failures or faults within the SOFTWARE COMPONENT PRODUCT(S). You agree that regardless of the cause of failure or fault or the form of any claim, YOUR SOLE REMEDY AND DEVEXPRESS'S SOLE OBLIGATION SHALL BE GOVERNED BY THIS AGREEMENT AND IN NO EVENT SHALL DEVEXPRESS'S LIABILITY EXCEED THE PRICE PAID TO DEVEXPRESS FOR THE SOFTWARE COMPONENT PRODUCT(S). This Limited Warranty is void if failure of the SOFTWARE COMPONENT PRODUCT(S) has resulted from accident, abuse, alteration, unauthorized use or misapplication of the SOFTWARE COMPONENT PRODUCT(S).
+
+15. INDEMNIFICATION.
+
+You hereby agree to indemnify DEVEXPRESS and its officers, directors, employees, agents, and representatives from each and every demand, claim, loss, liability, or damage of any kind, including actual attorneys fees, whether in tort or contract, that it or any of them may incur by reason of, or arising out of, any claim which is made by any third party with respect to any breach or violation of this Agreement by you or any claims based on the Applications and the SOFTWARE COMPONENT PRODUCT(S) included herein.
+
+16. FOR SOFTWARE COMPONENT PRODUCTS THAT EMULATE THE LOOK & FEEL AND CAPABILITIES OF THE MICROSOFT(R) OFFICE(R) 2007 and 2010 UI.
+
+No rights are provided to Developer End User to the Microsoft(r) Office(r) 2007 and 2010 UI under this DEVEXPRESS License Agreement. To learn more about licensing requirements for the Microsoft(r) Office(r) 2007 and 2010 UI, you must contact Microsoft Corporation directly. Information related to Microsoft's licensing requirements for the Office(r) 2007 and 2010 UI can be found at: http://msdn.microsoft.com/officeui.
+
+17. SUPPORT SERVICES.
+
+DEVEXPRESS may provide you with support services related to the SOFTWARE COMPONENT PRODUCT(S) ("Support Services"). Use of Support Services is governed by DEVEXPRESS policies and programs described in the user manual, in "on line" documentation and/or other DEVEXPRESS provided materials. Any supplemental SOFTWARE COMPONENT PRODUCT(S) provided to you as part of the Support Services shall be considered part of the SOFTWARE COMPONENT PRODUCT(S) and subject to the terms and conditions of this EULA. With respect to technical information you provide to DEVEXPRESS as part of the Support Services, DEVEXPRESS may use such information for its business purposes, including for SOFTWARE COMPONENT PRODUCT(s) support and development. DEVEXPRESS will not utilize such technical information in a form that personally identifies you.
+
+18. TERMINATION.
+
+Without prejudice to any other rights or remedies, DEVEXPRESS will terminate this EULA upon your failure to comply with all the terms and conditions of this EULA. In such events, you must destroy all copies of the SOFTWARE COMPONENT PRODUCT(S) and all of its component parts including any related documentation, and must remove ANY and ALL use of such technology immediately from any applications using technology contained in the SOFTWARE COMPONENT PRODUCT(S) developed by you, whether in native, altered or compiled state.
+
+19. TAX.
+
+DEVEXPRESS delivers its software electronically and does not collect sales or use tax for residents of US states in which it operates. You should confirm that your local, state, or federal government does not impose any sales or use tax on electronically delivered software. You are entirely liable for any such sales or use tax.
+
+20. MISCELLANEOUS.
+
+This EULA shall be construed, interpreted and governed by the laws of the State of Nevada, U.S.A. This EULA gives you specific legal rights; you may have others that vary from state to state and from country to country.
+
+This EULA may only be modified in writing signed by you and an authorized officer of DEVELOPER EXPRESS INC. If any provision of this EULA is found void or unenforceable, the remainder will remain valid and enforceable according to its terms. If any remedy provided is determined to have failed for its essential purpose, all limitations of liability and exclusions of damages set forth in the Limited Warranty shall remain in effect.
+
+DEVEXPRESS reserves all rights not specifically granted in this EULA.
+
+ACKNOWLEDGEMENTS. Developer End User acknowledges that he or she has read this Agreement, understands it, and agrees to be bound by its terms and conditions.
+
+Should you have any questions concerning this EULA, or if you desire to contact DEVEXPRESS for any reason, please contact us directly in the United States at +1 (818) 844 3383, or write: Developer Express Inc. Legal department / 801 N. Brand Blvd Suite 850, Glendale CA 91203.

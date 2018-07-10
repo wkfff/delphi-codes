@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{81C92DE0-2B8B-4B44-8ED7-B48EF50BBEA9}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    <Projects>
+      <Projects Name="dxCoreD11.bpl">ExpressCore Library\Packages\dxCoreD11.bdsproj</Projects>
+      <Projects Name="dcldxCoreD11.bpl">ExpressCore Library\Packages\dcldxCoreD11.bdsproj</Projects>
+      <Projects Name="dxComnD11.bpl">ExpressCommon Library\Packages\dxComnD11.bdsproj</Projects>
+      <Projects Name="dxGDIPlusD11.bpl">ExpressGDI+ Library\Packages\dxGDIPlusD11.bdsproj</Projects>
+      <Projects Name="dxThemeD11.bpl">XP Theme Manager\Packages\dxThemeD11.bdsproj</Projects>
+      <Projects Name="cxLibraryD11.bpl">ExpressLibrary\Packages\cxLibraryD11.bdsproj</Projects>
+      <Projects Name="dclcxLibraryD11.bpl">ExpressLibrary\Packages\dclcxLibraryD11.bdsproj</Projects>
+      <Projects Name="dxBarD11.bpl">ExpressBars\Packages\dxBarD11.bdsproj</Projects>
+      <Projects Name="dxRibbonD11.bpl">ExpressBars\Packages\dxRibbonD11.bdsproj</Projects>
+      <Projects Name="dxBarDBNavD11.bpl">ExpressBars\Packages\dxBarDBNavD11.bdsproj</Projects>
+      <Projects Name="dxBarExtDBItemsD11.bpl">ExpressBars\Packages\dxBarExtDBItemsD11.bdsproj</Projects>
+      <Projects Name="dxBarExtItemsD11.bpl">ExpressBars\Packages\dxBarExtItemsD11.bdsproj</Projects>
+      <Projects Name="cxPageControlD11.bpl">ExpressPageControl\Packages\cxPageControlD11.bdsproj</Projects>
+      <Projects Name="dxTabbedMDID11.bpl">ExpressBars\Packages\dxTabbedMDID11.bdsproj</Projects>
+      <Projects Name="dcldxBarD11.bpl">ExpressBars\Packages\dcldxBarD11.bdsproj</Projects>
+      <Projects Name="cxBarEditItemD11.bpl">ExpressBars\Packages\cxBarEditItemD11.bdsproj</Projects>
+      <Projects Name="Targets">dxCoreD11.bpl dcldxCoreD11.bpl dxComnD11.bpl dxGDIPlusD11.bpl dxThemeD11.bpl cxLibraryD11.bpl dclcxLibraryD11.bpl dxBarD11.bpl dxRibbonD11.bpl dxBarDBNavD11.bpl dxBarExtDBItemsD11.bpl dxBarExtItemsD11.bpl cxPageControlD11.bpl dxTabbedMDID11.bpl dcldxBarD11.bpl cxBarEditItemD11.bpl</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

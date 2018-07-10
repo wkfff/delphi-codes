@@ -1,0 +1,28 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Project1.chm
+Contents file=Project1.hhc
+Default Window=Project1
+Default topic=html\Project1.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=Project1.hhk
+Language=0x409 Anglais (États-Unis)
+Title=Project1
+
+[WINDOWS]
+Project1=,"Project1.hhc","Project1.hhk","html\Project1.htm","html\Project1.htm",,,,,0x23520,,0x3026,[0,0,1024,768],0x1030000,,,,,,0
+
+[FILES]
+
+html\Project1.htm
+html\Project1\Unit1.htm
+html\Project1\Unit1\TForm1.htm
+html\Project1\Unit1\TForm1\Button1.htm
+html\Project1\Unit1\TForm1\A_7AC7.htm
+html\Project1\Unit1\TForm1\B_CCDD.htm
+html\Project1\Unit1\TForm1\Button1Click_0D38.htm
+html\Project1\Unit1\TForm1\FormCreate_B871.htm
+html\Project1\Unit1\Form1.htm
+[INFOTYPES]
+

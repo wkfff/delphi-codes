@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{1B37229C-864D-4574-BE09-4759275CD18E}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="AdvancedProfiler.ptn">D:\Program Files\Automated QA\AQtime 6\SDK\Delphi\Samples\AdvancedProfiler\AdvancedProfiler.bdsproj</Projects>
+      <Projects Name="Project2.exe">C:\Documents and Settings\liul-a\My Documents\RAD Studio\Projects\Project2.bdsproj</Projects>
+      <Projects Name="AdvancedStaticProfiler.ptn">D:\Program Files\Automated QA\AQtime 6\SDK\Delphi\Samples\AdvancedStaticProfiler\AdvancedStaticProfiler.bdsproj</Projects>
+      <Projects Name="SimpleStaticProfiler.ptn">D:\Program Files\Automated QA\AQtime 6\SDK\Delphi\Samples\SimpleStaticProfiler\SimpleStaticProfiler.bdsproj</Projects>
+      <Projects Name="SimpleStaticProfiler2.ptn">D:\Program Files\Automated QA\AQtime 6\SDK\Delphi\Samples\SimpleStaticProfiler2\SimpleStaticProfiler2.bdsproj</Projects>
+      <Projects Name="GCPT.exe">..\..\..\TOT10-2\CJ材价产品自动化工具项目\GCPT\source\GCPT.bdsproj</Projects>
+      <Projects Name="AQTimeSuper.exe">AQTimeSuper.bdsproj</Projects>
+      <Projects Name="PackGIP.exe">..\..\..\GAEA\trunk\GCL\CalcRule\00-规则模版库\27-打包导库工具\Source\PackGIP.bdsproj</Projects>
+      <Projects Name="Targets">AdvancedProfiler.ptn Project2.exe AdvancedStaticProfiler.ptn SimpleStaticProfiler.ptn SimpleStaticProfiler2.ptn GCPT.exe AQTimeSuper.exe PackGIP.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>
